@@ -19,3 +19,6 @@ _book
 
 # Jupyter Book build assets
 _build/
+
+# MyST build outputs
+_build
