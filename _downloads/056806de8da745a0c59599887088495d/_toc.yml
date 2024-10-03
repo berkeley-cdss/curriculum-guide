@@ -1,0 +1,144 @@
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   file: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+#
+# See the links below for an example.
+
+format: jb-book
+root: intro
+title: Home
+parts:
+- caption: Getting started with DataHub tools
+  chapters:
+  - file: technology/pedagogy-and-technology/introduction-to-jupyter
+    title: Jupyter Notebooks and JupyterHub
+  - file: technology/r-datahub
+    title: R Hub
+  - file: technology/shiny
+    title: Shiny  
+  - file: technology/quarto
+    title: Quarto
+  - file: workflow/launch-vscode.md
+    title: VSCode
+  - file: workflow/use-retrolab
+    title: RetroLab
+  - file: workflow/use-realtimecollaboration
+    title: Real Time Collaboration (RTC)
+  - file: workflow/use-realtimefilesharing
+    title: Real Time File Sharing
+  - file: technology/pedagogy-and-technology/options-launch-rkernel
+    title: Options to Launch R
+- caption: Workflow Basics
+  chapters:
+  - file: workflow/creating-notebooks
+    title: Create Assignments
+  - file: technology/pedagogy-and-technology/notebook-zero
+    title: Notebook Zero
+  - file: workflow/accessibility
+    title: Create Accessible Notebook Experience
+  - file: workflow/pushing-to-github
+    title: Upload Files to Github
+  - file: workflow/distributing-notebooks
+    title: Distribute Assignments
+  - file: workflow/collecting-grading-assignments
+    title: Collect and Grade Assignments
+  - file: workflow/download_notebook_as_pdf.md
+    title: Download Jupyter Notebook as PDF
+  - file: workflow/download-archive.md
+    title: Download Datahub home directory contents as archive
+  - file: workflow/performance_issue.md
+    title: Best Practices to Avoid Performance Issues
+  - file: workflow/calculate-compute-cost.ipynb
+    title: Calculate GCP cost for compute intensive scenarios
+    sections: 
+      - url: https://dev.datahub.berkeley.edu/user/balajialwar/voila/render/data100%20cloud%20cost%20calculator/data100_cloudcost_calculator.ipynb?
+        title: "Launch Cloud Cost Calculator Widget"
+  - file: workflow/securely-push-github
+    title: Securely Push Changes to Github
+  - file: technology/using-ai-llm
+    title: Generative AI Usecase in DataHub
+  - file: technology/jupyter/large-datasets
+    title: Work with Large Datasets
+  - file: workflow/bestpractices
+    title: Instructional Design Best Practices for Creating Jupyter Notebooks
+  - file: faq/share
+    title: Sharing information about the Hub
+- caption: Datahub Frequently Asked Questions (FAQ)
+  chapters:  
+  - file: faq/onboarding
+    title: Onboard new users
+  - file: technology/jupyter/install-packages
+    title: Package Installations
+  - file: faq/admin
+    title: Elevated privileges
+  - file: faq/changerequirements
+    title: Change existing requirements in the Hub
+  - file: faq/troubleshoot
+    title: Troubleshoot issues in DataHub
+  - file: technology/jupyter/troubleshoot-nbgitpuller
+    title: Troubleshoot issues in Link Generator
+  - file: technology/jupyter/python-errors
+    title: Troubleshoot issues in the Python Code
+  - file: faq/features
+    title: Request new features in the Hub
+- caption: Resources for Students
+  chapters:
+  - file: technology/resources
+    title: Resources for Students
+  - file: technology/troubleshooting_tips_students
+    title: Troubleshooting Tips for Students
+- caption: Getting Started with Modules and Connectors
+  chapters:
+  - file: connector/general/what-is-a-connector
+    title: What is a Connector course?
+    sections:
+    - file: connector/general/previous-connectors
+      title: Previous Connectors
+  - file: module/general/what-is-a-module
+    title: What is a Data Science Module?
+  - file: dec/general/what-is-a-data-enabled-course
+    title: What is a Data-Enabled Course?
+- caption: Creating a Connector
+  chapters:        
+  - file: connector/instructor/logistics
+    title: Logistics, Rooms, and Technology
+  - file: connector/instructor/syllabus-design
+    title: Designing Your Syllabus
+  - file: connector/instructor/student-help
+    title: Requesting Student Help
+  - file: connector/instructor/communication-channels
+    title: Joining Communication Channels
+  - file: connector/instructor/checklist
+    title: Pre-Semester Checklist
+- caption: Creating a Module
+  chapters:          
+  - file: module/instructor/preplanning
+    title: Pre-Planning
+  - file: module/instructor/develop
+    title: Developing the Module
+  - file: module/instructor/deploy-help
+    title: Requesting Deployment Help
+- caption: Workshop Resources
+  chapters:
+  - file: technology/instructor-activity
+    title: Instructor Activity
+- caption: Reference
+  chapters:
+  - file: general/people
+    title: People
+  - file: general/terms-and-abbreviations
+    title: Terms and Abbreviations
+  - file: general/contact
+    title: Contact

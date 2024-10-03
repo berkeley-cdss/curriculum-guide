@@ -1,0 +1,738 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Creating Accessible Notebook Experience &#8212; Curriculum Guide</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-470CXFNJ3W"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-470CXFNJ3W');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workflow/accessibility';</script>
+    <link rel="canonical" href="https://ds-modules.github.io/curriculum-guide/workflow/accessibility.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Uploading Files to GitHub" href="pushing-to-github.html" />
+    <link rel="prev" title="Notebook Zero" href="../technology/pedagogy-and-technology/notebook-zero.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to the UC Berkeley Data Science Curriculum Guide!
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting started with DataHub tools</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../technology/pedagogy-and-technology/introduction-to-jupyter.html">Jupyter Notebooks and JupyterHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/r-datahub.html">R Hub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/shiny.html">Shiny</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/quarto.html">Quarto</a></li>
+<li class="toctree-l1"><a class="reference internal" href="launch-vscode.html">VSCode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-retrolab.html">RetroLab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-realtimecollaboration.html">Real Time Collaboration (RTC)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-realtimefilesharing.html">Use Realtime file sharing using SyncThing</a></li>
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../technology/pedagogy-and-technology/options-launch-rkernel.html">Options to Launch R</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Workflow Basics</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="creating-notebooks.html">Create Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/pedagogy-and-technology/notebook-zero.html">Notebook Zero</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Creating Accessible Notebook Experience</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Upload Files to Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="distributing-notebooks.html">Distribute Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="collecting-grading-assignments.html">Collect and Grade Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download_notebook_as_pdf.html">Download Jupyter Notebook as PDF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download-archive.html">Download Datahub home directory contents as archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance_issue.html">Best Practices to Avoid Performance Issues</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://dev.datahub.berkeley.edu/user/balajialwar/voila/render/data100%20cloud%20cost%20calculator/data100_cloudcost_calculator.ipynb?">Launch Cloud Cost Calculator Widget</a></li>
+<li class="toctree-l1"><a class="reference internal" href="securely-push-github.html">Securely Push Changes to Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/using-ai-llm.html">Generative AI Usecase in DataHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/large-datasets.html">Work with Large Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bestpractices.html">Instructional Design Best Practices for Creating Jupyter Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/share.html">Sharing information about the Hub</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Datahub Frequently Asked Questions (FAQ)</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../faq/onboarding.html">Onboard new users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/install-packages.html">Package Installations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/admin.html">Elevated privileges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/changerequirements.html">Change existing requirements in the Hub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/troubleshoot.html">Troubleshoot issues in DataHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/troubleshoot-nbgitpuller.html">Troubleshoot issues in Link Generator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/python-errors.html">Troubleshoot issues in the Python Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/features.html">Request new features in the Hub</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources for Students</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../technology/resources.html">Resources for Students</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/troubleshooting_tips_students.html">Troubleshooting Tips for Students</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started with Modules and Connectors</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../connector/general/what-is-a-connector.html">What is a Connector course?</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../connector/general/previous-connectors.html">Previous Connectors</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../module/general/what-is-a-module.html">What is a Data Science Module?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dec/general/what-is-a-data-enabled-course.html">What is a Data-Enabled Course?</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Creating a Connector</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/logistics.html">Logistics, Rooms, and Technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/syllabus-design.html">Designing Your Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/student-help.html">Requesting Student Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/communication-channels.html">Joining Communication Channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/checklist.html">Pre-Semester Checklist</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Creating a Module</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../module/instructor/preplanning.html">Pre-Planning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/instructor/develop.html">Developing the Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/instructor/deploy-help.html">Requesting Deployment Help</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Workshop Resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../technology/instructor-activity.html">Instructor Activity</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../general/people.html">People</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/terms-and-abbreviations.html">Terms and Abbreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/contact.html">Contact</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/workflow/accessibility.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Creating Accessible Notebook Experience</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Creating Accessible Notebook Experience</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-notebook-interface">Enhancing the accessibility of the notebook interface:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-4-0">JupyterLab 4.0:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-7-0">Jupyter Notebook 7.0:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook">Add alt-text to all static images and charts in your notebook:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#represent-data-across-multiple-mediums">Represent data across multiple mediums:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avoid-creating-large-notebooks">Avoid creating large notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-clear-headings-throughout-the-notebook">Have clear headings throughout the notebook:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-accessible-theme">JupyterLab-Accessible-Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-theme">Jupyter Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="creating-accessible-notebook-experience">
+<h1>Creating Accessible Notebook Experience<a class="headerlink" href="#creating-accessible-notebook-experience" title="Permalink to this heading">#</a></h1>
+<p>Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the <a class="reference external" href="https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html">WCAG 2.0 AA standards</a> mandated by the University.</p>
+<p>Enhancing the accessibility of the notebook experience involves addressing multiple dimensions:</p>
+<ul class="simple">
+<li><p>Ensuring the accessibility of the interface, as exemplified by Lab 4 and Notebook 7.</p></li>
+<li><p>Enhancing the accessibility of the content within notebooks.</p></li>
+</ul>
+<section id="enhancing-the-accessibility-of-the-notebook-interface">
+<h2>Enhancing the accessibility of the notebook interface:<a class="headerlink" href="#enhancing-the-accessibility-of-the-notebook-interface" title="Permalink to this heading">#</a></h2>
+<p>The Datahub team constantly collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit,we encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements.</p>
+<section id="jupyterlab-4-0">
+<h3>JupyterLab 4.0:<a class="headerlink" href="#jupyterlab-4-0" title="Permalink to this heading">#</a></h3>
+<p>A number of accessibility improvements have been made in JupyterLab 4.0, including improved screen reader and keyboard navigation, more ARIA roles and labels, and a hamburger menu that collapses if there is not enough space to display all items. You can read more about the features of Lab 4 in the blogpost titled <a class="reference external" href="https://blog.jupyter.org/jupyterlab-4-0-is-here-388d05e03442">“JupyterLab 4.0 is here”</a>. Lab 4 has undergone extensive testing with Data 100 summer 23 instructors within a new hub, and the overall experience has been positive, with the exception of real-time collaboration, which may require further attention.</p>
+</section>
+<section id="jupyter-notebook-7-0">
+<h3>Jupyter Notebook 7.0:<a class="headerlink" href="#jupyter-notebook-7-0" title="Permalink to this heading">#</a></h3>
+<p>The Jupyter Notebook 7.0, set to become the new default notebook interface, is constructed using reusable components derived from Jupyter Lab 4.0. As part of this transition, both the classic notebook and retro notebook will eventually be replaced. Notably, the accessibility enhancements introduced in Lab 4.0 will also be incorporated into Notebook 7.0. For more details on Notebook 7.0, you can refer to the blog post titled “<a class="reference external" href="https://medium.com/jupyter-blog/announcing-jupyter-notebook-7-8d6d66126dcf">Announcing Jupyter Notebook</a> 7.”</p>
+</section>
+</section>
+<section id="enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">
+<h2>Enhancing the accessibility of the content within Jupyter notebooks:<a class="headerlink" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks" title="Permalink to this heading">#</a></h2>
+<p>There are scenarios where notebooks are designed to be inaccessible. This could include issues with alt text, captioning the images, color contrast issues in the image etc.. One can avoid such accessibility issues by following the best practices recommended to create accessible notebooks.</p>
+<p>Sharing couple of resources from the <a class="reference external" href="https://github.com/Iota-School">Iota School</a> team who has compiled the best practices for creating accessible notebooks into checklists and tips,</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/notebook-authoring-checklist/">Checklist</a> for notebook authoring</p></li>
+<li><p><a class="reference external" href="https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/#visualization-accessibility">Tips</a> for notebook authoring</p></li>
+</ul>
+<section id="add-alt-text-to-all-static-images-and-charts-in-your-notebook">
+<h3>Add alt-text to all static images and charts in your notebook:<a class="headerlink" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook" title="Permalink to this heading">#</a></h3>
+<p>Adding alternative text (alt-text) to images is an important accessibility practice, especially when creating content for the web. Alt-text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as
+matplotlib and seaborn by default doesn’t support embedding alt text to generated charts by default.</p>
+<p>You can add alt-text to an image by using the below syntax where the text withing the square brackets denotes the alt-text for an image.</p>
+<p><code class="docutils literal notranslate"><span class="pre">![A</span> <span class="pre">beautiful</span> <span class="pre">landscape](landscape.jpg)</span></code></p>
+</section>
+<section id="represent-data-across-multiple-mediums">
+<h3>Represent data across multiple mediums:<a class="headerlink" href="#represent-data-across-multiple-mediums" title="Permalink to this heading">#</a></h3>
+<p>It is important that users who use screen readers have additional pathways to make sense of the data visualized in a chart or an image. Some of those pathways include a) Descriptive summary of data represented in the chart and b) HTML formatted table in the form of code or markdown cells.</p>
+<p>Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension. Ideally, having less than or equal to 5/6 rows in a table is a good rule of thumb to keep in mind.</p>
+</section>
+<section id="avoid-creating-large-notebooks">
+<h3>Avoid creating large notebooks:<a class="headerlink" href="#avoid-creating-large-notebooks" title="Permalink to this heading">#</a></h3>
+<p>It has been observed that large notebooks causes screen readers like NVDA and JAWS to crash. Keeping notebook size lesser than 10 MB (realistically) or even better around 1 MB (ideally) will make it easy for screen readers to navigate the ipynb files.</p>
+</section>
+<section id="have-clear-headings-throughout-the-notebook">
+<h3>Have clear headings throughout the notebook:<a class="headerlink" href="#have-clear-headings-throughout-the-notebook" title="Permalink to this heading">#</a></h3>
+<p>Screen readers will be using headers to navigate the notebook. Ensure that the first cell in a notebook has the <code class="docutils literal notranslate"><span class="pre">H1</span></code> tag to identify that it is the title. It has been observed that lack of clear header tags including <code class="docutils literal notranslate"><span class="pre">H1</span></code> at the start affects the screen reader navigability.</p>
+</section>
+<section id="export-notebook-to-html-format-for-consumption">
+<h3>Export notebook to html format for consumption:<a class="headerlink" href="#export-notebook-to-html-format-for-consumption" title="Permalink to this heading">#</a></h3>
+<p>The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Much effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for web interface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.</p>
+<p><a class="reference external" href="https://github.com/jupyter/nbconvert">Nbconvert</a> is a  tool that converts notebooks to various formats including html which improves readability. The command for converting notebooks from .ipynb to html is</p>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">jupyter</span> <span class="pre">nbconvert</span> <span class="pre">--to</span> <span class="pre">html</span> <span class="pre">mynotebook.ipynb</span></code></p>
+<p>One can also customize the themes, font types, sizes etc. as part of the notebook inorder to improve the accessibility.</p>
+</section>
+<section id="install-wcag-2-0-2-1-standards-compliant-themes">
+<h3>Install WCAG 2.0/2.1 standards compliant themes:<a class="headerlink" href="#install-wcag-2-0-2-1-standards-compliant-themes" title="Permalink to this heading">#</a></h3>
+<p>Jupyter classic notebook and lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result .</p>
+<section id="theme-font-compatibility-with-varied-versions-of-notebook-lab">
+<h4>Theme/Font compatibility with varied versions of notebook/lab<a class="headerlink" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab" title="Permalink to this heading">#</a></h4>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Interface</p></th>
+<th class="head"><p>Recommended Themes/Fonts</p></th>
+<th class="head"><p>Comments</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Jupyter Lab &gt;=4.0</p></td>
+<td><p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes </a></p></td>
+<td><p>JupyterLab-Accessible-Themes package compatibility with the latest lab version is a work in progress as per the maintainer’s page.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Jupyter Lab &lt;= 3.0</p></td>
+<td><p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes </a>, <a class="reference external" href="https://github.com/deathbeds/jupyterlab-fonts">Jupyter-Font</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Jupyter Notebook &gt;= 7.0</p></td>
+<td><p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes </a></p></td>
+<td><p>JupyterLab-Accessible-Themes package compatibility with the latest notebook version is a work in progress as per the maintainer’s page</p></td>
+</tr>
+<tr class="row-odd"><td><p>Jupyter Notebook &lt; 7.0</p></td>
+<td><p><a class="reference external" href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="jupyterlab-accessible-theme">
+<h4>JupyterLab-Accessible-Theme<a class="headerlink" href="#jupyterlab-accessible-theme" title="Permalink to this heading">#</a></h4>
+<p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes</a> is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package,
+a) Pitaya Smoothie and
+b) Github Light
+c) Github Dark</p>
+<p>All the above themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface and are a work in progress in terms of compatibility with JupyterLab 4.0.</p>
+<p>You can install this theme by running the following command</p>
+<p><code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterlab-accessible-themes==0.1.1</span></code>
+or
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">jupyterlab-accessible-themes</span></code></p>
+<p>Once installed, you can enable this theme by the following steps,</p>
+<ul class="simple">
+<li><p>Save the notebook and restart the kernel by selecting Kernel -&gt; Restart Kernel</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Light</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Light and/or <code class="docutils literal notranslate"><span class="pre">Pitaya</span> <span class="pre">Smoothie</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Pitaya Smoothie and/or <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Dark</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Dark</p></li>
+</ul>
+</section>
+<section id="jupyter-theme">
+<h4>Jupyter Theme<a class="headerlink" href="#jupyter-theme" title="Permalink to this heading">#</a></h4>
+<p><a class="reference external" href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a> is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0.</p>
+<p>You can install themes by following command,
+<code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterthemes</span></code></p>
+<p>The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in <a class="reference external" href="https://github.com/dunovank/jupyter-themes">this web page</a>. If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab <a class="reference external" href="https://github.com/dunovank/jupyterlab_legos_ui">Legos UI</a> and <a class="reference external" href="https://github.com/dunovank/jupyterlab_darkside_ui">Darkside UI</a></p>
+</section>
+<section id="jupyter-font">
+<h4>Jupyter Font:<a class="headerlink" href="#jupyter-font" title="Permalink to this heading">#</a></h4>
+<p>You can use the <a class="reference external" href="https://github.com/deathbeds/jupyterlab-fonts">JupyterLab fonts</a> package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.</p>
+<p><code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterlab-fonts</span></code></p>
+<p>The sans serif fonts this package ships currently are:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://fonts.google.com/specimen/Anonymous+Pro">Anonymous Pro</a></p></li>
+<li><p><a class="reference external" href="https://fonts.google.com/specimen/Atkinson+Hyperlegible">Atkinson Hyperlegible</a></p></li>
+<li><p><a class="reference external" href="https://dejavu-fonts.github.io/">Dejavu Sans</a></p></li>
+<li><p><a class="reference external" href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a></p></li>
+</ul>
+</section>
+</section>
+<section id="sonify-your-data">
+<h3>Sonify your data:<a class="headerlink" href="#sonify-your-data" title="Permalink to this heading">#</a></h3>
+<p>“Sonify the data” refers to the process of representing data using sound. Instead of just visualizing data in charts, graphs, or other visual formats alone, sonification translates data into audible sound patterns, allowing users to perceive and understand data through their sense of hearing.</p>
+<ul class="simple">
+<li><p>Use python packages like <a class="reference external" href="https://github.com/lockepatton/sonipy">sonipy</a> to sonify the data</p></li>
+<li><p>Open source tools such as <a class="reference external" href="https://github.com/sonifydata/twotone">TwoTone</a> allow for generating music from data</p></li>
+<li><p>In Astronomy, <a class="reference external" href="https://astronify.readthedocs.io/en/latest/">Astronify</a> is used for turning astronomical data into sound</p></li>
+</ul>
+</section>
+</section>
+<section id="enhancing-the-accessibility-of-content-in-the-r-notebooks">
+<h2>Enhancing the accessibility of content in the R notebooks:<a class="headerlink" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks" title="Permalink to this heading">#</a></h2>
+<p>If you are using R/RStudio as part of your instructional workflow then please check the following resources that provide better ways to make notebook content accessible,</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://support.posit.co/hc/en-us/articles/115011846747-Using-Themes-in-the-RStudio-IDE">Customize themes in R Studio</a></p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/web/packages/BrailleR/index.html">BrailleR: R package that allows blind people understand plots better</a>. Here is an <a class="reference external" href="https://cran.r-project.org/web/packages/BrailleR/vignettes/Ex1histograms.html">example of BrailleR package</a></p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/web/packages/sonify/index.html">Sonify: R package converts images into audio representation</a>. Here is an <a class="reference external" href="https://jooyoungseo.com/post/ds4blind/">example for sonifying a data</a></p></li>
+<li><p><a class="reference external" href="https://github.com/jooyoungseo/tactileR">TactileR: R package for creating tactile graphics for users with visual impairments</a>. Here is an <a class="reference external" href="https://jooyoungseo.github.io/project/tactiler/">example for tacticleR</a></p></li>
+<li><p><a class="reference external" href="https://posit.co/blog/knitr-fig-alt/">Adding alt text content for images produced by knittR</a></p></li>
+<li><p><a class="reference external" href="https://cran.r-project.org/web/packages/accessrmd/accessrmd.pdf">AccessRMD is the package to improve accessibility of RMD files</a></p></li>
+</ul>
+<p>Improving accessibility in Jupyter notebooks is an ongoing process that involves attention to both the structural aspects of the content and the interactive elements within the notebooks. It’s important to prioritize accessibility to ensure that your content is inclusive and usable by a broad audience.</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="references">
+<h1>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Potluri et al (2023), Notably Inaccessible - Data Driven Understanding of Data Science Notebook (In)Accessibility, ACM
+Paper titled <a class="reference external" href="https://github.com/make4all/notebooka11y">notably inaccessible</a></p></li>
+<li><p>Iota school <a class="reference external" href="https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/">a11y tips</a> for creating and publishing Jupyter notebooks</p></li>
+<li><p>JupyterLab Accessibility <a class="reference external" href="https://hackmd.io/WnaWXboXSiGoqWvev_fAvA?both">Meeting Notes</a></p></li>
+</ul>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workflow"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../technology/pedagogy-and-technology/notebook-zero.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Notebook Zero</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="pushing-to-github.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Uploading Files to GitHub</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Creating Accessible Notebook Experience</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-notebook-interface">Enhancing the accessibility of the notebook interface:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-4-0">JupyterLab 4.0:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-7-0">Jupyter Notebook 7.0:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook">Add alt-text to all static images and charts in your notebook:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#represent-data-across-multiple-mediums">Represent data across multiple mediums:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avoid-creating-large-notebooks">Avoid creating large notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-clear-headings-throughout-the-notebook">Have clear headings throughout the notebook:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-accessible-theme">JupyterLab-Accessible-Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-theme">Jupyter Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Christopher Pyles and Balaji Alwar
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
