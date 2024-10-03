@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 2ce788e4-dec4-4701-a14a-efa5af0b2a1d
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/berkeley-cdss/curriculum-guide
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  logo: assets/logo.png
