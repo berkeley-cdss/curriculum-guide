@@ -42,17 +42,16 @@ jobs:
       - name: Build HTML Assets
         run: myst build --html
 
-      # Verify the _build/html directory exists
-      - name: Verify build output
-        run: ls -la _build/html
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './_build/html'
+          artifact_name: 'github-pages'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: 'github-pages'
         env:
           ACTIONS_STEP_DEBUG: true
