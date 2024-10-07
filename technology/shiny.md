@@ -1,13 +1,13 @@
 # Shiny
 
-[Shiny](https://shiny.rstudio.com/) is a R package which makes it easy to build interactive web apps. R shiny server in Datahub is used to build interactive dashboards. Here is a short demo of a shiny application below,
+[Shiny](https://shiny.rstudio.com/) is a R package which makes it easy to build interactive web apps. R shiny server in DataHub is used to build interactive dashboards. Here is a short demo of a shiny application below,
 
 ```{figure} ../images/shiny_combined.gif
 :width: 500px
 :align: center
 :name: Shiny Demo
 
-Short Demo to launch Shiny application in Datahub
+Short Demo to launch Shiny application in DataHub
 ```
 
 If you are interested to explore Shiny application further then you can play with examples from this [Github repository](https://github.com/rstudio/shiny-examples) and [few other examples](https://github.com/gastonstat/shiny-introstats/) created by a stats faculty. Here are couple of approaches you can take to launch a shiny application,

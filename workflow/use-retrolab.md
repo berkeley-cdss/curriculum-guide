@@ -4,5 +4,5 @@ RetroLab is an alternative JupyterLab distribution, built from the ground-up, pr
 retro interface similar to Classic Notebooks while retaining some of the advanced features from JupyterLab which includes extensions/plugins. 
 
 ```{note}
-RetroLab project is no longer supported in Datahub as it has reached its EOL and is no longer maintained.
+RetroLab project is no longer supported in DataHub as it has reached its EOL and is no longer maintained.
 ```

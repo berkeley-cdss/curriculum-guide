@@ -1,7 +1,7 @@
 # Accessing Elevated Privileges in a Hub
 
 ```{note}
-Curious about elevated privileges in Datahub? If yes, read below!
+Curious about elevated privileges in DataHub? If yes, read below!
 
 ```
 
@@ -21,7 +21,7 @@ Check this image to know your privileges for the admin option,
 ```{figure} ../images/admin.png
 :width: 500px
 :align: center
-:name: Datahub Admin
+:name: DataHub Admin
 
 Here is how the admin dashboard looks like!
 ```
@@ -38,8 +38,8 @@ To assign elevated privileges to a set of people other than all course staff, fo
 - In order to assign people to a group, they must have the role of "student". By default, course staff are either "teacher" or "ta", but they can be assigned more than one role. Visit the `People` section and click `+ People`. Specify the users' email addresses and make sure the Role is set to `Student`.
 - Create a [bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700). The first step will be to create a groupset and then create a group inside it. For example, you can title the groupset "Staff Groups" and the group "Hub Admins".
 - [Add people to the created group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663).
-- Share the bcourses ID in the Github template. The admins will make changes to the Datahub configuration to enable this feature. If you are assigning privileges to a group of people other than course staff, specify this in the Github issue.
-- Once elevated privileges are assigned to jupyterhub groups based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), the people being granted those privileges will need to logout of the hub and then log in again for the config changes to persist. This is not the same thing as stopping and starting the server -- users need to click "Logout".
+- Share the bcourses ID in the Github template. The admins will make changes to the DataHub configuration to enable this feature. If you are assigning privileges to a group of people other than course staff, specify this in the Github issue.
+- Once elevated privileges are assigned to jupyterhub groups based on the [DataHub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), the people being granted those privileges will need to logout of the hub and then log in again for the config changes to persist. This is not the same thing as stopping and starting the server -- users need to click "Logout".
 - You will be able to access the admin interface in the UI by navigating to "<Hub URL>/hub/admin" and check for the admin status of varied users. You will also be able to use the "Manage groups" option in the admin interface to check the bcourses id of courses with admin privileges.
 - Sometimes, users in your course might not be listed as part of the admin interface. During those circumstances, it is recommended that those users log out of the hub and then log back in. It might take sometime for those users to be listed as part of your admin view.
 
@@ -57,7 +57,7 @@ Please follow the steps below to navigate admin interface,
 ```{figure} ../images/adminaccess.PNG
 :width: 500px
 :align: center
-:name: Datahub Admin snapshot
+:name: DataHub Admin snapshot
 
 Here is where you can find admin option!
 ```
@@ -86,7 +86,7 @@ Here is how the control panel option looks like!
 ```{figure} ../images/adminaccess.PNG
 :width: 500px
 :align: center
-:name: Datahub Admin snapshot
+:name: DataHub Admin snapshot
 
 Here is where you can find admin option!
 ```

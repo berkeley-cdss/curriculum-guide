@@ -37,7 +37,7 @@ Eg: Stat 20 instructor Andrew Bray uses Quarto to generate stat20.org. Quarto is
 
 **Use Case:** Efficiently grading assignments that involve coding and data analysis.
 
-**How Quarto Helps:** Integrate Quarto into the Gradescope autograder to automatically run and check the code in student submissions. The autograder can simulate environments like Datahub, ensuring consistency in grading.
+**How Quarto Helps:** Integrate Quarto into the Gradescope autograder to automatically run and check the code in student submissions. The autograder can simulate environments like DataHub, ensuring consistency in grading.
 
 ##### 5. Authoring Books and Manuals
 
@@ -45,7 +45,7 @@ Eg: Stat 20 instructor Andrew Bray uses Quarto to generate stat20.org. Quarto is
 
 **How Quarto Helps:** Quarto supports long-form content creation, allowing you to compile multiple .qmd files into a cohesive book. You can include live code examples and data analysis, making your book interactive.
 
-### Pathways to use Quarto in Datahub
+### Pathways to use Quarto in DataHub
 
 Quarto integrates with popular Integrated Development Environments (IDEs) such as RStudio, VSCode and JupyterLab. You can visit [this website](https://quarto.org/docs/get-started/) to learn more about the detailss.
 

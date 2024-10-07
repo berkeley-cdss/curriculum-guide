@@ -57,12 +57,12 @@ parts:
   - file: workflow/download_notebook_as_pdf.md
     title: Download Jupyter Notebook as PDF
   - file: workflow/download-archive.md
-    title: Download Datahub home directory contents as archive
+    title: Download DataHub home directory contents as archive
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
   - file: workflow/calculate-compute-cost.ipynb
     title: Calculate GCP cost for compute intensive scenarios
-    sections: 
+    sections:
       - url: https://dev.datahub.berkeley.edu/user/balajialwar/voila/render/data100%20cloud%20cost%20calculator/data100_cloudcost_calculator.ipynb?
         title: "Launch Cloud Cost Calculator Widget"
   - file: workflow/securely-push-github
@@ -75,7 +75,7 @@ parts:
     title: Instructional Design Best Practices for Creating Jupyter Notebooks
   - file: faq/share
     title: Sharing information about the Hub
-- caption: Datahub Frequently Asked Questions (FAQ)
+- caption: DataHub Frequently Asked Questions (FAQ)
   chapters:  
   - file: faq/onboarding
     title: Onboard new users

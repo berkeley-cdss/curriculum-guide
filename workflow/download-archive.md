@@ -2,7 +2,7 @@
 
 You have an option to download all your assignments/projects as an archive file without going through the hassle of downloading each file individually. [Jupyter Archive](https://github.com/jupyterlab-contrib/jupyter-archive) package allows users to download their files/folders as single archive file.
 
-There are couple of options you can use to download all your files in Datahub as an archive,
+There are couple of options you can use to download all your files in DataHub as an archive,
 - Download Current Folder as an Archive
 - Download as an Archive
 

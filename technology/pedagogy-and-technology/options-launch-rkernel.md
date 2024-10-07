@@ -1,9 +1,9 @@
 # Backup options to Launch R notebooks
 
-If you are an user who cannot access Datahub due to the following reasons, 
+If you are an user who cannot access DataHub due to the following reasons, 
 
 - You don't have a Calnet log-in currently or
-- You are not able to access the Datahub service as it is down
+- You are not able to access the DataHub service as it is down
 
 then you can explore the below mentioned options to launch R notebooks.
 

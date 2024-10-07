@@ -67,13 +67,13 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 
 The technology behind interact links, called nbgitpuller, pulls _all files_ from a repo into the user's DataHub account. This means that **you should not store unfinished materials and answer keys in the same repo as published assignments**. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, **we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys**.
 
-### Datahub Link Generator Chrome Extension
+### DataHub Link Generator Chrome Extension
 
-The most recent addition to the nbgitpuller link generator is the Datahub Link Generator extension. This extension streamlines the process of creating shareable links and is tailored specifically for UC Berkeley instructors, as seen in the Berkeley-specific version of the [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
+The most recent addition to the nbgitpuller link generator is the DataHub Link Generator extension. This extension streamlines the process of creating shareable links and is tailored specifically for UC Berkeley instructors, as seen in the Berkeley-specific version of the [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
 
-##### Install the Datahub Link Generator Chrome Extension:
+##### Install the DataHub Link Generator Chrome Extension:
 
-- Visit the Datahub link generator [Chrome extension's webpage](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en). Click the "Add to Chrome" button to install the extension.
+- Visit the DataHub link generator [Chrome extension's webpage](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en). Click the "Add to Chrome" button to install the extension.
 
 - Click "Add extension" button when prompted. You’ll receive a notification confirming that the extension has been added to your browser
 
@@ -126,7 +126,7 @@ Open a notebook from github repo
 
 - Select the link generator extensions icon in the top right part of the browser (closer to URL section)
 
-- Paste your Datahub URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
+- Paste your DataHub URL (if you are using the main DataHub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
 - Choose the appropriate option from the “Open in” dropdown list:
 	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list
 	- If you want them to explore more **advanced features** including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list
@@ -138,7 +138,7 @@ Open a notebook from github repo
 :align: center
 :name: extension icon
 
-Icon showing the Datahub-link-generator extension
+Icon showing the DataHub-link-generator extension
 ```
 
 - As a last step, Select "Copy nbgitpuller link" button which generates a shareable link that opens your assignment in the choosen interface or "Open in tab" button which opens the notebook in a new tab. 

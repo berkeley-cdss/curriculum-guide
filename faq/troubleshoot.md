@@ -95,7 +95,7 @@ Sorry, that you had to face this error! This error could be due to some of our s
 
 Sorry, that you had to face this error! This error could be due to multiple reasons outlined below, 
 
-- You are using email id with a different domain other than berkeley.edu to authenticate with Datahub which could have potentially raised this error. Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml), so that we can authorize your domain.
+- You are using email id with a different domain other than berkeley.edu to authenticate with DataHub which could have potentially raised this error. Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml), so that we can authorize your domain.
 
 - Large number of your students are trying to use the service resulting in failure of certain nodes. We are working on improving how we scale the hub with large volume of users.
 

@@ -12,7 +12,7 @@ b) Students who are enrolled in courses using DataHub and want to learn about th
 The information is divided up into six sections:
 1. **Getting Started With the DataHub tools**: Guide to familiarize you with the DataHub platform and its essential tools.
 2. **Workflow Basics**: This section covers information around creating, distributing, and grading assignments.
-3. **Datahub Frequently Asked Questions (FAQ)**: Comprehensive FAQ section that addresses common questions and issues encountered by DataHub users.
+3. **DataHub Frequently Asked Questions (FAQ)**: Comprehensive FAQ section that addresses common questions and issues encountered by DataHub users.
 4. **Resources for Students**: Curated resources tailored for students enrolled in DataScience courses.
 5. **Getting Started With the Modules and Connectors**: An overview of the different Data Science Education course types.
 6. **Creating a Connector**: A guide to the pre-course set-up for a Connector course.

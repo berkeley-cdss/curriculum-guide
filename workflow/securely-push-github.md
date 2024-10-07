@@ -5,7 +5,7 @@
 ## **GitHub Scoped Credentials**
 
 ### Purpose:
-[gh-scoped-creds](https://github.com/jupyterhub/gh-scoped-creds) allows instructors and students using Datahub to securely push changes to specific GitHub repositories without exposing broader access or long-term credentials.
+[gh-scoped-creds](https://github.com/jupyterhub/gh-scoped-creds) allows instructors and students using DataHub to securely push changes to specific GitHub repositories without exposing broader access or long-term credentials.
 
 ### Goals:
 1. **Secure Repository Access**: Users can push only to specific repositories.
@@ -13,7 +13,7 @@
 3. **Admin Control**: GitHub organization admins manage which repositories can be accessed.
 
 ### How It Works:
-1. **GitHub App**: A GitHub app is created for Datahub.
+1. **GitHub App**: A GitHub app is created for DataHub.
 2. **Temporary Tokens**: Use the command line tool `gh-scoped-creds` to get a temporary push token.
 3. **Integration**: Use `%ghscopedcreds` in Jupyter notebooks for easy access.
 

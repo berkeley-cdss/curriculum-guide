@@ -1,6 +1,6 @@
 # Get yourself onboarded to DataHub
 
-**I am instructor planning to teach using Datahub. What should I know prior to the start of the semester?**
+**I am instructor planning to teach using DataHub. What should I know prior to the start of the semester?**
 
 
 ##### General Updates
@@ -15,7 +15,7 @@
 
 **Using Language Models in Assignments:** If you plan to incorporate language models into your assignments then please schedule a consultation with the infra team before releasing the assignments to students. For more details, please refer to the [documentation](https://ds-modules.github.io/curriculum-guide/technology/using-ai-llm.html).
 
-**Datahub Link Generator:** A Berkeley specific fork of nbgitpuller browser extension called [“Datahub Link Generator”](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) has been developed with few additional features. Please uninstall the old extension and reinstall the [latest version](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) in Chrome so that you can get the recent updates and support. We encourage you to review this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html#datahub-link-generator-chrome-extension) which provides detailed steps to generate assignment links through the new extension.
+**DataHub Link Generator:** A Berkeley specific fork of nbgitpuller browser extension called [“DataHub Link Generator”](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) has been developed with few additional features. Please uninstall the old extension and reinstall the [latest version](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) in Chrome so that you can get the recent updates and support. We encourage you to review this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html#datahub-link-generator-chrome-extension) which provides detailed steps to generate assignment links through the new extension.
 
 **Backup Students' Data:** We recommend that you inform students to back up their data (notebooks and datasets) on their local devices before the end of the semester. We have prepared [download instructions](https://ds-modules.github.io/curriculum-guide/workflow/download-archive.html) on how students can retrieve all of their archived files.  We receive a lot of student requests to retrieve their files after the completion of the semester. Any upfront communication from your end about backing up their files will hopefully ease the workload for us.
 
@@ -27,9 +27,9 @@
 
 **Slack Channel:** If you have anything you'd like to discuss with w/the infra team, please join the Slack channel. Access [uctech.slack.com](http://uctech.slack.com/) (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to interact with the infra team. 
 
-**Datahub Service Lead:** In addition, you can reach out to Balaji Alwar <balajialwar@berkeley.edu> directly if there are time-sensitive issues.
+**DataHub Service Lead:** In addition, you can reach out to Balaji Alwar <balajialwar@berkeley.edu> directly if there are time-sensitive issues.
 
-##### Datahub - Common Requests 
+##### DataHub - Common Requests 
 **Packages:** Please test your assignments for hub compatibility before the start of the semester. Check whether all the needed Python/R packages and their required versions are installed. If not, please use the [package request template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=package-request&template=package_request.yml&title=Request+python+package+X+for+class+Y) to raise a request to the infra team.  The Infra team requires at least 2 business days for a turnaround on support requests such as this.
 
 **Elevated Privilege Access:** You can use this [GitHub template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to request [elevated privileges](https://ds-modules.github.io/curriculum-guide/faq/admin.html?highlight=admin) for course staff to troubleshoot student servers in the requested hub. 
@@ -44,9 +44,9 @@
 
 Finally, provide us with any feedback that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester.
 
-**How can I learn more about Datahub to onboard myself?**
+**How can I learn more about DataHub to onboard myself?**
 
-- If you are new to Datahub and want to know more, checkout [here](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). 
+- If you are new to DataHub and want to know more, checkout [here](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). 
 
 - If you are interested in learning more about the configuration of various Berkeley hubs, you can checkout [UC Berkeley's JupyterHubs documentation](https://docs.datahub.berkeley.edu/en/latest/).
 
@@ -54,7 +54,7 @@ Finally, provide us with any feedback that will help us improve our hub operatio
 
 **What languages are supported by the hub?**
 
-Datahub primarily supports three languages - **Python, R and, Julia**. However, We also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+DataHub primarily supports three languages - **Python, R and, Julia**. However, We also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
 **How many hubs across the campus exist? Which courses use them extensively?**
 
@@ -118,10 +118,10 @@ If these templates are not exhaustive enough to cover the type of issue you are 
 
 **As an instructor what do I need to do to set up the hub for my course?**
 
-Honestly, nothing! You are free to use the Datahub starting today. 
+Honestly, nothing! You are free to use the DataHub starting today. 
 
 ```{note}
-We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [Datahub Link Generator](https://chromewebstore.google.com/detail/datahub-link-a/ijbgangngghdanhcnaliiobbiffocahf?hl=en) to distribute materials to your class. We can also help with setting up the links. 
+We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [DataHub Link Generator](https://chromewebstore.google.com/detail/datahub-link-a/ijbgangngghdanhcnaliiobbiffocahf?hl=en) to distribute materials to your class. We can also help with setting up the links. 
 ```
 
 **What instructions should I share with students at the start of the semester**
@@ -134,7 +134,7 @@ Please ask your students,
 
 We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, there are couple of options we recommend below, 
 
-- Use the [Calnet Sponsored Guests](https://calnetweb.berkeley.edu/calnet-departments/calnet-sponsored-guests) option to get temporary access to bcourses which will allow you to access the Datahub service.
+- Use the [Calnet Sponsored Guests](https://calnetweb.berkeley.edu/calnet-departments/calnet-sponsored-guests) option to get temporary access to bcourses which will allow you to access the DataHub service.
 - Use [Binder](https://mybinder.org/) or [Jupyterlite](https://jupyterlite.readthedocs.io/en/stable/) services to solve for the immediate needs.
 
 **How do my students download their submissions as a PDF?**

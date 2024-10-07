@@ -1,4 +1,4 @@
-# Tips to Use Datahub
+# Tips to Use DataHub
 
 ## About the UC Berkeley DataHub:  
 
@@ -46,7 +46,7 @@ DataHub is UC Berkeley’s implementation of Jupyterhub and is a free service ma
 ##### 3. Collaboration and Sharing
 
 ```{note}
-Datahub doesn’t have collaboration tools at this time as we are continuously testing the latest updates.
+DataHub doesn’t have collaboration tools at this time as we are continuously testing the latest updates.
 ```
 
 **Instructor Feedback:** Share your work with instructors or TAs for feedback by downloading and submitting your notebooks as required.
@@ -54,7 +54,7 @@ Datahub doesn’t have collaboration tools at this time as we are continuously t
 ##### 4. Troubleshooting
 **Restart Kernel/Server:** Try restarting your kernel as a classic troubleshooting step to see if the error goes away. If the problem persists, restart your server.
  
-**Kill Process:** Having too many things open on Datahub can cause issues. Sharing two different approaches to check running processes and kill them,
+**Kill Process:** Having too many things open on DataHub can cause issues. Sharing two different approaches to check running processes and kill them,
 
 **Option 1: UI Based Approach:**
 - In Notebook - click Jupyter Icon in UR to get to ”tree” 
@@ -62,7 +62,7 @@ Datahub doesn’t have collaboration tools at this time as we are continuously t
 - Right click on any process to kill it ( or Kill all). In Lab you can see running processes in tab on left with this icon
 
 **Option 2: CLI approach:**
-- Open the terminal in Datahub.
+- Open the terminal in DataHub.
 - Use the command ps aux to list all running processes.
 - Find the process ID (PID) of the processes you want to stop.
 - Use the command kill <PID> to terminate those processes.

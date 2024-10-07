@@ -1,6 +1,6 @@
 # Creating Accessible Notebook Experience
 
-Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA standards](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) mandated by the University.
+Improving the accessibility of the notebook experience has consistently been a key priority for the DataHub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA standards](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) mandated by the University.
 
 Enhancing the accessibility of the notebook experience involves addressing multiple dimensions:
 
@@ -9,7 +9,7 @@ Enhancing the accessibility of the notebook experience involves addressing multi
 
 ## Enhancing the accessibility of the notebook interface:
 
-The Datahub team constantly collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit,we encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements.
+The DataHub team constantly collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit,we encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements.
 
 ### JupyterLab 4.0: 
 

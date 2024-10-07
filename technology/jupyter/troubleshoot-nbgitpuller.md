@@ -21,7 +21,7 @@ Solution: re-generate the nbgitpuller link. Make sure that you've filled in the 
 * The Git repository url should go to the base repo that contains the materials you want. For example, if you want to link to the "lab01.ipynb" in the fall19 repository of the data-8 organization, the Git URL should be "https://github.com/data-8/fall19", not "https://github.com/data-8/fall19/blob/master/lab01"
 * The File to Open needs to include the full path of the file from the base repository. For example, if the "lab01" file is in a folder called "labs", the File to Open needs to be "labs/lab01"
 
-#### 3. The nbgitpuller link has been used before, and some of the content was changed in both Datahub and Github
+#### 3. The nbgitpuller link has been used before, and some of the content was changed in both DataHub and Github
 If you make changes to an assignment on Github after students have started working on it, students that click the nbgitpuller link again may see a red loading bar and a message about a *merge conflict*. This occurs if the instructor and the student both change the same parts of the notebook: nbgitpuller doesn't know how to integrate the instructor's changes without overwriting student work, so it refuses to proceed. You can read [more about nbgitpuller's automatic merging behavior here](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html).
 
 ###### Solutions:
@@ -32,7 +32,7 @@ When you face an error like below, do the following steps
 ```{figure} ../../images/mergeconflict.png
 :width: 500px
 :align: center
-:name: Datahub Admin
+:name: DataHub Admin
 
 Here is how the admin dashboard looks like!
 ```

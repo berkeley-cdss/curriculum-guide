@@ -1,6 +1,6 @@
 # Steps to launch notebooks using VSCode
 
-### Step 1: Generate nbgitpuller links to launch VSCode Editor in Datahub
+### Step 1: Generate nbgitpuller links to launch VSCode Editor in DataHub
 
 Access the ngbitpuller link generator website using this [link](https://jupyterhub.github.io/nbgitpuller/link) and fill in the following details,
 - Enter https://eecs.datahub.berkeley.edu as the JupyterHub URL.

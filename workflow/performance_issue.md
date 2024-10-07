@@ -1,4 +1,4 @@
-# Best Practices to Avoid Performance Issues in Datahub
+# Best Practices to Avoid Performance Issues in DataHub
 
 Certain large courses or courses with complex software/compute requirements can consume lot of memory/cpu which can result in poor user experience for students and/or increased cloud costs. Some of the commonly reported performance issues are due to one or many  of the following reasons,
 
