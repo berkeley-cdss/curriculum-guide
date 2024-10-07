@@ -32,8 +32,7 @@ For added security, you can choose to enter a passphrase during key creation.
 This is optional.
 
 ### Windows
-If you're running Windows, please install either [WSL2 native linux](https://learn.microsoft.com/en-us/windows/wsl/install) 
-or [gitbash](https://www.git-scm.com/download/win).
+If you're running Windows, please install either [WSL2 native linux](https://learn.microsoft.com/en-us/windows/wsl/install) or [gitbash](https://www.git-scm.com/download/win).
 
 Open a terminal, and run the following command.  WSL2 is preferred, but there
 are a few additional steps required.
@@ -45,9 +44,7 @@ For added security, you can choose to enter a passphrase during key creation.
 This is optional.
 
 ### Upload your public ssh key to GitHub
-Please follow the instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) 
-to upload your SSH public key to GitHub.  This allows you to authenticate while
-using `git` in a repo.
+Please follow [the instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) to upload your SSH public key to GitHub. This allows you to authenticate while using `git` in a repo.
 
 ## Setting up your fork and clones
 
@@ -168,8 +165,9 @@ and there should be a big green button on the top that says `Compare and pull re
 Click on that, check out the commits and file diffs, edit the title and
 description if needed and then click `Create pull request`.
 
-Once you create a pull request, a github action will run which will build the jupyterbook
-and publish it to https://ds-modules.github.io/curriculum-guide/intro.html as a public facing 
+Once you create a pull request, a github action will run which will build the
+jupyterbook and publish it to
+https://ds-modules.github.io/curriculum-guide/intro.html as a public facing
 website. Github action will fail if there are issues with the commit.
 
 # Recommended reading

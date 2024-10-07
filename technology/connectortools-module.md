@@ -10,9 +10,4 @@ The `connectortools` module contains many useful tools that can be used to teach
 
 ## Code
 
-The code can be found \[here\]\([https://github.com/data-8/connector-instructors/tree/gh-pages/connectortools\](https://github.com/data-8/connector-instructors/tree/gh-pages/connectortools%29\).
-
-## Examples
-
-Examples of how the code can be used are \[here\]\([https://github.com/data-8/connector-instructors/tree/gh-pages/examples\](https://github.com/data-8/connector-instructors/tree/gh-pages/examples%29\).
-
+See the [source code](https://github.com/data-8/connector-instructors/tree/gh-pages/connectortools), and [examples](https://github.com/data-8/connector-instructors/tree/gh-pages/examples) of how the code can be used.

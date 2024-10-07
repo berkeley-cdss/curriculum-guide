@@ -190,7 +190,7 @@ If you got this error after running this command mentioned below, this is most l
 grader.export(pdf=False, force_save=True)
 ```
 
-In the long term, you should plan to rewrite your existing test cases to suit the new format and then run the latest version of otter grader in your notebooks. If you need further support with rewriting test cases then please reach out to the otter team [here](https://github.com/ucbds-infra/otter-grader/issues/new?assignees=&labels=question&template=information-request.md&title=).
+In the long term, you should plan to rewrite your existing test cases to suit the new format and then run the latest version of otter grader in your notebooks. If you need further support with rewriting test cases then please [reach out to the otter team](https://github.com/ucbds-infra/otter-grader/issues/new?assignees=&labels=question&template=information-request.md&title=).
 
 
 **What should I do if I have an issue that has not been documented in the FAQ?**

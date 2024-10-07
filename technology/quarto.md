@@ -1,15 +1,11 @@
 # Using Quarto in DataHub
 
-Quarto is an open-source publishing system that is particularly valuable for instructors who want to create dynamic, interactive course materials. Whether you're developing lecture notes, assignments, or entire textbooks, Quarto provides a powerful, flexible platform that integrates code, data, and narrative, making it ideal for educational settings. It supports a variety of programming languages, including R, Python, Julia, and Observable JavaScript, enabling instructors to design course content that actively engages students through hands-on coding exercises and real-time data analysis.
+[Quarto](https://quarto.org) is an open-source publishing system that is particularly valuable for instructors who want to create dynamic, interactive course materials. Whether you're developing lecture notes, assignments, or entire textbooks, Quarto provides a powerful, flexible platform that integrates code, data, and narrative, making it ideal for educational settings. It supports a variety of programming languages, including R, Python, Julia, and Observable JavaScript, enabling instructors to design course content that actively engages students through hands-on coding exercises and real-time data analysis.
 
 ```{figure} ../images/Quarto.gif
 :width: 500px
 :align: center
 :name: Convert R markdown assignments/labs with quarto to produce pdfs
-```
-
-```{note}
-For more information about Quarto, Read [here](https://quarto.org/)
 ```
 
 ### Opportunities to Integrate Quarto in Your Workflow
@@ -49,27 +45,15 @@ Eg: Stat 20 instructor Andrew Bray uses Quarto to generate stat20.org. Quarto is
 
 Quarto integrates with popular Integrated Development Environments (IDEs) such as RStudio, VSCode and JupyterLab. You can visit [this website](https://quarto.org/docs/get-started/) to learn more about the detailss.
 
-**RSudio:** In RStudio, you can create, edit, and render Quarto documents (.qmd files) directly.
+**RSudio:** You can create, edit, and render Quarto documents (.qmd files) directly [in RStudio](https://quarto.org/docs/get-started/hello/rstudio.html).
 
-```{note}
- Read more about it [here](https://quarto.org/docs/get-started/hello/rstudio.html)
-```
+**Jupyter:** You cannot create/edit Quarto documents [in JupyterLab](https://quarto.org/docs/get-started/hello/jupyter.html), but you can convert Jupyter notebooks to various formats using Quarto's command-line tools.
 
-**Jupyter:** In JupyterLab, you cannot create/edit Quarto documents but can convert Jupyter notebooks to various formats using Quarto's command-line tools.
-
-```{note}
- Read more about it [here](https://quarto.org/docs/get-started/hello/jupyter.html)
-```
-
-**VSCode:** Check whether VSCode and [VSCode Quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto) is enabled in your hub. If yes, you can render and preview quarto documents and can have syntax highlighting in addition to command line tools to convert to varied documents. 
-
-```{note}
- Read more about it [here](https://quarto.org/docs/get-started/hello/vscode.html)
-```
+**VSCode:** If VSCode and [VSCode Quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto) are enabled in your hub, you can [use them](https://quarto.org/docs/get-started/hello/vscode.html) to render and preview quarto documents with syntax highlighting. You can also use command line tools to convert to varied documents.
 
 ### Workflow for Beginner Instructors
 
-Imagine you’re preparing a lecture on data visualization. You start by writing your notes in a simple Markdown file (.qmd), adding a few basic code examples that generate charts. You then use Quarto to render these notes as a PDF handout and an HTML page for your course website. 
+Imagine you’re preparing a lecture on data visualization. You start by writing your notes in a simple Markdown file (.qmd), adding a few basic code examples that generate charts. You then use Quarto to render these notes as a PDF handout and an HTML page for your course website.
 
 ### Steps to Convert Documents to HTML/PDF via Quarto
 

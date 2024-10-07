@@ -56,7 +56,7 @@ from IPython.display import display, Image
 display(Image(filename="mathematica.png", width=250))\
 ``` 
 
-The IPython.display module provides functions to display images directly in Jupyter notebooks. 
+The IPython.display module provides functions to display images directly in Jupyter notebooks.
 
 #### Markdown Image with Attachment
 
@@ -69,6 +69,5 @@ This method is used to embed an image as an attachment within a Jupyter notebook
 ````
 
 ```{warning}
-All image links referred as part of the Jupyter Notebook should be adhering to https and not http. Serving http content within https pages are referred to as mixed content requests. Modern browsers consider these requests to be a security risk and will refuse to load them when using default security settings. For more information, check [here](https://www.cloudflare.com/learning/ssl/what-is-mixed-content/)
-
+All image links referred as part of the Jupyter Notebook should be adhering to https and not http. Serving http content within https pages are referred to as [mixed content requests](https://www.cloudflare.com/learning/ssl/what-is-mixed-content). Modern browsers consider these requests to be a security risk and will refuse to load them when using default security settings.
 ````
