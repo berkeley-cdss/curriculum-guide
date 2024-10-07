@@ -46,15 +46,18 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './_build/html'
-          artifact_name: 'github-pages'
 
-      - name: Wait for artifact finalization
-        run: sleep 10
+      #- name: Wait for artifact finalization
+      #  run: sleep 30
+
+      - name: List uploaded artifacts
+        run: |
+          echo "Listing artifacts..."
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/actions/artifacts"
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
-        with:
-          artifact_name: 'github-pages'
+        uses: actions/deploy-pages@v4
         env:
           ACTIONS_STEP_DEBUG: true
