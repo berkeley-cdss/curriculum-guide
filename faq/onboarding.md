@@ -25,14 +25,14 @@
 
 **GitHub Issues:** The best way for instructional staff to request help with the DataHub is through filing an issue using the [GitHub templates](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
-**Slack Channel:** If you have anything you'd like to discuss with w/the infra team, please join the Slack channel. Access [uctech.slack.com](http://uctech.slack.com/) (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to interact with the infra team. 
+**Slack Channel:** If you have anything you'd like to discuss with w/the infra team, please join the Slack channel. Access [uctech.slack.com](http://uctech.slack.com/) (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to interact with the infra team.
 
 **DataHub Service Lead:** In addition, you can reach out to Balaji Alwar <balajialwar@berkeley.edu> directly if there are time-sensitive issues.
 
 ##### DataHub - Common Requests 
 **Packages:** Please test your assignments for hub compatibility before the start of the semester. Check whether all the needed Python/R packages and their required versions are installed. If not, please use the [package request template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=package-request&template=package_request.yml&title=Request+python+package+X+for+class+Y) to raise a request to the infra team.  The Infra team requires at least 2 business days for a turnaround on support requests such as this.
 
-**Elevated Privilege Access:** You can use this [GitHub template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to request [elevated privileges](https://ds-modules.github.io/curriculum-guide/faq/admin.html?highlight=admin) for course staff to troubleshoot student servers in the requested hub. 
+**Elevated Privilege Access:** You can use this [GitHub template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to request [elevated privileges](https://ds-modules.github.io/curriculum-guide/faq/admin.html?highlight=admin) for course staff to troubleshoot student servers in the requested hub.
 
 **Big Assignments / High Use times:** You can share the important date(s)/time(s) for workshops/exams/assignments etc. when you expect the resource requirement to be greater than usual. We will review your request and get back to you directly about the feasibility of increasing resources. You can provide us with all the relevant information using the [calendar event scheduling template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=support&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29).
 
@@ -46,7 +46,7 @@ Finally, provide us with any feedback that will help us improve our hub operatio
 
 **How can I learn more about DataHub to onboard myself?**
 
-- If you are new to DataHub and want to know more, checkout [here](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). 
+- If you are new to DataHub and want to know more, [try logging in](https://datahub.berkeley.edu).
 
 - If you are interested in learning more about the configuration of various Berkeley hubs, you can checkout [UC Berkeley's JupyterHubs documentation](https://docs.datahub.berkeley.edu/en/latest/).
 
@@ -64,7 +64,7 @@ We have 15+ hubs which cater to the diverse needs of the campus audience. We hav
 
 [DataHub](https://datahub.berkeley.edu/) has a memory of 1 GB, which should meet the teaching/research needs of most of our users. If you are interested to know more about the memory consumption in your instance, Please follow the steps below,
 
-- Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed against the total memory available for your server. 
+- Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed against the total memory available for your server.
 - If your consumed memory is greater than the available memory for your instance then your server will crash resulting in you either optimizing your workflow to be less compute intensive or requesting additional RAM,
 
 ```{figure} ../images/memory.png
@@ -118,10 +118,10 @@ If these templates are not exhaustive enough to cover the type of issue you are 
 
 **As an instructor what do I need to do to set up the hub for my course?**
 
-Honestly, nothing! You are free to use the DataHub starting today. 
+Honestly, nothing! You are free to use the DataHub starting today.
 
 ```{note}
-We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [DataHub Link Generator](https://chromewebstore.google.com/detail/datahub-link-a/ijbgangngghdanhcnaliiobbiffocahf?hl=en) to distribute materials to your class. We can also help with setting up the links. 
+We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [DataHub Link Generator](https://chromewebstore.google.com/detail/datahub-link-a/ijbgangngghdanhcnaliiobbiffocahf?hl=en) to distribute materials to your class. We can also help with setting up the links.
 ```
 
 **What instructions should I share with students at the start of the semester**
@@ -140,7 +140,7 @@ We can’t allow non UC Berkeley users as our authentication system only allows 
 **How do my students download their submissions as a PDF?**
 We recommend that you use the following options,
  
-- **For Jupyter Notebooks:** Select File -> Download as -> WebPDF to download the PDF version of your notebook. 
+- **For Jupyter Notebooks:** Select File -> Download as -> WebPDF to download the PDF version of your notebook.
 ```{figure} ../images/downloadhtml.PNG
 :width: 500px
 :align: center

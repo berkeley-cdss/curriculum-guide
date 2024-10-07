@@ -22,7 +22,7 @@ We are looking for instructors who are interested to pilot RTC in their course s
 ```{note}
 ### Data considerations for adopting RTC!
 
-- User notebooks were corrupted in RTC hosted hub. You can refer to the details [here](https://github.com/jupyterlab/jupyterlab/issues/14031). 
+- User notebooks [were corrupted](https://github.com/jupyterlab/jupyterlab/issues/14031) in RTC hosted hub.
 
 ### Security considerations for adopting RTC!
 
@@ -46,8 +46,8 @@ Please do keep in mind that Real-Time Collaboration(RTC) functionality is not en
 
 ##### Step 2
 As a next step, Generate the shareable link to be shared with your collaborators. Follow the below steps to generate this link,
-- In the Menu bar, Click on the Share option (option next to Help). 
-- Select "Share Jupyter Server Link" which opens a prompt a the centre of the screen that shows an option to copy the shareable link. 
+- In the Menu bar, Click on the Share option (option next to Help).
+- Select "Share Jupyter Server Link" which opens a prompt a the centre of the screen that shows an option to copy the shareable link.
 - Select "Copy Link" option which copies the link to your clipboard
 
 ```{figure} ../images/Share_link.gif
