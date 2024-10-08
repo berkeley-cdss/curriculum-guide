@@ -2,7 +2,7 @@
 
 ## The Guide has Moved!
 
-This guide is now located at [ds-modules.github.io/curriculum-guide](https://ds-modules.github.io/curriculum-guide).
+This guide is now located at [curriculum-guide.datahub.berkeley.edu](https://curriculum-guide.datahub.berkeley.edu).
 
 ### What is this guide and who is it for?
 
@@ -59,7 +59,7 @@ $ mkdir repos
 $ cd repos
 ```
 
-Next, go to the [Curriculum Guide github repo](https://github.com/ds-modules/curriculum-guide)
+Next, go to the [Curriculum Guide github repo](https://github.com/berkeley-cdss/curriculum-guide)
 and create a fork.  To do this, click on the `fork` button and then
 `Create fork`.
 
@@ -77,7 +77,7 @@ $ pwd
 
 Now you can run the `git clone` command:
 ```
-git clone git@github.com:ds-modules/curriculum-guide.git
+git clone git@github.com:berkeley-cdss/curriculum-guide.git
 ```
 
 Now `cd` in to `curriculum-guide` directory and set up your local repo
@@ -89,8 +89,8 @@ Here is an example, including output, of how to set up your remotes:
 ```
 $ cd curriculum guide
 $ git remote -v
-origin	git@github.com:ds-modules/curriculum-guide.git (fetch)
-origin	git@github.com:ds-modules/curriculum-guide.git (push)
+origin	git@github.com:berkeley-cdss/curriculum-guide.git (fetch)
+origin	git@github.com:berkeley-cdss/curriculum-guide.git (push)
 $ git remote rename origin upstream
 $ git remote add origin git@github.com:<your github username>/curriculum-guide.git
 $ git remote -v
@@ -160,14 +160,14 @@ git push origin <branch name>
 ```
 
 Once you've pushed to your fork, you can go to the
-[Curriculum Guide repo](https://github.com/ds-modules/curriculum-guide)
+[Curriculum Guide repo](https://github.com/berkeley-cdss/curriculum-guide)
 and there should be a big green button on the top that says `Compare and pull request`.
 Click on that, check out the commits and file diffs, edit the title and
 description if needed and then click `Create pull request`.
 
-Once you create a pull request, a github action will run which will build the
+Once you create a pull request, a github action will run to build the
 jupyterbook and publish it to
-https://ds-modules.github.io/curriculum-guide/intro.html as a public facing
+https://curriculum-guide.datahub.berkeley.edu/intro.html as a public facing
 website. Github action will fail if there are issues with the commit.
 
 # Recommended reading
