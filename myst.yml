@@ -11,6 +11,8 @@ project:
   license:
     # code: MIT
     content: CC-BY-4.0
+  jupyter:
+    lite: true
 site:
   template: book-theme
   # options:
