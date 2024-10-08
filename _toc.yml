@@ -32,8 +32,7 @@ parts:
     title: Quarto
   - file: workflow/vscode.md
   - file: workflow/real-time-collaboration
-  - file: workflow/use-realtimefilesharing
-    title: Real Time File Sharing
+  - file: workflow/syncthing
   - file: technology/pedagogy-and-technology/options-launch-rkernel
     title: Options to Launch R
 - caption: Workflow Basics
