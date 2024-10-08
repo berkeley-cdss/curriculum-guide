@@ -33,8 +33,7 @@ parts:
   - file: workflow/vscode.md
   - file: workflow/real-time-collaboration
   - file: workflow/syncthing
-  - file: technology/pedagogy-and-technology/options-launch-rkernel
-    title: Options to Launch R
+  - file: technology/pedagogy-and-technology/external
 - caption: Workflow Basics
   chapters:
   - file: workflow/creating-notebooks
