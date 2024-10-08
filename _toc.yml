@@ -34,8 +34,7 @@ parts:
     title: VSCode
   - file: workflow/use-retrolab
     title: RetroLab
-  - file: workflow/use-realtimecollaboration
-    title: Real Time Collaboration (RTC)
+  - file: workflow/real-time-collaboration
   - file: workflow/use-realtimefilesharing
     title: Real Time File Sharing
   - file: technology/pedagogy-and-technology/options-launch-rkernel

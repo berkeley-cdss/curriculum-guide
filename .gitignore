@@ -22,3 +22,6 @@ _build/
 
 # MyST build outputs
 _build
+
+# Created when running jupyter in tree
+.ipynb_checkpoints
