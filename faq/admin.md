@@ -23,7 +23,7 @@ Check this image to know your privileges for the admin option,
 ```{figure} ../images/admin.png
 :width: 500px
 :align: center
-:name: DataHub Admin
+:name: DataHub Admin dashboard
 
 Here is how the admin dashboard looks like!
 ```
@@ -59,7 +59,7 @@ Follow the steps below to navigate admin interface:
 ```{figure} ../images/adminaccess.PNG
 :width: 500px
 :align: center
-:name: DataHub Admin snapshot
+:name: DataHub Admin options
 
 Here is where you can find admin option!
 ```
@@ -88,7 +88,7 @@ Here is how the control panel option looks like!
 ```{figure} ../images/adminaccess.PNG
 :width: 500px
 :align: center
-:name: DataHub Admin snapshot
+:name: DataHub Admin access
 
 Here is where you can find admin option!
 ```
