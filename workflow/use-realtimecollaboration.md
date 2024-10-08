@@ -15,7 +15,7 @@ RTC feature is still in a testing stage. New bugs get uncovered and are also fix
 ```
 
 ```{note}
-Please do keep in mind that if you as an instructor wants to distribute links to students enrolled in your course then you should consider generating and distributing links through [nbgitpuller](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#the-steps) pathway. However, If you are considering usecase around students working collaboratively using Jupyter notebooks then consider RTC.
+Please do keep in mind that if you as an instructor wants to distribute links to students enrolled in your course then you should consider generating and distributing links through [nbgitpuller](distributing-notebooks#the-steps) pathway. However, If you are considering usecase around students working collaboratively using Jupyter notebooks then consider RTC.
 ```
 We are looking for instructors who are interested to pilot RTC in their course setting. If you are interested in enabling RTC functionality then please do make a [github request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=type%3A+enhancement&projects=&template=featurerequest.md). Do keep in mind that you are deploying an early-stage bleeding edge version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.
 

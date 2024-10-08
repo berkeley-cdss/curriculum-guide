@@ -46,7 +46,7 @@ Students enrolled in your previous offering lose access to the shared directorie
 
 ##### SyncThing
 
-[SyncThing](https://syncthing.net/) is an application that allows users to share their files/folders with their collaborators through a dropox like functionality. You can store all your data in the SyncThing folder and share it with your collaborators. They can read data from the application into their Jupyter notebooks. Refer to this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html) that explains the approach to share files via SyncThing.
+[SyncThing](https://syncthing.net/) is an application that allows users to share their files/folders with their collaborators through a dropox like functionality. You can store all your data in the SyncThing folder and share it with your collaborators. They can read data from the application into their Jupyter notebooks. Refer to this [documentation](use-realtimefilesharing) that explains the approach to share files via SyncThing.
 
 ##### Outside Hosts
 
