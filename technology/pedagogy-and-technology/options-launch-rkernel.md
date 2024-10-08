@@ -13,7 +13,7 @@ Step 1: Install Anaconda distribution (JupyterLab application gets installed thr
 
 Step 2: Search for "Anaconda Powershell Prompt" and Open it. Run the following code to install R Kernel in Jupyter Lab,
 
-```{code}
+```bash
 conda install -c r r-essentials
 ```
 
@@ -30,7 +30,7 @@ The following is a screenshot of running this command in Anaconda Powershell Pro
 
 Step 3: Run the following command in "Anaconda Powershell Prompt" to install tidyverse packages
 
-```{code}
+```bash
 conda install -c r r-tidyverse
 ```
 
@@ -49,7 +49,7 @@ The following is a screenshot of running the command to install tidyverse packag
 
 Step 4: Run the following command to launch Jupyter Lab
 
-```{code}
+```bash
 jupyter lab
 ```
 
@@ -75,13 +75,13 @@ Step 1: Launch R Kernel in Google Colab by accessing this [link](https://colab.t
 
 Step 2: Check whether the tidyverse packages (or any other package you need) is already installed in Colab by using the following code,
 
-```{code}
+```R
 print(installed.packages())
 ```
 
 Step 3: If not installed, Install tidyverse package using the following command
 
-```{code}
+```R
 devtools::install_github("tidyverse/tidyverse")
 ```
 

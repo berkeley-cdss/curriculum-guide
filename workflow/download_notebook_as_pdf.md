@@ -22,52 +22,44 @@ File -> Save and Export Notebook As -> HTML
 :name: Download Jupyter Notebook as HTML
 ```
 
-````{note}
+```{note}
 When it comes to embedding images in Jupyter notebooks so that it is available as part of PDF, there are various methods to include images. Below are the five options to embed an image of an early Mathematica interface.
+```
 
-#### HTML Image Tag
+#### HTML Image
 
-```{code}
+```html
 <img src="mathematica.png" alt="Early Mathematica Interface" style="width: 250px;" class="center"/>
 ```
 
 This method uses standard HTML to embed an image. It is straightforward and allows for extensive customization through HTML attributes like style and class.
 
-#### Markdown Image Syntax
+#### Markdown Image
 
-```{code}
+```markdown
 ![mathematica](mathematica.png)
 ```
 
 Markdown provides a simple syntax for embedding images. This method is concise and ideal for use in Markdown cells in Jupyter notebooks.
 
-#### HTML in Markdown Cell
+#### Markdown Image with Attachment
 
-```{code}
-<img src="https://rtl.berkeley.edu/profiles/openberkeley/themes/openberkeley_theme_brand/assets/images/berkeley_wordmark_blue_175x70.svg" alt="Berkeley Logo" style="width: 250px;" class="center"/>
+```markdown
+![mathematica.png](attachment:5265a161-c705-42fc-a3ed-ec1fde427030.png)
 ``` 
 
-Embedding an image using HTML within a Markdown cell offers the flexibility of HTML while allowing the cell to remain in Markdown mode. This is useful for more complex styling and alignment requirements.
+This method is used to embed an image as an attachment within a Jupyter notebook. It references the image by its attachment identifier, which is useful for images embedded directly within the notebook file.
+
+```{warning}
+All image links referred as part of the Jupyter Notebook should use *https://* and not *http://*. Serving http content within https pages are referred to as [mixed content requests](https://www.cloudflare.com/learning/ssl/what-is-mixed-content). Modern browsers consider these requests to be a security risk and will refuse to load them when using default security settings.
+```
 
 #### IPython Display Module
 
-```{code}
+```python
 from IPython.display import display, Image
 display(Image(filename="mathematica.png", width=250))\
 ``` 
 
 The IPython.display module provides functions to display images directly in Jupyter notebooks.
 
-#### Markdown Image with Attachment
-
-```{code}
-![mathematica.png](attachment:5265a161-c705-42fc-a3ed-ec1fde427030.png)
-``` 
-
-This method is used to embed an image as an attachment within a Jupyter notebook. It references the image by its attachment identifier, which is useful for images embedded directly within the notebook file.
-
-````
-
-```{warning}
-All image links referred as part of the Jupyter Notebook should be adhering to https and not http. Serving http content within https pages are referred to as [mixed content requests](https://www.cloudflare.com/learning/ssl/what-is-mixed-content). Modern browsers consider these requests to be a security risk and will refuse to load them when using default security settings.
-````

@@ -1,16 +1,18 @@
-# Accessing Elevated Privileges in a Hub
+---
+title: Accessing Elevated Privileges in a Hub
+---
 
 ```{note}
 Curious about elevated privileges in DataHub? If yes, read below!
 
 ```
 
-**What does elevated privilege in an hub mean?**
+## What are elevated privileges?
 
-Elevated privilege provides the necessary features required to troubleshoot students notebook interface in the hub. If you are an admin user, you can do the following,
+Elevated privilege enable course staff to troubleshoot students notebook interface in the hub. If you have such privileges, you can:
 
-1. You can start and stop the students' server in your dedicated hub
-2. You can access the student server to debug issues in their notebook
+1. Start and stop students' servers
+2. Access students' servers to debug issues
 
 ```{warning}
 Elevated privileges are hub-wide. If you have a GSI teaching your course using a particular hub but is acting as a student in another course which uses the same hub, then this can result in a conflict of interest. Please report such scenarios to the infrastructure team so that we can take the necessary corrective action.
@@ -26,7 +28,7 @@ Check this image to know your privileges for the admin option,
 Here is how the admin dashboard looks like!
 ```
 
-**How do I get elevated privileges?**
+## Obtaining Elevated Privileges
 
 We generally recommend the teaching team alone to have elevated privileges in the hubs they use for the instructional purposes. If you satisfy the above criteria, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml).The infrastructure team will assist in the process of assigning elevated privileges to the instructors.
 
@@ -47,9 +49,9 @@ To assign elevated privileges to a set of people other than all course staff, fo
 If you need any help during this process of creating bcourses groups, please reach out to bcourseshelp@berkeley.edu. Please keep in mind that the bcourses page for the course should be published so that users requiring elevated privileges actually have the required access. 
 ```
 
-**How do I navigate to the admin portal?**
+## Admin Interface
 
-Please follow the steps below to navigate admin interface,
+Follow the steps below to navigate admin interface:
 
 - Login to your hub instance
 - Click the admin option from the top bar
