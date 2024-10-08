@@ -30,8 +30,7 @@ parts:
     title: Shiny  
   - file: technology/quarto
     title: Quarto
-  - file: workflow/launch-vscode.md
-    title: VSCode
+  - file: workflow/vscode.md
   - file: workflow/real-time-collaboration
   - file: workflow/use-realtimefilesharing
     title: Real Time File Sharing
