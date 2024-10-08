@@ -157,7 +157,7 @@ Here is where you can find the option to download the R file!
 ```{figure} ../images/knittingpdf.PNG
 :width: 500px
 :align: center
-:name: Downloading notebook as a PDF
+:name: Knitting a PDF
 Here is where you can find the option to specify the download format as PDF!
 ```
 
