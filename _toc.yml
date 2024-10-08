@@ -32,8 +32,6 @@ parts:
     title: Quarto
   - file: workflow/launch-vscode.md
     title: VSCode
-  - file: workflow/use-retrolab
-    title: RetroLab
   - file: workflow/real-time-collaboration
   - file: workflow/use-realtimefilesharing
     title: Real Time File Sharing
