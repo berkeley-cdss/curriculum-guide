@@ -1,4 +1,6 @@
-# Download files as an archive
+---
+title: Download Files in Bulk
+---
 
 You have an option to download all your assignments/projects as an archive file without going through the hassle of downloading each file individually. [Jupyter Archive](https://github.com/jupyterlab-contrib/jupyter-archive) package allows users to download their files/folders as single archive file.
 
@@ -6,11 +8,11 @@ There are couple of options you can use to download all your files in DataHub as
 - Download Current Folder as an Archive
 - Download as an Archive
 
-### Download Current Folder as an Archive
+### Current Folder
 
 You can navigate to the folder you want to download and then select this option to download all the folders/files located within this folder. This option downloads all the contents of the current folder as a single zip file.
 
-### Download as an Archive
+### Selecting Folders
 
 You can select the individual folders you want to download and select this option which downloads each folder as seperate zip file.
 

@@ -1,51 +1,47 @@
-# Using gh-scoped-creds to securely push changes to Github repository
-
+---
+title: Secure Git Workflows
 ---
 
-## **GitHub Scoped Credentials**
-
-### Purpose:
 [gh-scoped-creds](https://github.com/jupyterhub/gh-scoped-creds) allows instructors and students using DataHub to securely push changes to specific GitHub repositories without exposing broader access or long-term credentials.
 
-### Goals:
-1. **Secure Repository Access**: Users can push only to specific repositories.
-2. **Temporary Credentials**: No long-term storage of sensitive data.
-3. **Admin Control**: GitHub organization admins manage which repositories can be accessed.
+## Goals
+1. Secure Repository Access: Users can push only to specific repositories.
+2. Temporary Credentials: No long-term storage of sensitive data.
+3. Admin Control: GitHub organization admins manage which repositories can be accessed.
 
-### How It Works:
-1. **GitHub App**: A GitHub app is created for DataHub.
-2. **Temporary Tokens**: Use the command line tool `gh-scoped-creds` to get a temporary push token.
-3. **Integration**: Use `%ghscopedcreds` in Jupyter notebooks for easy access.
+## How It Works
+1. GitHub App: A GitHub app is created for DataHub.
+2. Temporary Tokens: Use the command line tool `gh-scoped-creds` to get a temporary push token.
+3. Integration: Use `%ghscopedcreds` in Jupyter notebooks for easy access.
 
-### Requesting Access/Installation:
+## Requesting Access/Installation
 
-1. **Install the GithHub App**:
-   - Reach out to infra admins inorder to get the URL for the GitHub app that you need to install. Click the green button "install" after navigating to the app URL to install the app. Eg: Here is the list of [GitHub apps](https://github.com/organizations/berkeley-dsep-infra/settings/apps/) created for varied hubs.
+1. Install the GithHub App
+   - Reach out to infra admins in order to get the URL for the GitHub app that you need to install. Click the green button "install" after navigating to the app URL to install the app. Eg: Here is the list of [GitHub apps](https://github.com/organizations/berkeley-dsep-infra/settings/apps/) created for varied hubs.
    - Select specific repositories for which you want to grant read and write access.
 
-2. **Add gh-scoped-creds Package to Hub Image**:
+2. Add gh-scoped-creds Package to Hub Image
    - Request admins to add `gh-scoped-creds` to the hub's image by specifying the hub you are using via this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y). Here is a [sample request](https://github.com/berkeley-dsep-infra/datahub/issues/4879) for adding `gh-scoped-creds` in Data100 hub. 
 
-### Using the Tool:
+## Using the Tool
 
-1. **Run the Tool**:
-    ```bash
-    gh-scoped-creds
-    ```
-   - Follow the instructions to authenticate and obtain a temporary token.
+Run `gh-scoped-creds` and follow the instructions to authenticate and obtain a temporary token.
 
-2. **In Jupyter Notebook**:
-    ```python
-    import gh_scoped_creds
-    %ghscopedcreds
-    ```
-   - Authenticate as prompted.
+From the terminal:
+```bash
+gh-scoped-creds
+```
 
-### Security Notes:
-- Authentication lasts for 8 hours.
+From a Jupyter Notebook:
+```python
+import gh_scoped_creds
+%ghscopedcreds
+```
+## Security Notes
+- Authentication lasts for 8 hours or until a user server is stopped.
 - Regularly update permissions to ensure security.
 
-### Troubleshooting:
+## Troubleshooting
 - Check the GitHub App settings for correct permissions.
 
 For more details, visit the [GitHub repository](https://github.com/jupyterhub/gh-scoped-creds).
