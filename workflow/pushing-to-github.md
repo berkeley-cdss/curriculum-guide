@@ -1,16 +1,16 @@
 ---
-title: Uploading Files to GitHub
+title: Using GitHub
 ---
 
 ## What are Git and GitHub?
 
-Git is a version control software that tracks changes in files and allows multiple users to work on the same files in parallel smoothly. Git is often used in conjunction with GitHub, a website that hosts code and files. A repository \(aka repo\) on GitHub holds the files for a specific project. GitHub’s web interface also displays the information that Git tracks, such as which users are working on a file and what changes have been made to the file.
+Git is a version control software that tracks changes in files and allows multiple users to work on the same files in parallel smoothly. Git is often used in conjunction with GitHub, a website that hosts code and files. A repository (aka repo) on GitHub holds the files for a specific project. GitHub’s web interface also displays the information that Git tracks, such as which users are working on a file and what changes have been made to the file.
 
 ## Why should I store materials on GitHub?
 
-Storing materials on the GitHub allows you to use interact links for assignment distribution. It's also allows you to use the version control features that Git provides. Most connector courses have a public and private repo for their courses in the data-8 GitHub organization, which acts a centralized location for the material across semesters.
+Storing materials on the GitHub allows you to use hyperlinks for assignment distribution. It also allows you to use the version control features that Git provides. Use of both public and private repos centralizes course material across semesters.
 
-## Using the Web Interface
+## Using github.com
 
 You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, download the notebook onto your computer. Then, go to your connector's GitHub repository and click `Upload Files` on the right side.
 
@@ -28,7 +28,7 @@ Once you've gone through the above steps, you can save your changes. A set of ch
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319717/9f1fb81e-fa8c-11e6-86ae-074f2c11e9f5.png)
 
-## Using the Command Line
+## Using git
 
 GitHub can also be used via the command line. We will not go into the details of how to use Git in this guide as there are many online resources on this topic. One resource for using Git over the command line is linked at the bottom of this page.
 
