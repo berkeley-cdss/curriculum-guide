@@ -58,8 +58,7 @@ parts:
     title: Download Jupyter Notebook as PDF
   - file: workflow/download-archive.md
     title: Download DataHub home directory contents as archive
-  - file: workflow/performance_issue.md
-    title: Best Practices to Avoid Performance Issues
+  - file: workflow/performance-issue.md
   - file: workflow/calculate-compute-cost.ipynb
     title: Cost of Compute Intensive Scenarios
   - file: workflow/securely-push-github
