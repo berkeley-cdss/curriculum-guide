@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 2ce788e4-dec4-4701-a14a-efa5af0b2a1d
-  title: UC Berkeley Data Science Cirriculum Guide
+  title: UC Berkeley Data Science Curriculum Guide
   # description:
   # keywords: []
   # authors: []
@@ -17,7 +17,7 @@ site:
   template: book-theme
   # options:
   #   favicon: favicon.ico
-  title: UC Berkeley Data Science Cirriculum Guide
+  title: UC Berkeley Data Science Curriculum Guide
   logo: assets/logo.png
   domains:
     - curriculum-guide.datahub.berkeley.edu
