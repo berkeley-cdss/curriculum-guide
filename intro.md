@@ -2,23 +2,41 @@
 
 ## What is this guide and who is it for?
 
-The information in the guide is primarily intended for 
+The information in the guide is primarily intended for:
 
-a) Instructors who either currently are or will be teaching a course using the DataHub (Campus JupyterHub) and
-b) Students who are enrolled in courses using DataHub and want to learn about the tools/resources available for them.
+1. Instructors who either currently are or will be teaching a course using the DataHub (Campus JupyterHub).
+1. Students who are enrolled in courses using DataHub and want to learn about the tools and resources available for them.
 
 ## How should I use this guide?
 
 The information is divided up into six sections:
-1. **Getting Started With the DataHub tools**: Guide to familiarize you with the DataHub platform and its essential tools.
-2. **Workflow Basics**: This section covers information around creating, distributing, and grading assignments.
-3. **DataHub Frequently Asked Questions (FAQ)**: Comprehensive FAQ section that addresses common questions and issues encountered by DataHub users.
-4. **Resources for Students**: Curated resources tailored for students enrolled in DataScience courses.
-5. **Getting Started With the Modules and Connectors**: An overview of the different Data Science Education course types.
-6. **Creating a Connector**: A guide to the pre-course set-up for a Connector course.
-7. **Making a Module**: A guide to the pre-course set-up for a Module.
-8. **Workshop Resources**: This section contains resources for facilitating outreach workshops.
-9. **Reference**: Useful people, terms, and contact information to know.
+
+Getting Started With the DataHub tools
+: Guide to familiarize you with the DataHub platform and its essential tools.
+
+Workflow Basics
+: This section covers information around creating, distributing, and grading assignments.
+
+DataHub Frequently Asked Questions (FAQ)
+: Comprehensive FAQ section that addresses common questions and issues encountered by DataHub users.
+
+Resources for Students
+: Curated resources tailored for students enrolled in DataScience courses.
+
+Getting Started With the Modules and Connectors
+: An overview of the different Data Science Education course types.
+
+Creating a Connector
+: A guide to the pre-course set-up for a Connector course.
+
+Making a Module
+: A guide to the pre-course set-up for a Module.
+
+Workshop Resources
+: This section contains resources for facilitating outreach workshops.
+
+Reference
+: Useful people, terms, and contact information to know.
 
 The first time you read through the material, you might go through the topics in order. After the first read, you could refer back to specific sections when seeking answers to questions.
 
