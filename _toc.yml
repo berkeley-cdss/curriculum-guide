@@ -31,7 +31,6 @@ parts:
   - file: technology/vscode.md
   - file: technology/real-time-collaboration
   - file: technology/syncthing
-  - file: technology/pedagogy-and-technology/external
 - caption: Workflow Basics
   chapters:
   - file: workflow/creating-notebooks
@@ -61,6 +60,7 @@ parts:
     title: Work with Large Datasets
   - file: workflow/bestpractices
     title: Instructional Design Best Practices for Creating Jupyter Notebooks
+  - file: workflow/external-technology
   # FIXME: r-datahub has very little to do with using R on DataHub
   - file: workflow/r-datahub
   - file: faq/share
