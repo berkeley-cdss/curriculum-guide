@@ -1,14 +1,16 @@
-# Jupyter Notebooks and JupyterHub
+---
+title: Jupyter Notebooks and JupyterHub
+---
 
-### What are Jupyter Notebooks?
+## Jupyter Notebooks
 
-Data 8 and most connector courses use Jupyter notebooks for assignments. Jupyter notebooks are a tool used for in-browser computing that allow code, text, and visualizations to be included on the same page. Students are able to analyze, document, and visualize their code, all in a single computational document. If you are new to Jupyter notebooks, you can read more about them on the [Project Jupyter website](http://jupyter.org/) and in this [blog post](http://data.berkeley.edu/news/coursefuture).
+[Jupyter](https://jupyter.org) notebooks are a tool used for in-browser computing that allow code, text, and visualizations to be included on the same page. Students are able to [analyze, document, and visualize their code](https://cdss.berkeley.edu/news/course-future-and-technology-behind-it), all in a single computational document.
 
-### What is JupyterHub?
+## JupyterHub
 
-If you have worked with Jupyter notebooks before, you probably used a local installation. Jupyter notebooks can be created, run, and stored on your personal computer. In order to do all this, you have to install several different programs and the installation process can be very tedious and error-prone. Even after you have finished installing everything, you may still see errors in the future for various reasons \(versions of software become outdated, you install conflicting software, etc.\). To avoid the frustrations of setting up and maintaining the programming environment needed for Jupyter notebooks, we set up a JupyterHub for use in CDSS courses.
+If you have worked with Jupyter notebooks before, you probably used a local installation. Jupyter notebooks can be created, run, and stored on your personal computer. In order to do all this, you have to install several different programs and the installation process can be very tedious and error-prone. Even after you have finished installing everything, you may still see errors in the future for various reasons. (versions of software become outdated, you install conflicting software, etc.)
 
-The term JupyterHub refers to the infrastructure set up on datahub.berkeley.edu. This site provides both cloud-based internet storage and computation power for notebooks. Instructors and students can work on and store assignments entirely through JupyterHub. No local installation of Python, Jupyter, etc. is needed. All you need is a browser to get started! This allows students in Data 8 and connector courses to start working on notebooks from day one.
+To avoid the frustrations of setting up and maintaining the programming environment needed for Jupyter notebooks, we have deployed a JupyterHub -- up a multi-user web service that enables users to launch Jupyter notebooks in the cloud. We have named the service [DataHub](https://cdss.berkeley.edu/datahub). Instructors and students can work on and store assignments entirely through JupyterHub. No local installation of Python, Jupyter, etc. is needed. One only needs a browser to get started, which means data science students can start working in notebooks from day one.
 
 ### Why does JupyterHub exist?
 
@@ -21,19 +23,14 @@ Working on JupyterHub provides a number of benefits, especially in an introducto
 
 ### Differences from local installation
 
-| **JupyterHub** | **Local Setup** |
+| JupyterHub | Local Setup |
 | :--- | :--- |
 | Needs an internet connection | Does not need an internet connection |
-| Limited resources \(disk and RAM\) | Unlimited resources \(limited only by your computer\) |
+| Limited resources (disk and RAM) | Unlimited resources (limited only by your computer) |
 | System-wide installation done by admins | You can install anything you want |
-| You can only access files in your account | You can maybe access all files \(if you are an admin\) |
-| If things break, we fix them :\) | If things break, you have to fix them :\( |
+| You can only access files in your account | You can maybe access all files (if you are an admin) |
+| If things break, we fix them :) | If things break, you have to fix them |
 
-### Overview of the Internals
+## Getting Access
 
-The first time you logs in to JupyterHub, a personal account is created for you. You will get your own filesystem so you only have access to the files in your personal account. **Modifications to files in your personal account do not affect anyone else's files.** Unless you are an admin, you cannot access another account's files. This applies to everyone working on JupyterHub, which means a given student cannot access another student's work.
-
-### Getting Access
-
-Anyone with Berkeley credentials has access to the JupyterHub at [datahub.berkeley.edu](https://datahub.berkeley.edu). If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
-
+Anyone with Berkeley credentials has access to the JupyterHub at [datahub.berkeley.edu](https://datahub.berkeley.edu). If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login.
