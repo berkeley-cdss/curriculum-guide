@@ -12,4 +12,6 @@ title: JupyterLab
 Screenshot of JupyterLab.
 ```
 
-Besides the built-in features, there are numerous extensions that can be used to augment its features.
+JupyterLab supports many different programming languages such as Python, R, and Julia. The languages are made available through [kernels](https://docs.jupyter.org/en/stable/projects/kernels.html). The main hub has both Python and R kernels while, Julia is available on [Julia Hub](https://julia.datahub.berkeley.edu).
+
+Besides the built-in features, there are numerous [extensions](https://jupyterlab.readthedocs.io/en/latest/user/extensions.html) that can be used to augment its features.

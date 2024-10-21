@@ -38,12 +38,10 @@ parts:
     title: Create Assignments
   - file: technology/pedagogy-and-technology/notebook-zero
     title: Notebook Zero
+  - file: workflow/distributing-files
+  - file: workflow/pushing-to-github
   - file: workflow/accessibility
     title: Create Accessible Notebook Experience
-  - file: workflow/pushing-to-github
-    title: Upload Files to Github
-  - file: workflow/distributing-notebooks
-    title: Distribute Assignments
   - file: workflow/collecting-grading-assignments
     title: Collect and Grade Assignments
   - file: workflow/download_notebook_as_pdf.md
