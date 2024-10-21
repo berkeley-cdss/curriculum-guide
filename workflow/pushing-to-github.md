@@ -10,7 +10,7 @@ Git is a version control software that tracks changes in files and allows multip
 
 Storing materials on the GitHub allows you to use hyperlinks for assignment distribution. It also allows you to use the version control features that Git provides. Use of both public and private repos centralizes course material across semesters.
 
-## Using github.com
+## Using GitHub
 
 You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, download the notebook onto your computer. Then, go to your connector's GitHub repository and click `Upload Files` on the right side.
 
