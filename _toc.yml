@@ -20,19 +20,17 @@ format: jb-book
 root: intro
 title: Home
 parts:
-- caption: Getting started with DataHub tools
+- caption: Getting Started with DataHub
   chapters:
   - file: technology/pedagogy-and-technology/introduction-to-jupyter
     title: Jupyter Notebooks and JupyterHub
-  - file: technology/r-datahub
-    title: R Hub
+  - file: technology/rstudio
   - file: technology/shiny
-    title: Shiny  
   - file: technology/quarto
-    title: Quarto
-  - file: workflow/vscode.md
-  - file: workflow/real-time-collaboration
-  - file: workflow/syncthing
+  - file: technology/remote-desktop
+  - file: technology/vscode.md
+  - file: technology/real-time-collaboration
+  - file: technology/syncthing
   - file: technology/pedagogy-and-technology/external
 - caption: Workflow Basics
   chapters:
@@ -63,6 +61,8 @@ parts:
     title: Work with Large Datasets
   - file: workflow/bestpractices
     title: Instructional Design Best Practices for Creating Jupyter Notebooks
+  # FIXME: r-datahub has very little to do with using R on DataHub
+  - file: workflow/r-datahub
   - file: faq/share
     title: Sharing information about the Hub
 - caption: DataHub Frequently Asked Questions (FAQ)
