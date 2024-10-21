@@ -24,6 +24,7 @@ parts:
   chapters:
   - file: technology/pedagogy-and-technology/introduction-to-jupyter
     title: Jupyter Notebooks and JupyterHub
+  - file: technology/jupyterlab
   - file: technology/rstudio
   - file: technology/shiny
   - file: technology/quarto
