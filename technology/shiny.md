@@ -9,7 +9,7 @@ dashboards.
 ```{figure} ../images/shiny_combined.gif
 :width: 500px
 :align: center
-:name: Shiny Demo
+:name: Shiny demo on DataHub
 
 Short demo of Shiny application on DataHub
 ```

@@ -25,47 +25,22 @@ jupyter lab
 
 The following is a screenshot of Jupyter running the R kernel.
 
-```{figure} ../../images/jupyter_notebook_r_kernel.jpg
+```{figure} ../images/jupyter_notebook_r_kernel.jpg
 :width: 500px
 :align: center
 :name: Jupyter Notebook with R Kernel
-```
-
-## Google Colab
-
-Step 1: Launch R Kernel in Google Colab by accessing this [link](https://colab.to/r)
-
-Step 2: Check whether the tidyverse packages (or any other package you need) is already installed in Colab by using the following code,
-
-```R
-print(installed.packages())
-```
-
-Step 3: If not installed, Install tidyverse package using the following command
-
-```R
-devtools::install_github("tidyverse/tidyverse")
 ```
 
 ## Binder
 
 [Binder](https://mybinder.org) enables users to launch Python and R notebooks in a free and open executable environment. Launch [Jupyter R notebook](https://notebooks.gesis.org/binder/jupyter/user/binder-examples-r-conda-ofu958y9/lab) or [R Studio](https://mybinder.org/v2/gh/binder-examples/r-conda/master?urlpath=rstudio) using the shared binder links.
 
-## RStudio
+## RStudio Cloud and Desktop
 
-If you are a RStudio fan, you can access [RStudio Cloud](https://rstudio.cloud/plans/instructor) where you can purchase a hosted environment for your coursework.
+You can purchases a hosted [RStudio Cloud](https://rstudio.cloud/plans/instructor) environment for your coursework. Students would need to create RStudio accounts. They would also need to upload and download assignments to/from their RStudio cloud accounts. The is also a [free tier account](https://rstudio.cloud/plans/free).
 
-```{note}
-Students need to create R Studio accounts.
-```
+If you don't want to use RStudio Cloud, you can ask students to download and install [RStudio Desktop](https://www.rstudio.com/products/rstudio/) onto their own device.
 
-If you don't want to purchase an RStudio cloud account, you can ask students to download and install a free [RStudio Desktop application](https://www.rstudio.com/products/rstudio/) on their desktop or use the [free tier account](https://rstudio.cloud/plans/free).
+## Google Colab
 
-```{note}
-
-Workflow while using free RStudio cloud account would look like below,
-
-- Students need to download their homework from the github repository/canvas/google drive. 
-- They should upload the homework to their RStudio server account. 
-- Post completion, They should download the completed homework from RStudio server account.
-```
+You can launch Python or R based notebook environments on [Google Colab](https://colab.research.google.com).

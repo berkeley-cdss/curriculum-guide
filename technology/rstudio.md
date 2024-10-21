@@ -17,7 +17,7 @@ RStudio is available on many of our R-based hubs, and is the default application
 
 ## RStudio Applications
 
-RStudio has integration with applications such as [Quarto](quarto) and [Shiny](shiny). These applications should work as they do on desktop machines. Windows and tabs will be launched as expected.
+RStudio has integration with applications such as [Quarto](quarto.md) and [Shiny](shiny.md). These applications should work as they do on desktop machines. Windows and tabs will be launched as expected.
 
 ## Using nbgitpuller
 
