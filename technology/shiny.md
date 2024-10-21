@@ -18,36 +18,26 @@ If you are interested to explore Shiny application further then you can play
 with [examples from Posit](https://github.com/rstudio/shiny-examples) and some
 [from a Stat instructor](https://github.com/gastonstat/shiny-introstats/).
 
-## Using nbgitpuller
 
-- Install the nbgitpuller plugin for [Google Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/).
-- Upload the chosen Shiny application to a GitHub repository.
-- Paste the URL for the datahub you are using (If you are using Shiny hub then paste https://shiny.datahub.berkeley.edu/) and open it using "Shiny" option in the nbgitpuller plugin.
+## Distributing and Running Shiny Apps
 
-```{figure} ../images/launchshinyapp.PNG
-:width: 500px
+You can use [nbgitpuller](nbgitpuller.md) to distribute a shiny application. Specify a URL of `/shiny`. You can also specify the full path to the shiny app. For example if the application exists in `course-repo/app1`, the `nbgitpuller` custom URL would be `shiny/course-repo/app1`.
+
+Users can also run Shiny from the JupyterLab launcher. This will display a shiny file browser.
+
+```{figure} ../images/shiny-launcher.png
 :align: center
-:name: Shiny via nbgitpuller link
+:name: Shiny launcher
 
-Launch Shiny application via nbgitpuller plugin
+Shiny launcher button.
 ```
-- Paste the link in a browser to access the shiny application. Here is an example [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Frstudio%2Fshiny-examples&branch=main&urlpath=shiny%2Fshiny-examples%2F003-reactivity%2F).
 
 ## Manual Application Installation
 
 - Clone the required [GitHub repository](https://github.com/rstudio/shiny-examples) having Shiny examples to your instance of Jupyterhub.
 - Launch the Shiny server.
 
-```{figure} ../images/launchshiny.PNG
-:width: 500px
-:align: center
-:name: Shiny
-
-Short Launch Shiny
-```
-
-- Point the Shiny server to an example from the cloned repository.
-- Explore the rendered example using shiny dashboard.
+## Example
 
 ```{figure} ../images/shinyDashboard.PNG
 :width: 500px
