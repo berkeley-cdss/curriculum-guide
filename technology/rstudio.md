@@ -21,4 +21,4 @@ RStudio has integration with applications such as [Quarto](quarto) and [Shiny](s
 
 ## Using nbgitpuller
 
-One can use nbgitpuller to pull in code and data, however unlike JupyterLab, RStudio cannot be configured to open a specific document at server launch. One must manually navigate to the pulled file.
+As one might do with Jupyter notebooks, one can use nbgitpuller to pull in code and data into hub environments with RStudio. However unlike JupyterLab, the web-based version of RStudio cannot be configured to open a specific document at server launch. After launching the server, one must manually navigate to the pulled file.

@@ -1,21 +1,29 @@
-# Shiny
+---
+title: Shiny
+---
 
-[Shiny](https://shiny.rstudio.com/) is a R package which makes it easy to build interactive web apps. R shiny server in DataHub is used to build interactive dashboards. Here is a short demo of a shiny application below,
+[Shiny](https://shiny.posit.co) is a platform that makes it easy to build
+interactive web apps. R shiny server in DataHub is used to build interactive
+dashboards.
 
 ```{figure} ../images/shiny_combined.gif
 :width: 500px
 :align: center
 :name: Shiny Demo
 
-Short Demo to launch Shiny application in DataHub
+Short demo of Shiny application on DataHub
 ```
 
-If you are interested to explore Shiny application further then you can play with examples from this [Github repository](https://github.com/rstudio/shiny-examples) and [few other examples](https://github.com/gastonstat/shiny-introstats/) created by a stats faculty. Here are couple of approaches you can take to launch a shiny application,
+If you are interested to explore Shiny application further then you can play
+with [examples from Posit](https://github.com/rstudio/shiny-examples) and some
+[from a Stat instructor](https://github.com/gastonstat/shiny-introstats/).
 
-**Approach I:**
-- Install the nbgitpuller plugin in [Google Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc)/[Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) browser.
-- Upload the chosen Shiny application to Github
+## Using nbgitpuller
+
+- Install the nbgitpuller plugin for [Google Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/).
+- Upload the chosen Shiny application to a GitHub repository.
 - Paste the URL for the datahub you are using (If you are using Shiny hub then paste https://shiny.datahub.berkeley.edu/) and open it using "Shiny" option in the nbgitpuller plugin.
+
 ```{figure} ../images/launchshinyapp.PNG
 :width: 500px
 :align: center
@@ -25,7 +33,7 @@ Launch Shiny application via nbgitpuller plugin
 ```
 - Paste the link in a browser to access the shiny application. Here is an example [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Frstudio%2Fshiny-examples&branch=main&urlpath=shiny%2Fshiny-examples%2F003-reactivity%2F).
 
-**Approach II:**
+## Manual Application Installation
 
 - Clone the required [GitHub repository](https://github.com/rstudio/shiny-examples) having Shiny examples to your instance of Jupyterhub.
 - Launch the Shiny server.
