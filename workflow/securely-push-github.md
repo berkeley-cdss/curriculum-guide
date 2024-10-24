@@ -2,26 +2,16 @@
 title: Secure Git Workflows
 ---
 
-[gh-scoped-creds](https://github.com/jupyterhub/gh-scoped-creds) allows instructors and students using DataHub to securely push changes to specific GitHub repositories without exposing broader access or long-term credentials.
+DataHub users can securely push changes to specific GitHub repositories (include private repositories) without saving personal access tokens or SSH keys in their DataHub accounts. This is facilitated by the use of a GitHub App prepared by DataHub staff and installed by privileged users into their repositories with select privileges.
 
-## Goals
-1. Secure Repository Access: Users can push only to specific repositories.
-2. Temporary Credentials: No long-term storage of sensitive data.
-3. Admin Control: GitHub organization admins manage which repositories can be accessed.
+Note that everyone on the hub will have the same level of access to your repo that you designate.
 
-## How It Works
-1. GitHub App: A GitHub app is created for DataHub.
-2. Temporary Tokens: Use the command line tool `gh-scoped-creds` to get a temporary push token.
-3. Integration: Use `%ghscopedcreds` in Jupyter notebooks for easy access.
+## Berkeley DataHub Private Repo
 
-## Requesting Access/Installation
-
-1. Install the GithHub App
-   - Reach out to infra admins in order to get the URL for the GitHub app that you need to install. Click the green button "install" after navigating to the app URL to install the app. Eg: Here is the list of [GitHub apps](https://github.com/organizations/berkeley-dsep-infra/settings/apps/) created for varied hubs.
-   - Select specific repositories for which you want to grant read and write access.
-
-2. Add gh-scoped-creds Package to Hub Image
-   - Request admins to add `gh-scoped-creds` to the hub's image by specifying the hub you are using via this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y). Here is a [sample request](https://github.com/berkeley-dsep-infra/datahub/issues/4879) for adding `gh-scoped-creds` in Data100 hub. 
+1. The [Berkeley DataHub Private Repo](https://github.com/apps/berkeley-datahub-private-repo) application must be installed into the desired repositories. Visit the app and click the green "install" button.
+1. Select the organization or user containing the private repository. If you are not the owner or administrator of this organization, you might need extra permissions to do this action.
+1. Select ‘Only select repositories’, and below that select the private repositories you want to distribute to this JupyterHub.
+1. Click the ‘Install’ button. You can revoke this anytime by coming back to this page, and removing the repo from the list of allowed repos. You can also totally uninstall the GitHub app.
 
 ## Using the Tool
 
@@ -44,4 +34,4 @@ import gh_scoped_creds
 ## Troubleshooting
 - Check the GitHub App settings for correct permissions.
 
-For more details, visit the [GitHub repository](https://github.com/jupyterhub/gh-scoped-creds).
+For more details, visit the [gh-scoped-creds repository](https://github.com/jupyterhub/gh-scoped-creds).

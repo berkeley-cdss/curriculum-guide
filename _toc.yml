@@ -41,6 +41,7 @@ parts:
     title: Notebook Zero
   - file: workflow/distributing-files
   - file: workflow/pushing-to-github
+  - file: workflow/securely-push-github
   - file: workflow/accessibility
     title: Create Accessible Notebook Experience
   - file: workflow/collecting-grading-assignments
@@ -52,8 +53,6 @@ parts:
   - file: workflow/performance-issue.md
   - file: workflow/calculate-compute-cost.ipynb
     title: Cost of Compute Intensive Scenarios
-  - file: workflow/securely-push-github
-    title: Securely Push Changes to Github
   - file: technology/using-ai-llm
     title: Generative AI Usecase in DataHub
   - file: technology/jupyter/large-datasets
