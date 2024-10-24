@@ -34,6 +34,7 @@ parts:
   - file: technology/syncthing
 - caption: Workflow Basics
   chapters:
+  - file: workflow/logging-in
   - file: workflow/creating-notebooks
     title: Create Assignments
   - file: technology/pedagogy-and-technology/notebook-zero
