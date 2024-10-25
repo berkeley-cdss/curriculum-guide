@@ -21,21 +21,6 @@
 
 **Otter Grader Upgrade:** If you are interested in moving to the latest versions of otter-grader then please reach out to sean.smorris@berkeley.edu and ericvd@berkeley.edu.
 
-##### DataHub - Support Overview 
-
-**GitHub Issues:** The best way for instructional staff to request help with the DataHub is through filing an issue using the [GitHub templates](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
-
-**Slack Channel:** If you have anything you'd like to discuss with w/the infra team, please join the Slack channel. Access [uctech.slack.com](http://uctech.slack.com/) (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to interact with the infra team.
-
-**DataHub Service Lead:** In addition, you can reach out to Balaji Alwar <balajialwar@berkeley.edu> directly if there are time-sensitive issues.
-
-##### DataHub - Common Requests 
-**Packages:** Please test your assignments for hub compatibility before the start of the semester. Check whether all the needed Python/R packages and their required versions are installed. If not, please use the [package request template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=package-request&template=package_request.yml&title=Request+python+package+X+for+class+Y) to raise a request to the infra team.  The Infra team requires at least 2 business days for a turnaround on support requests such as this.
-
-**Elevated Privilege Access:** You can use this [GitHub template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to request [elevated privileges](admin?highlight=admin) for course staff to troubleshoot student servers in the requested hub.
-
-**Big Assignments / High Use times:** You can share the important date(s)/time(s) for workshops/exams/assignments etc. when you expect the resource requirement to be greater than usual. We will review your request and get back to you directly about the feasibility of increasing resources. You can provide us with all the relevant information using the [calendar event scheduling template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=support&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29).
-
 ##### Other Updates
 
 **a11y Documentation:** For further insights into improving the accessibility of the Jupyter Notebook/Lab experience for students, please review this [documentation](accessibility?highlight=accessibility) that provides a few tips for improving the accessibility of the notebooks.
@@ -68,7 +53,6 @@ We have 15+ hubs which cater to the diverse needs of the campus audience. We hav
 - If your consumed memory is greater than the available memory for your instance then your server will crash resulting in you either optimizing your workflow to be less compute intensive or requesting additional RAM,
 
 ```{figure} ../images/memory.png
-:width: 500px
 :align: center
 :name: Available Memory
 
@@ -142,20 +126,17 @@ We recommend that you use the following options,
  
 - **For Jupyter Notebooks:** Select File -> Download as -> WebPDF to download the PDF version of your notebook.
 ```{figure} ../images/downloadhtml.PNG
-:width: 500px
 :align: center
 :name: Downloading notebook as a PDF 
 Here is where you can find the option to download the Python notebook as a PDF!
 ```
 - **For R files:** Select File -> Knit Document -> Select the target folder -> Select the Output Format as PDF to save the PDF version of the file
  ```{figure} ../images/knitting.PNG
-:width: 500px
 :align: center
 :name: Downloading R notebook as a PDF
 Here is where you can find the option to download the R file!
 ```
 ```{figure} ../images/knittingpdf.PNG
-:width: 500px
 :align: center
 :name: Knitting a PDF
 Here is where you can find the option to specify the download format as PDF!
