@@ -9,7 +9,6 @@ title: Real-Time Collaboration
 It was previously tested in the Stat 159 hub during Spring '22, however, it [corrupted notebooks and files](https://github.com/jupyterlab/jupyterlab/issues/12154) and was disabled shortly after. It was also tried in the Data 100 hub in Summer '23, but a subset of users were [periodically affected](https://github.com/jupyterlab/jupyterlab/issues/14031) by RTC errors.
 
 ```{figure} ../images/rtc_issue.png
-:width: 500px
 :align: center
 :name: Data 100 RTC screenshot
 
@@ -48,7 +47,6 @@ shared with your collaborators:
 - Select "Copy Link" option which copies the link to your clipboard
 
 ```{figure} ../images/Share_link.gif
-:width: 500px
 :align: center
 :name: Shareable Link
 
@@ -61,7 +59,6 @@ Share this link with your collaborators. They will be able to access your notebo
 You can also see the cursors from other users with an anonymous username, a username that will disappear in a few seconds to make room for what is essential, the document’s content.
 
 ```{figure} ../images/RTC_demo.gif
-:width: 500px
 :align: center
 :name: RTC Demo
 

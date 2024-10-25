@@ -64,6 +64,11 @@ parts:
   - file: workflow/r-datahub
   - file: faq/share
     title: Sharing information about the Hub
+- caption: Support
+  chapters:
+  - file: support/contact-us
+  - file: support/common-requests
+  - file: support/github
 - caption: DataHub Frequently Asked Questions (FAQ)
   chapters:  
   - file: faq/onboarding

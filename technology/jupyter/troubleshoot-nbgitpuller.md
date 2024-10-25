@@ -40,7 +40,6 @@ The easiest and most conservative solution is to rename the file or folder that 
 
 When you face an error like below, do the following steps
 ```{figure} ../../images/mergeconflict.png
-:width: 500px
 :align: center
 :name: DataHub Admin
 
@@ -49,7 +48,6 @@ Here is how the admin dashboard looks like!
 
 - Rename the existing folder where the merge conflict error arose
 ```{figure} ../../images/tshoot.PNG
-:width: 500px
 :align: center
 :name: Folder Rename!
 
@@ -66,7 +64,6 @@ If you have command line experience then you can use "git stash" command in term
 - On the upper right of the page, click the dropdown menu that says “New” and select “Terminal”.
 
 ```{figure} ../../assets/terminal.png
-:width: 500px
 :align: center
 :name: Launch Terminal
 
@@ -77,7 +74,6 @@ Launch a terminal
 - Run `git stash` command in the terminal and you will see the following output
 
 ```{figure} ../../assets/gitstash_output.png
-:width: 500px
 :align: center
 :name: git stash output
 

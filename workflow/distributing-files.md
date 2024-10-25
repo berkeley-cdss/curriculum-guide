@@ -110,7 +110,6 @@ from within Mozilla Firefox.
 After installation, look for the extension in your browser toolbar. In Chrome, there is puzzle piece icon in the upper-right corner of your Chrome tab.
 
 ```{figure} ../images/link-generator.png
-:width: 500px
 :align: center
 :name: puzzle piece
 
@@ -120,7 +119,6 @@ Click puzzle piece icon
 Click on the pin button to make sure the extension stays pinned at the top of the screen.
 
 ```{figure} ../images/pin-extension.png
-:width: 500px
 :align: center
 :name: pin extension
 
@@ -130,7 +128,6 @@ Pin extension
 - The extension appears on the browser like the snapshot below,
 
 ```{figure} ../images/installed-extension.png
-:width: 500px
 :align: center
 :name: show installed extension
 
@@ -144,7 +141,6 @@ Show installed extension
 1. Open your assignment from a respective Github repo
 
    ```{figure} ../images/github-notebook.png
-   :width: 500px
    :align: center
    :name: github repo
    
@@ -163,7 +159,6 @@ Show installed extension
 
 
    ```{figure} ../images/extension.png
-   :width: 500px
    :align: center
    :name: extension icon
    

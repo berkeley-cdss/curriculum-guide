@@ -26,7 +26,6 @@ jupyter lab
 The following is a screenshot of Jupyter running the R kernel.
 
 ```{figure} ../images/jupyter_notebook_r_kernel.jpg
-:width: 500px
 :align: center
 :name: Jupyter Notebook with R Kernel
 ```

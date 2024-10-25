@@ -5,7 +5,6 @@ title: Quarto
 [Quarto](https://quarto.org) is an open-source publishing system that is particularly valuable for instructors who want to create dynamic, interactive course materials. Whether you're developing lecture notes, assignments, or entire textbooks, Quarto provides a powerful, flexible platform that integrates code, data, and narrative, making it ideal for educational settings. It supports a variety of programming languages, including R, Python, Julia, and Observable JavaScript, enabling instructors to design course content that actively engages students through hands-on coding exercises and real-time data analysis.
 
 ```{figure} ../images/Quarto.gif
-:width: 500px
 :align: center
 :name: Convert R markdown assignments/labs with quarto to produce pdfs
 ```

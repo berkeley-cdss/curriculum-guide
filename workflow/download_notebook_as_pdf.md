@@ -9,7 +9,6 @@ Choose the following option to download the ipynb file(s) as pdf then choose the
   File > Save and Export Notebook As > Webpdf
 
 ```{figure} ../images/download_notebook_webpdf.png
-:width: 500px
 :align: center
 :name: Download Jupyter Notebook as Web PDF
 ```
@@ -19,7 +18,6 @@ If you choose to download the ipynb file(s) as HTML then choose the following op
 File > Save and Export Notebook As > HTML
 
 ```{figure} ../images/download_notebook_html.png
-:width: 500px
 :align: center
 :name: Download Jupyter Notebook as HTML
 ```
