@@ -19,7 +19,6 @@ You can select the individual folders you want to download and select this optio
 If you are using Jupyter notebook then you can download all your files using one of the above mentioned options by navigating to the tree interface. You can access your hub's tree by using the following URL - <HUB_URL>/user/<YOUR_USERNAME>/tree. Eg: https://data100.datahub.berkeley.edu/user/bawar/tree is the URL to access the tree for the user bawar.
 
 ```{figure} ../images/download-archive.gif
-:width: 500px
 :align: center
 :name: Download folders from tree interface
 ```
@@ -30,8 +29,6 @@ If you are using Jupyter Lab interface then you need to navigate to File browser
 - Right click and select the preferred option
 
 ```{figure} ../images/download-folder.gif
-:width: 500px
 :align: center
 :name: Download folders from lab interface
 ```
-
