@@ -68,9 +68,6 @@ parts:
   chapters:
   - file: support/contact-us
   - file: support/common-requests
-  - file: support/github
-- caption: DataHub Frequently Asked Questions (FAQ)
-  chapters:  
   - file: faq/onboarding
     title: Onboard new users
   - file: technology/jupyter/install-packages

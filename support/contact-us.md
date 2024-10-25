@@ -4,12 +4,12 @@ title: Contact Us
 
 ## GitHub Issues
 
-The best way for instructional staff to request help with the DataHub is through filing a [GitHub issue](github.md).
+The best way for instructional staff to request help with DataHub is through filing a [GitHub issue](github.md).
 
 ## Slack Channel
 
-If you have anything you'd like to discuss with w/the infra team, please join the Slack channel. Access [uctech.slack.com](http://uctech.slack.com/) (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to interact with the infra team.
+If you have anything you'd like to discuss with the infrastructure team, please join the #ucb-datahubs channel in at [uctech.slack.com](http://uctech.slack.com/). Anyone with a berkeley.edu account can get in.
 
 ## DataHub Service Lead
 
-In addition, you can reach out to Balaji Alwar <balajialwar@berkeley.edu> directly if there are time-sensitive issues.
+Reach out to [Balaji Alwar](mailto:balajialwar@berkeley.edu) directly if there are time-sensitive issues.
