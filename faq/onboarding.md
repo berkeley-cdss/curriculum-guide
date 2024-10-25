@@ -60,46 +60,6 @@ Here is where you can find the memory related details!
 ```
 Please contact us if your course/research has more complex computation requiring increased capacity.
 
-**What are the different services offered?**
-
-We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs services [documentation](https://docs.datahub.berkeley.edu/en/latest/users/services.html).
-
-
-**What is the process to raise Github issues? How can I track the raised issues?**
-
-If you want to raise a bug, you can use this [link](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) to submit your issues.
-
-**When do I receive a response when an issue gets raised?**
-
-```{note}
-Please refer to the below Service Level Agreement (SLA) for varied requests. Time for this SLA will start from the time when we have complete information regarding your request,
-```
-
-- SLA for package installation: "Acknowledgement within two working days."
-- SLA for RAM increase: "Acknowledgement within two working days."
-- SLA for admin access: "Request completed within two working days."
-- SLA for data archival request: "Request completed within three working days."
-
-**Are there existing templates for submitting requests to the infrastructure team?**
-
-We have categorized common requests we get from our users into templates that you can repurpose to make your request. You can refer to the following templates catering to varied scenarios,
-
-**Raise Bugs:** If you found a bug in the workflow, Please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml) to raise an issue.
-
-**Share New Enhancement:** If you envision a new feature/documentation that would help your existing workflow, please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) to submit a request.
-
-**Request Package Addition/Change:** If you want to install new packages in R/Python/Julia as part of your hub, please raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
-
-**Request for RAM/CPU:** If you want to increase/decrease RAM for a specific hub then please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X) to make the request.
-
-**Request Admin Access:** If you want members of your teaching team to have admin access then please use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml) to make this request.
-
-**Retrieve User Data:** If you want to request data stored as part of your hub instance, then please do use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=data_archival_request.yml) to raise a request
-
-```{note}
-If these templates are not exhaustive enough to cover the type of issue you are raising, you can use this [generic template](https://github.com/berkeley-dsep-infra/datahub/issues/new) to raise your issue.
-```
-
 **As an instructor what do I need to do to set up the hub for my course?**
 
 Honestly, nothing! You are free to use the DataHub starting today.
