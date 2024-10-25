@@ -7,7 +7,6 @@ interactive web apps. R shiny server in DataHub is used to build interactive
 dashboards.
 
 ```{figure} ../images/shiny_combined.gif
-:width: 500px
 :align: center
 :name: Shiny demo on DataHub
 
@@ -40,7 +39,6 @@ Shiny launcher button.
 ## Example
 
 ```{figure} ../images/shinyDashboard.PNG
-:width: 500px
 :align: center
 :name: Shiny Dashboard
 
@@ -50,7 +48,6 @@ Explore Shiny Dashboard
 You can also view the code that generated the dashboard in the rendered output. 
 
 ```{figure} ../images/shinycode.PNG
-:width: 500px
 :align: center
 :name: Code for Shiny
 

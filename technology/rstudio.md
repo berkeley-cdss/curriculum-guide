@@ -5,7 +5,6 @@ title: RStudio
 [RStudio](https://posit.co/products/open-source/rstudio) is an integrated development environment that is popular among R users.
 
 ```{figure} ../images/rstudio.png
-:width: 500px
 :align: center
 :name: RStudio
 

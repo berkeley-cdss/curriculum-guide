@@ -7,7 +7,6 @@ VS Code can be installed on any DataHub deployment. It is useful for when you wa
 The application can be run from Jupyter Lab's launcher.
 
 ```{figure} ../assets/vscode-launcher.png
-:width: 500px
 :align: center
 :name: VS Code Jupyter Lab launcher
 
@@ -23,7 +22,6 @@ Ignore the "File To Open" field, since VS Code will not open it directly. It wou
 VS Code editor is currently configured only for EECS Hub and Data 8x Hub. If you want to enable this option as part of other hubs then please do raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=type%3A+enhancement&template=featurerequest.md)
 
 ```{figure} ../images/vscode_link_generator.PNG
-:width: 500px
 :align: center
 :name: nbgitpuller link to launch VS Code
 
@@ -36,7 +34,6 @@ If you would like to use VS Code to be open and execute your `.ipynb` files, you
 
 
 ```{figure} ../images/python_extension.PNG
-:width: 500px
 :align: center
 :name: Install Python extension
 

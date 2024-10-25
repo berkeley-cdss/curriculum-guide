@@ -11,7 +11,6 @@ Each instance of SyncThing running is called a "Device". To share data with a de
 Login to a hub with SyncThing available, and launch it.
 
 ```{figure} ../assets/launcher-syncthing.png
-:width: 500px
 :align: center
 :name: Launcher with SyncThing
 
@@ -21,7 +20,6 @@ Jupyter Lab launcher with SyncThing
 SyncThing uses IDs to identify each application instance. To find the ID, access `Actions` > `Show ID`.
 
 ```{figure} ../images/syncstep1.2.PNG
-:width: 500px
 :align: center
 :name: Show Device ID
 
@@ -34,7 +32,6 @@ To share data with another Device, click `Add Remote Device` and enter
 the ID. You can give the device an easy-to-remember name.
 
 ```{figure} ../images/syncstep1.1.PNG
-:width: 500px
 :align: center
 :name: Add Remote Device
 
@@ -48,7 +45,6 @@ a folder. Click the "Sharing" tab and from the listed devices and
 select the device to which you want to share this folder.
 
 ```{figure} ../images/syncstep4.PNG
-:width: 500px
 :align: center
 :name: Share Folder
 
@@ -58,7 +54,6 @@ Share a folder with your collaborator(s).
 If your collaborator wants to provide access to a folder, you need to share your device ID with them. Once they are able to add your device id to the shared folder, you will receive a notification like the one shown below. It may take a few minutes to receive these notifications.
 
 ```{figure} ../images/syncstep3.PNG
-:width: 500px
 :align: center
 :name: SyncThing Notification
 
@@ -70,7 +65,6 @@ Notification when a collaborator adds you to a shared folder.
 Below is a short animation that walks you through the step-by-step process:
 
 ```{figure} ../images/syncthingdemo.gif
-:width: 750px
 :align: center
 :name: SyncThing Demo
 

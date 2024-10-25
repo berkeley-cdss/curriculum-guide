@@ -35,7 +35,6 @@ jupyter lab
 Step 5: Now, from the launcher tab, choose R kernel to start a new notebook.
 
 ```{figure} ../images/launcher_tab_r_kernel.jpg
-:width: 500px
 :align: center
 :name: Jupyter Notebook Launcher Tab with R Kernel
 ```
@@ -43,7 +42,6 @@ Step 5: Now, from the launcher tab, choose R kernel to start a new notebook.
 The following is a screenshot of Jupyter notebook having R kernel.
 
 ```{figure} ../images/jupyter_notebook_r_kernel.jpg
-:width: 500px
 :align: center
 :name: Jupyter Notebook with R Kernel
 ```
