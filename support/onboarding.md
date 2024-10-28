@@ -1,53 +1,47 @@
-# Get yourself onboarded to DataHub
+---
+title: Onboard Yourself
+---
 
-**I am instructor planning to teach using DataHub. What should I know prior to the start of the semester?**
+If you are an instructor planning to teach using DataHub, review this paterial prior to the start of the semester.
 
 
-##### General Updates
+## Be Proactive
 
-**Proactive Support Requests:** Please submit support requests for software changes and resource allocations before instruction begins. This helps us to ensure that your requests can be accommodated and will not disrupt other course environments. Ideal time frames to make requests are either **before the start or during the first two weeks of the semester**. We recommend this timeline to ensure that we make minimal changes to the hub infrastructure when the courses are ongoing.
+Please submit support requests for software changes and resource allocations before instruction begins. This helps us to ensure that your requests can be accommodated and will not disrupt other course environments. Ideal time frames to make requests are either **before the start or during the first two weeks of the semester**. We recommend this timeline to ensure that we make minimal changes to the hub infrastructure when the courses are ongoing.
 
-**Assignment Deadlines:** Please try to schedule assignments during regular working hours so that infrastructure staff can troubleshoot hubs if something goes wrong.
+### Assignment Deadlines
 
-**Test Assignments in Advance:** Please try to test assignments and notebooks on the hub before giving them to students. This will allow time for the infra team to fix any issues you discover.
+Please try to schedule assignments during regular working hours so that infrastructure staff can troubleshoot hubs if something goes wrong.
 
-**Export to PDF Using WebPDF:** We recommend using the “Save and Export Notebook as -> WebPDF” option to convert Jupyter notebooks to PDF. We have resolved the image rendering issues previously encountered with this method and are hoping for a smoother conversion process. For more details on PDF conversion, please refer to the [documentation](download_notebook_as_pdf).
+### Test Assignments in Advance
 
-**Using Language Models in Assignments:** If you plan to incorporate language models into your assignments then please schedule a consultation with the infra team before releasing the assignments to students. For more details, please refer to the [documentation](using-ai-llm).
+Please try to test assignments and notebooks on the hub before giving them to students. This will allow time for the infra team to fix any issues you discover.
 
-**DataHub Link Generator:** A Berkeley specific fork of nbgitpuller browser extension called [“DataHub Link Generator”](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) has been developed with few additional features. Please uninstall the old extension and reinstall the [latest version](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) in Chrome so that you can get the recent updates and support. We encourage you to review this [documentation](distributing-notebooks#datahub-link-generator-chrome-extension) which provides detailed steps to generate assignment links through the new extension.
+## Export to PDF Using WebPDF
 
-**Backup Students' Data:** We recommend that you inform students to back up their data (notebooks and datasets) on their local devices before the end of the semester. We have prepared [download instructions](download-archive) on how students can retrieve all of their archived files.  We receive a lot of student requests to retrieve their files after the completion of the semester. Any upfront communication from your end about backing up their files will hopefully ease the workload for us.
+We recommend using the “Save and Export Notebook as -> WebPDF” option to convert Jupyter notebooks to PDF. We have resolved the image rendering issues previously encountered with this method and are hoping for a smoother conversion process. For more details on PDF conversion, please refer to the [documentation](download_notebook_as_pdf).
 
-**Otter Grader Upgrade:** If you are interested in moving to the latest versions of otter-grader then please reach out to sean.smorris@berkeley.edu and ericvd@berkeley.edu.
+## Using Language Models in Assignments
 
-##### Other Updates
+If you plan to incorporate language models into your assignments then please schedule a consultation with the infra team before releasing the assignments to students. For more details, please refer to the [documentation](using-ai-llm).
 
-**a11y Documentation:** For further insights into improving the accessibility of the Jupyter Notebook/Lab experience for students, please review this [documentation](accessibility?highlight=accessibility) that provides a few tips for improving the accessibility of the notebooks.
+## Backup Students' Data
 
-**JupyterLab a11y Checker:**  Please check out the [JupyterLab a11y-checker extension](https://pypi.org/project/jupyterlab-a11y-checker/) that performs multiple accessibility checks on Jupyter notebook/Lab cells containing images and headings. It  does the following, a) Verifies the presence of alt-text for images, ensuring that visually impaired users can understand their content, b) Calculates the colour contrast ratio to ensure readability for low-vision users and c) Evaluates the heading structure to align with WCAG standards, ensuring that headers (h1, h2, etc.) are appropriately structured for optimal accessibility.
+We recommend that you inform students to back up their data (notebooks and datasets) on their local devices before the end of the semester. We have prepared [download instructions](download-archive) on how students can retrieve all of their archived files.  We receive a lot of student requests to retrieve their files after the completion of the semester. Any upfront communication from your end about backing up their files will hopefully ease the workload for us.
 
-Finally, provide us with any feedback that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester.
+## FAQ
 
-**How can I learn more about DataHub to onboard myself?**
+### How can I learn more about DataHub to onboard myself?
 
-- If you are new to DataHub and want to know more, [try logging in](https://datahub.berkeley.edu).
-
-- If you are interested in learning more about the configuration of various Berkeley hubs, you can checkout [UC Berkeley's JupyterHubs documentation](https://docs.datahub.berkeley.edu/en/latest/).
+- If you are interested in learning more about the configuration of various Berkeley hubs, you can checkout [UC Berkeley's JupyterHubs documentation](https://docs.datahub.berkeley.edu).
 
 - If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [Zero to JupyterHub with Kubernetes documentation](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
-**What languages are supported by the hub?**
+We have [over a dozen hubs](https://docs.datahub.berkeley.edu/hubs.html) which cater to the diverse needs of the campus audience. We have the [main hub](https://datahub.berkeley.edu/), which serves multiple departments/courses across the campus. We also have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the instructional needs.
 
-DataHub primarily supports three languages - **Python, R and, Julia**. However, We also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+### Default memory and CPU requirements
 
-**How many hubs across the campus exist? Which courses use them extensively?**
-
-We have 15+ hubs which cater to the diverse needs of the campus audience. We have the [vanilla DataHub](https://datahub.berkeley.edu/), which serves multiple departments/courses across the campus. We also have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the instructional needs. You can learn more about some of the hubs deployed through this [link](https://docs.datahub.berkeley.edu/en/latest/users/hubs.html).
-
-**What is the default Memory/CPU requirement for every hub?**
-
-[DataHub](https://datahub.berkeley.edu/) has a memory of 1 GB, which should meet the teaching/research needs of most of our users. If you are interested to know more about the memory consumption in your instance, Please follow the steps below,
+[DataHub](https://datahub.berkeley.edu/) has a per-user memory limit of 1 GB, which should meet the teaching needs of most of our users. If you are interested to know more about the memory consumption in your instance, please follow the steps below:
 
 - Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed against the total memory available for your server.
 - If your consumed memory is greater than the available memory for your instance then your server will crash resulting in you either optimizing your workflow to be less compute intensive or requesting additional RAM,
@@ -56,32 +50,15 @@ We have 15+ hubs which cater to the diverse needs of the campus audience. We hav
 :align: center
 :name: Available Memory
 
-Here is where you can find the memory related details!
 ```
+
 Please contact us if your course/research has more complex computation requiring increased capacity.
 
-**As an instructor what do I need to do to set up the hub for my course?**
+### As an instructor what do I need to do to set up the hub for my course?
 
 Honestly, nothing! You are free to use the DataHub starting today.
 
-```{note}
-We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [DataHub Link Generator](https://chromewebstore.google.com/detail/datahub-link-a/ijbgangngghdanhcnaliiobbiffocahf?hl=en) to distribute materials to your class. We can also help with setting up the links.
-```
-
-**What instructions should I share with students at the start of the semester**
-Please ask your students,
-
-- To download and backup their files at the end of semester.
-- To refrain from installing python packages via `pip install --user`. Incase, if they install packages this way it may cause issues with launching their Jupyterhub servers. Best way to avoid this scenario is by installing packages by requesting them via [issue template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y)
-
-**What if I have a student outside UC Berkeley?**
-
-We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, there are couple of options we recommend below, 
-
-- Use the [Calnet Sponsored Guests](https://calnetweb.berkeley.edu/calnet-departments/calnet-sponsored-guests) option to get temporary access to bcourses which will allow you to access the DataHub service.
-- Use [Binder](https://mybinder.org/) or [Jupyterlite](https://jupyterlite.readthedocs.io/en/stable/) services to solve for the immediate needs.
-
-**How do my students download their submissions as a PDF?**
+### How do my students download their submissions as a PDF?
 We recommend that you use the following options,
  
 - **For Jupyter Notebooks:** Select File -> Download as -> WebPDF to download the PDF version of your notebook.
@@ -101,7 +78,3 @@ Here is where you can find the option to download the R file!
 :name: Knitting a PDF
 Here is where you can find the option to specify the download format as PDF!
 ```
-
-**How do I get access to elevated privileges if I am not able to publish the bcourses site?**
-
-As a policy, we provide elevated privileges to users **only** through their bcourses affiliation. It makes it easy for us to ensure that the right stakeholders have the elevated privileges for a particular course. If you are not using bcourses site for your course and worry that it might be confusing for your students,please create a banner in your bcourses site highlighing that you are not using bcourses for your course work. If you need more input, please contact the support team.  
