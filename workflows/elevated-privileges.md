@@ -1,11 +1,6 @@
 ---
-title: Accessing Elevated Privileges in a Hub
+title: Elevated Privileges
 ---
-
-```{note}
-Curious about elevated privileges in DataHub? If yes, read below!
-
-```
 
 ## What are elevated privileges?
 
@@ -55,7 +50,7 @@ Follow the steps below to navigate admin interface:
 - Login to your hub instance
 - Click the admin option from the top bar
 
-```{figure} ../images/adminaccess.PNG
+```{figure} /images/adminaccess.PNG
 :align: center
 :name: DataHub Admin options
 
@@ -66,8 +61,8 @@ Here is where you can find admin option!
 ```{note}
 If you are using the R hub, then you may need to follow the below steps,
 
-- You can replace https://r-staging.datahub.berkeley.edu/user/your-calnet-id/rstudio/ with https://r-staging.datahub.berkeley.edu/hub/admin to access the admin interface.
-- You can use https://r-staging.datahub.berkeley.edu/hub/home to restart your server.
+- Replace `/user/your-calnet-id/rstudio` in the URL with `/hub/admin` to access the admin interface.
+- Replace `/user/your-calnet-id/rstudio` in the URL with `/hub/home` to restart your server.
 ```
 
 **How do I start a student server?**

@@ -1,4 +1,6 @@
-# Who are we?
+---
+title: Contributors
+---
 
 Here are the people in involved with DataHub Infrastructure and Modules team
 
@@ -10,11 +12,7 @@ Here are the people in involved with DataHub Infrastructure and Modules team
 | [Ryan Lovett](mailto:rylo@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Jonathan Felder](mailto:felder@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Greg Meritt](mailto:gmeritt@berkeley.edu) | Manages JupyterHub Infrastructure |
-| [Anthony Suen](mailto:anthonysuen@berkeley.edu) | Co-Curricular Lead |
 
 Previous Contributors:
-Keeley Takimoto
-Gunjan Baid
-Chris Pyles
-Yuvi Panda
+Gunjan Baid, Yuvi Panda, Chris Pyles, Anthony Suen, Keeley Takimoto
 
