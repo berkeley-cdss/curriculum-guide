@@ -1,16 +1,14 @@
 ---
-title: Download a Notebook as a PDF
+title: Save Files as PDF
 ---
 
-Downloading Jupyter Notebooks (.ipynb files) as PDF can be slightly confusing given the number of options presented in the notebook UI. [nbconvert](https://github.com/jupyter/nbconvert) is the third-party package used to convert notebook files (ipynb) to file formats such PDF,HTML, PNG, etc.
+## Jupyter Notebooks
 
-Choose the following option to download the ipynb file(s) as pdf then choose the following option:
-
-  File > Save and Export Notebook As > Webpdf
+Saving Jupyter Notebooks as PDF can be slightly confusing because there are several options presented in the notebook UI. The recommended method is to choose `File `> S`ave and Export Notebook As...` > `Webpdf`.
 
 ```{figure} ../images/download_notebook_webpdf.png
 :align: center
-:name: Download Jupyter Notebook as Web PDF
+:name: Download Jupyter Notebook as Webpdf
 ```
 
 If you choose to download the ipynb file(s) as HTML then choose the following option,
@@ -22,9 +20,9 @@ File > Save and Export Notebook As > HTML
 :name: Download Jupyter Notebook as HTML
 ```
 
-```{note}
+### Embedding Images
+
 When it comes to embedding images in Jupyter notebooks so that it is available as part of PDF, there are various methods to include images. Below are the five options to embed an image of an early Mathematica interface.
-```
 
 #### HTML Image
 
@@ -63,3 +61,17 @@ display(Image(filename="mathematica.png", width=250))\
 
 The IPython.display module provides functions to display images directly in Jupyter notebooks.
 
+
+## R and Knitting
+
+For R files, select `File` > `Knit Document` > Select the target folder -> Select the Output Format as PDF to save the PDF version of the file.
+
+ ```{figure} ../images/knitting.PNG
+:align: center
+:name: Downloading R notebook as a PDF
+```
+
+```{figure} ../images/knittingpdf.PNG
+:align: center
+:name: Knitting a PDF
+```

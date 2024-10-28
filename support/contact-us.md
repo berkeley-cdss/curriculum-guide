@@ -13,3 +13,11 @@ If you have anything you'd like to discuss with the infrastructure team, please 
 ## DataHub Service Lead
 
 Reach out to [Balaji Alwar](mailto:balajialwar@berkeley.edu) directly if there are time-sensitive issues.
+
+## Announcements
+
+We are trying to build a cadence by sending public announcements about feature releases or version upgrades in the upcoming months. Watch for emails from the datahub-announce list.
+
+```{tip}
+You can track our current priorities for this project on our [sprint board](https://github.com/berkeley-dsep-infra/datahub/projects).
+```

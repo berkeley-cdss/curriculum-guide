@@ -44,7 +44,7 @@ parts:
   - file: workflows/elevated-privileges
   - file: workflows/accessibility
   - file: workflows/collecting-grading-assignments
-  - file: workflows/download_notebook_as_pdf.md
+  - file: workflows/save-files-as-pdf.md
   - file: workflows/download-archive.md
   - file: workflows/performance-issue.md
   - file: workflows/calculate-compute-cost.ipynb
@@ -58,19 +58,20 @@ parts:
   - file: support/contact-us
   - file: support/common-requests
   - file: support/onboarding
-  - file: support/changerequirements
+  - file: support/memory-cpu
   - file: support/troubleshoot
   - file: support/troubleshoot-nbgitpuller
   - file: support/python-errors
-  - file: support/features
+  - file: support/workshop-research
+  - file: support/new-hub
   - file: support/learn-more
 - caption: Resources for Students
   chapters:
-  - file: students/resources
   - file: students/before-semester
   - file: students/during-semester
   - file: students/troubleshooting
   - file: students/after-semester
+  - file: students/equipment-lending
 - caption: Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
