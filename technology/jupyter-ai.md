@@ -1,5 +1,5 @@
 ---
-title: Using Generative AI
+title: Jupyter AI
 ---
 
 ## Introduction
@@ -27,7 +27,7 @@ Let's look at some interested usecases of Jupyter-AI,
 
 1. Obtain API Keys. Get API keys from your chosen AI model provider (e.g., OpenAI, Hugging Face).
 
-2. Set Up API Keys in Your Notebook. Add your API key to the environment variables in your Jupyter notebook:
+1. Set Up API Keys in Your Notebook. Add your API key to the environment variables in your Jupyter notebook:
    ```python
    %env PROVIDER_API_KEY=YOUR_API_KEY_HERE
    ```
@@ -39,7 +39,7 @@ Let's look at some interested usecases of Jupyter-AI,
    %load_ext jupyter_ai
    ```
 
-2. Use the AI Magic Command. To generate text or perform other AI tasks, use the following command:
+1. Use the AI Magic Command. To generate text or perform other AI tasks, use the following command:
    ```python
    %%ai
    Your prompt to the AI model here.
@@ -47,8 +47,7 @@ Let's look at some interested usecases of Jupyter-AI,
 
 ### Using the Chat Interface
 
-- Access the Chat UI:
-  - Open the chat interface in JupyterLab to interact with the AI conversationally.
+To access the Chat UI, open the chat interface in JupyterLab to interact with the AI conversationally.
 
 ## Examples
 

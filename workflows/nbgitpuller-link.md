@@ -1,6 +1,10 @@
-# Instructor activity: Generate nbgitpuller link from scratch
+---
+title: Generate nbgitpuller link
+---
 
-## Option 1 - via nbgitpuller
+This is an activity for instructors which describes two methods for generating `nbgitpuller` links..
+
+## Via Web Browser Extension
  
 - Click this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FDataHub-Workshop&branch=main&urlpath=tree%2FDataHub-Workshop%2Firis.ipynb) to launch a Jupyter notebook. This will clone a repository containing a Jupyter notebook to the home directory of your Berkeley Jupyterhub account.
 - Execute all the cells in the "iris.ipynb" notebook which is located inside "datahub_workshop_feb24" directory
@@ -17,7 +21,7 @@
 - Share the nbgitpuller link with another collaborator who is attending the workshop
 
 
-## Option 2 - via Jupyter notebook
+## Via Jupyter Notebook
 
 - Click this [link](https://drive.google.com/drive/u/1/folders/12qOYTF3JELjBuofxsC4ktLBZFt2GD1TG) to download a PDF containing python code
 - Login to https://datahub.berkeley.edu/
