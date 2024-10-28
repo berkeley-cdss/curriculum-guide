@@ -9,6 +9,17 @@ Elevated privilege enable course staff to troubleshoot students notebook interfa
 1. Start and stop students' servers
 1. Access students' servers to debug issues
 
+### bCourses
+
+This feature is facilitated by users' bcourses affiliations. It makes it easy
+for us to ensure that the right stakeholders have the elevated privileges for a
+particular course. If you do not have a bCourses site for your course, or it is
+unpublished, you will need to publish it. If you would not otherwise create a
+bCourses site and feel that using one would be confusing for your students,
+create a banner in your bCourses site highlighing that you are not using
+bcourses for your course work. If you need more input, please contact the
+support team.
+
 ```{warning}
 Elevated privileges are hub-wide. If you have a GSI teaching your course using a particular hub but is acting as a student in another course which uses the same hub, then this can result in a conflict of interest. Please report such scenarios to the infrastructure team so that we can take the necessary corrective action.
 ```

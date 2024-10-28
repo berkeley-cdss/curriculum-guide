@@ -11,6 +11,13 @@ Enhancing the accessibility of the notebook experience involves addressing multi
 
 Notebooks might be inaccessible due to issues with alt text, image captions, color contrast, and other reasons. One can avoid such issues by following recommended best practices.
 
+## jupyterlab-a11y-checker
+
+The [JupyterLab a11y-checker extension](https://pypi.org/project/jupyterlab-a11y-checker/) performs multiple accessibility checks on Jupyter notebook/Lab cells containing images and headings. It does the following:
+
+1. Verifies the presence of alt-text for images, ensuring that visually impaired users can understand their content.
+2. Calculates the colour contrast ratio to ensure readability for low-vision users and c) Evaluates the heading structure to align with WCAG standards, ensuring that headers (h1, h2, etc.) are appropriately structured for optimal accessibility.
+
 ## Alternative Text
 
 Adding alternative text ("alt text") to images is an important accessibility practice, especially when creating content for the web. Alt text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as

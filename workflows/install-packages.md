@@ -32,11 +32,14 @@ You can run language-specific commands for installing packages on the hubs. This
 import numpy
 ```
 
+Refrain from installing python packages via `pip install --user`. If packages are installed this way, it may interfere with the functioning of the Jupyter server itself.
+
 ```{code} R
 :caption: Example of R package installation
 install.packages("ggplot2")
 library("ggplot2")
 ```
+
 
 ### Long-term Installation
 
