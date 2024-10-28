@@ -66,8 +66,11 @@ parts:
   - file: support/learn-more
 - caption: Resources for Students
   chapters:
-  - file: technology/resources
-  - file: technology/troubleshooting_tips_students
+  - file: students/resources
+  - file: students/before-semester
+  - file: students/during-semester
+  - file: students/troubleshooting
+  - file: students/after-semester
 - caption: Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
