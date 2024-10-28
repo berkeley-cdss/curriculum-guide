@@ -18,6 +18,8 @@ site:
   # options:
   #   favicon: favicon.ico
   title: UC Berkeley Data Science Curriculum Guide
-  logo: assets/logo.png
   domains:
     - curriculum-guide.datahub.berkeley.edu
+  options:
+    folders: true
+    logo: assets/logo.png
