@@ -1,4 +1,20 @@
-# Previous Connector Courses
+---
+title: Previous Connector Courses
+abbreviations:
+  CIVENG: Civil Engineering
+  COGSCI: Cognitive Science
+  COMPSCI: Computer Science
+  DEMOG: Demography
+  EPS: Earth & Planetary Science
+  ESPM: Environmental Science, Policy, and Management
+  GEOG: Geography
+  HIST: History
+  INFO: School of Information
+  MCB: Moleculrar and Cell Biology
+  POLSCI: Political Science
+  SOCIOL: Sociology
+  STAT: Statistics
+---
 
 The links below point either to a PDF syllabus or to a course website that contains the syllabus.
 
