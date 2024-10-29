@@ -7,12 +7,97 @@ project:
   # keywords: []
   # authors: []
   github: https://github.com/berkeley-cdss/curriculum-guide
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
   license:
     # code: MIT
     content: CC-BY-4.0
   jupyter:
     lite: true
+  abbreviations:
+    CDSS: College of Computing, Data Science, and Society
+    BIDS: Berkeley Institute of Data Science
+    CA: Connector assistant
+    CI: Connector instructor
+    DEC: Data-enabled course
+    repo: Git repository, either local or on GitHub
+  toc:
+    - file: intro.md
+    - title: DataHub Technology
+      children:
+      - file: technology/introduction-to-jupyter.md
+      - file: technology/jupyterlab.md
+      - file: technology/rstudio.md
+      - file: technology/shiny.md
+      - file: technology/quarto.md
+      - file: technology/remote-desktop.md
+      - file: technology/vscode.md
+      - file: technology/real-time-collaboration.md
+      - file: technology/syncthing.md
+      - file: technology/jupyter-ai.md
+    - title: DataHub Workflows
+      children:
+      - file: workflows/logging-in.md
+      - file: workflows/creating-notebooks.md
+      - file: workflows/notebook-zero.md
+      - file: workflows/distributing-files.md
+      - file: workflows/pushing-to-github.md
+      - file: workflows/securely-push-github.md
+      - file: workflows/nbgitpuller-link.md
+      - file: workflows/install-packages.md
+      - file: workflows/elevated-privileges.md
+      - file: workflows/accessibility.md
+      - file: workflows/collecting-grading-assignments.md
+      - file: workflows/save-files-as-pdf.md
+      - file: workflows/download-archive.md
+      - file: workflows/performance-issue.md
+      - file: workflows/calculate-compute-cost.ipynb
+      - file: workflows/storing-datasets.md
+      - file: workflows/bestpractices.md
+      - file: workflows/external-technology.md
+      # FIXME: r-datahub has very little to do with using R on DataHub
+      - file: workflows/r-datahub.md
+    - title: Support
+      children:
+      - file: support/communication.md
+      - file: support/common-requests.md
+      - file: support/onboarding.md
+      - file: support/memory-cpu.md
+      - file: support/workshop-research.md
+      - file: support/new-hub.md
+      - file: support/learn-more.md
+      - title: Troubleshooting
+        children:
+        - file: support/troubleshooting/jupyter.md
+        - file: support/troubleshooting/python.md
+        - file: support/troubleshooting/nbgitpuller.md
+        - file: support/troubleshooting/otter-grader.md
+        - file: support/troubleshooting/rstudio.md
+      - file: support/contributors.md
+    - title: Resources for Students
+      children:
+      - file: students/before-semester.md
+      - file: students/during-semester.md
+      - file: students/after-semester.md
+      - file: students/equipment-lending.md
+    - title: Modules and Connectors
+      children:
+      - file: connector/general/what-is-a-connector.md
+        children:
+        - file: connector/general/previous-connectors.md
+      - file: module/general/what-is-a-module.md
+      - file: dec/general/what-is-a-data-enabled-course.md
+    - title: Creating a Connector
+      children:
+      - file: connector/instructor/logistics.md
+      - file: connector/instructor/syllabus-design.md
+      - file: connector/instructor/student-help.md
+      - file: connector/instructor/communication-channels.md
+      - file: connector/instructor/checklist.md
+    - title: Creating a Module
+      children:
+      - file: module/instructor/preplanning.md
+      - file: module/instructor/develop.md
+      - file: module/instructor/deploy-help.md
+
 site:
   template: book-theme
   title: UC Berkeley Data Science Curriculum Guide

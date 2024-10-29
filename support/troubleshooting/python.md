@@ -7,7 +7,7 @@ This category describes errors that occur when running code cells. This list is 
 ## NameError
 By far the most common errors that new students encounter are NameErrors.
 An example screenshot is below:
-![](../assets/name-error.png) NameErrors occur when a code cell refers to a name that has not yet been defined. This usually happens when:
+![](../../assets/name-error.png) NameErrors occur when a code cell refers to a name that has not yet been defined. This usually happens when:
 
 * a student forgets to run a cell, runs cells out of order, or restarts work on another day
 * a student misspells a variable name
@@ -21,7 +21,7 @@ Solutions:
 ## ValueError
 Common when dealing with table data, ValueErrors arise when misspelled column labels are used.
 An example screenshot is below:
-![](../assets/column-name-error.png)
+![](../../assets/column-name-error.png)
 Solution:
 * The most likely solution is to review the column headers and ensure that the correct value is selected for. Python is case-sensitive, so it's important to check the spelling and capitalization of your strings/variable names.
 
@@ -29,10 +29,10 @@ Solution:
 When using a function, e.g for table manipulation, it is possible to use the incorrect kind of value. In the example below, the column relabeling function is misused, causing errors in two different ways.
 
 In this error, the function was given too many values:
-![](../assets/many-args-error.png)
+![](../../assets/many-args-error.png)
 
 In this example, the function was given a boolean (in this case, the value True) rather than a string:
-![](../assets/wrong-args-error.png)
+![](../../assets/wrong-args-error.png)
 
 Solutions:
 * If you see an error relating to the *number* of arguments, check that you are using the correct number. If you aren't sure, refer to prior uses of the function for reference, or ask a friend.
@@ -40,7 +40,7 @@ Solutions:
 
 ## Cells never stop running
 Sometimes, cells can get "stuck" running:
-![](../assets/kernel-busy.png)
+![](../../assets/kernel-busy.png)
 
 When this issue occurs, the square brackets to the left of the cell contain an asterisk for several minutes, the open circle next to kernel type at the top right will stay solid grey, and the expected output never appears. This may happen when:
 * the kernel isn't working properly
