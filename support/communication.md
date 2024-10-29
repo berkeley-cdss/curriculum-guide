@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Communication
 ---
 
 ## GitHub Issues
@@ -21,3 +21,7 @@ We are trying to build a cadence by sending public announcements about feature r
 ```{tip}
 You can track our current priorities for this project on our [sprint board](https://github.com/berkeley-dsep-infra/datahub/projects).
 ```
+
+## Mailing Lists
+
+Instructors will be added to the [ds-connector-instructors@lists.berkeley.edu](mailto:ds-connector-instructors@lists.berkeley.edu). If you are not sure whether you have been added, you can view all your memberships at [groups.google.com](https://groups.google.com).
