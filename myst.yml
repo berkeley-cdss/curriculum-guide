@@ -5,26 +5,26 @@ project:
   title: UC Berkeley Data Science Curriculum Guide
   # description:
   # keywords: []
-  authors:
-  - name: Balaji Alwar
-    email: balajialwar@berkeley.edu
-    affiliations:
-      - id: ucb
-        institution: University of California at Berkeley
-        department: Research, Teaching, and Learning
-  - name: Ryan Lovett
-    email: rylo@berkeley.edu
-    affiliations:
-      - id: ucb
-        department: Statistics
-  - name: Eric Van Dusen
-    email: ericvd@berkeley.edu
-    affiliations:
-      - id: ucb
-        department: DSUS
+  # Uncommenting authors causes it to appear on every page.
+  #authors:
+  #- name: Balaji Alwar
+  #  email: balajialwar@berkeley.edu
+  #  affiliations:
+  #    - id: ucb
+  #      institution: University of California at Berkeley
+  #      department: Research, Teaching, and Learning
+  #- name: Ryan Lovett
+  #  email: rylo@berkeley.edu
+  #  affiliations:
+  #    - id: ucb
+  #      department: Statistics
+  #- name: Eric Van Dusen
+  #  email: ericvd@berkeley.edu
+  #  affiliations:
+  #    - id: ucb
+  #      department: DSUS
   github: https://github.com/berkeley-cdss/curriculum-guide
   license:
-    # code: MIT
     content: CC-BY-4.0
   jupyter:
     lite: true
