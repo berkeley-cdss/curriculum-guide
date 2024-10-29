@@ -106,3 +106,8 @@ If the error still persists, raise a github [issue](https://github.com/berkeley-
 ### Kernels Dying
 
 Kernel deaths are a common result of your server running out of memory. As soon as you exceed your memory allocation, your kernel most probably will die because of the lack of availability of virtual memory or swap space. It is most likely due to a bug in your code.
+
+## Close JupyterLab Features
+
+. In Jupyter Lab, click the icon at the far left depicting a square within a circle. It displays open tabs, running kernels and language servers, and open terminals. Hover your mouse over any entry and a close icon (X) will appear. Click on the close icon to shut down that entry.
+

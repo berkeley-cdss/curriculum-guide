@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Code Cell Errors
+title: Python
 ---
 
 This category describes errors that occur when running code cells. This list is not exhaustive, but it details some of themost frequent errors that new Notebook users encounter.

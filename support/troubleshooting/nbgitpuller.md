@@ -1,12 +1,12 @@
 ---
-title: Troubleshooting nbgitpuller
+title: nbgitpuller
 ---
 
 You may run into different types of errors when you are using the JupyterHub or Jupyter notebooks. The majority of errors come from a few common causes and can be solved using the following methods.
 
-## nbgitpuller Link Errors
+## Link Errors
 
-nbgitpuller link errors are usually due to one of three issues:
+nbgitpuller link errors are usually due to one of three issues.
 
 ### Incompatible Browser
 
