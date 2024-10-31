@@ -123,3 +123,4 @@ site:
     favicon: images/logo/favicon.ico
     folders: true
     logo: assets/logo.png
+    analytics_google: G-470CXFNJ3W # Measurement ID for GA account
