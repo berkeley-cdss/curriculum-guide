@@ -60,6 +60,7 @@ project:
       - file: workflows/nbgitpuller-link.md
       - file: workflows/install-packages.md
       - file: workflows/elevated-privileges.md
+      - file: workflows/calendar-scaler.md
       - file: workflows/accessibility.md
       - file: workflows/collecting-grading-assignments.md
       - file: workflows/save-files-as-pdf.md
