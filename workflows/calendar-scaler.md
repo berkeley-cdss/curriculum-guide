@@ -3,7 +3,7 @@
 
 ### Calendar Scaler
 
-The Google Calendar Scaler in DataHub, with this additional setup, functions as a dynamic resource allocator that specifically adjusts the number of spare or “hotspare” nodes available, rather than the total number of active nodes. These spares act as placeholders to accommodate sudden bursts of user logins and prevent service delays. If you are teaching a course that requires sudden surge of user logins for a short period of time then you can consider using calendar scaler.
+The Google Calendar Scaler in DataHub, with this additional setup, functions as a dynamic resource allocator that specifically adjusts the number of spare or “hotspare” nodes available, rather than the total number of active nodes. These spares act as placeholders to accommodate sudden bursts of user logins and prevent service delays. If you are teaching a course that requires sudden surge of user logins for a short period of time then you can consider using calendar scaler. [Here](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=support&projects=&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29) is the link to request infra admins to add events for your coursework.
 
 ### How It Works
 **Integration with Google Calendar API:** The scaler is connected to a specific Google Calendar (in our case `datahub-scaling-events` through the Google Calendar API. This setup allows the scaler to read events scheduled within the calendar, using them to monitor upcoming computational needs.
