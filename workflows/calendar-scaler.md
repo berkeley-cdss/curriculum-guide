@@ -3,7 +3,7 @@
 
 ### Calendar Scaler
 
-The Google Calendar Scaler in DataHub, with this additional setup, functions as a dynamic resource allocator that specifically adjusts the number of spare or “hotspare” nodes available, rather than the total number of active nodes. These spares act as placeholders to accommodate sudden bursts of user logins and prevent service delays. If you are teaching a course that requires sudden surge of user logins for a short period of time then you can consider using calendar scaler. [Here](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=support&projects=&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29) is the link to request infra admins to add events for your coursework.
+The Google Calendar Scaler in DataHub, with this additional setup, functions as a dynamic resource allocator that specifically adjusts the number of spare or “hotspare” nodes available, rather than the total number of active nodes. These spares act as placeholders to accommodate sudden bursts of user logins and prevent service delays. If you are teaching a course that requires sudden surge of user logins for a short period of time then you can consider using calendar scaler. Sharing the [github issue to request scaling events](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=support&projects=&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29). Infra admins will add events to the calendar for your coursework. Sharing an [example user request](https://github.com/berkeley-dsep-infra/datahub/issues/6437) for your reference.
 
 ### How It Works
 **Integration with Google Calendar API:** The scaler is connected to a specific Google Calendar (in our case `datahub-scaling-events` through the Google Calendar API. This setup allows the scaler to read events scheduled within the calendar, using them to monitor upcoming computational needs.
@@ -18,5 +18,3 @@ The Google Calendar Scaler in DataHub, with this additional setup, functions as 
 **Initial Surge:** For anticipated high-load events, like the start of a large class, the spare count is temporarily increased to handle a large number of logins in a short period (e.g., two spares could handle around 90 logins instantly).
 
 **Usage Count:** A short spike in large count of user login may justify more spares, while a gradual ramp-up requires fewer. If fewer users log in than expected, the spare count can be quickly reduced.
-
-In essence, this configuration allows DataHub to scale responsively based on perceived user demand.
