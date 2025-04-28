@@ -24,21 +24,19 @@ Our current recommendation is to keep the file size of the datasets below 100 MB
 
 In scenarios where you have large datasets or commonly used libraries, a shared directory can serve as a centralized location for these resources. This prevents the need for duplicating files across multiple user spaces, saving disk space and bandwidth.
 
-**Shared Directory**: The shared folder allows read only access to the students enrolled in your course. Students can read the dataset from the shared folder while no write operations can be performed. The shared directories will be mounted to `/home/jovyan` user path.
+**Shared Read Only Directory**: The shared directory is a read-only folder that provides students enrolled in your course with access to course-related datasets and resources. Students will be able to view and read the contents of this folder but will not have permission to make any modifications or perform write operations. These shared directories will be mounted to each user's file path at `/home/jovyan/_shared` and will be named based on the course they are associated with. For example, the shared directory for the course Econ 148 will be named `econ148-readonly`.
 
 ```{note}
 By default, students cannot write to shared directories. While configuration can be modified to allow students to write to the shared directories, it is generally not recommended. Allowing write access to a shared directory can lead to students accidentally overwriting each other’s work, especially if they’re working simultaneously. Typically, instructors prefer that students save their work in their home directories and then upload the necessary files to a centralized drive or repository. Having said that, We can enable read access for students if you as an instructor is okay with the risks involved.
 ```
 
-**Shared-ReadWrite Directory** As an instructor, you'll have both read and write access to a "shared-readwrite" directory. You can upload datasets there, and they will automatically be updated in the "shared" directory, which is accessible to all students with read-only permissions. 
+**Shared ReadWrite Directory** The shared directory with read-write access enables instructors to upload, modify and manage files within the folder. Instructors can upload datasets here, and it will automatically synced to the corresponding "shared-readonly" directory, providing students with read-only permissions to the added content. The folder will be mounted to `/home/jovyan/_shared` and will be named based on the course it belongs. Eg: econ148-readwrite
 
 ```{note}
 This setup streamlines the workflow: you upload datasets to the "shared-readwrite" directory, and students can immediately access them in the "shared" directory and read it.
 ```
 
 Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) if you want shared directories enabled for your course. You need to provide the bcourses id for your course and the DataHub URL so that the shared directories appear on the hub you use with appropriate permissions for the folks enrolled in your course roster in bcourses.
-
-Eg:`compss-214a-readwrite` and `compss-214a` are the shared-readwrite and shared directories for the COMPSS-214A course.
 
 ```{note}
 Students enrolled in your previous offering lose access to the shared directories at the end of the semester
