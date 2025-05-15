@@ -51,28 +51,36 @@ project:
       - file: technology/jupyter-ai.md
     - title: DataHub Workflows
       children:
-      - file: workflows/logging-in.md
-      - file: workflows/creating-notebooks.md
-      - file: workflows/notebook-zero.md
-      - file: workflows/distributing-files.md
-      - file: workflows/pushing-to-github.md
-      - file: workflows/securely-push-github.md
-      - file: workflows/nbgitpuller-link.md
+      - title: Access and Permissions
+        children:
+        - file: workflows/logging-in.md
+        - file: workflows/elevated-privileges.md
+      - title: Notebook and File Management
+        children:
+        - file: workflows/creating-notebooks.md
+        - file: workflows/accessibility.md
+        - file: workflows/notebook-zero.md
+        - file: workflows/distributing-files.md
+        - file: workflows/download-archive.md
+        - file: workflows/save-files-as-pdf.md
+        - file: workflows/storing-datasets.md
+        - file: workflows/collecting-grading-assignments.md
+      - title: Git and GitHub
+        children:
+        - file: workflows/pushing-to-github.md
+        - file: workflows/securely-push-github.md
+        - file: workflows/nbgitpuller-link.md
       - title: Software Environment
         children:
         - file: workflows/develop-docker-images.md
         - file: workflows/install-packages.md
-      - file: workflows/elevated-privileges.md
-      - file: workflows/calendar-scaler.md
-      - file: workflows/accessibility.md
-      - file: workflows/collecting-grading-assignments.md
-      - file: workflows/save-files-as-pdf.md
-      - file: workflows/download-archive.md
-      - file: workflows/performance-issue.md
-      - file: workflows/calculate-compute-cost.ipynb
-      - file: workflows/storing-datasets.md
-      - file: workflows/bestpractices.md
+      - title: Best Practices
+        children:
+        - file: workflows/bestpractices.md
+        - file: workflows/performance-issue.md
       - file: workflows/external-technology.md
+      - file: workflows/calendar-scaler.md
+      - file: workflows/calculate-compute-cost.ipynb
       # FIXME: r-datahub has very little to do with using R on DataHub
       - file: workflows/r-datahub.md
     - title: Support
