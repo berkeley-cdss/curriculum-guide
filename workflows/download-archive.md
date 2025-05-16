@@ -17,7 +17,7 @@ You can navigate to the folder you want to download and then select this option 
 
 If you prefer to download specific folders individually, use the "Download as an Archive" option. This allows you to select individual folders, which will then be downloaded as separate ZIP files.
 
-### Instructions for JupyterLab Interface
+## Instructions for JupyterLab Interface
 
 - Open the File Browser section located on the left side of the JupyterLab interface.
 - To use the "Download as an Archive" option, select the folders you wish to download or,
@@ -29,7 +29,7 @@ If you prefer to download specific folders individually, use the "Download as an
 :name: Download archive from lab interface
 ```
 
-### Instructions for Jupyter Notebook Interface
+## Instructions for Jupyter Notebook Interface
 
 If you are using the Jupyter Notebook interface, you can easily download all your files using one of the options mentioned above by navigating to the tree view. To access your hub's tree interface, use the following URL format:
 
