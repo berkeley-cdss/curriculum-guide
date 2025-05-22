@@ -49,6 +49,7 @@ project:
       - file: technology/real-time-collaboration.md
       - file: technology/syncthing.md
       - file: technology/jupyter-ai.md
+      - file: technology/marimo.md
     - title: DataHub Workflows
       children:
       - title: Access and Permissions
