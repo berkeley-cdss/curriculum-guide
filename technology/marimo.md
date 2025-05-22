@@ -16,4 +16,4 @@ Click on the marimo icon to launch it.
 
 It provides user interface for interacting with database and also options to engage with different language model provider.
 
-Marimo editor is currently configured only for EECS Hub. If you want to enable this option as part of other hubs then please do raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=type%3A+enhancement&template=featurerequest.md)
+Marimo editor is currently configured only for [EECS Hub]( https://eecs.datahub.berkeley.edu/hub/user-redirect/marimo). If you want to enable this option as part of other hubs then please do raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=type%3A+enhancement&template=featurerequest.md)
