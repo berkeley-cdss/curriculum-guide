@@ -34,6 +34,12 @@ For example if the application exists in `course-repo/app1`, the `nbgitpuller` c
 https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=<repository-url>&branch=<branch-name>&targetpath=<target-directory>
 ```
 
+Here is an example link that launches Shiny application in R-staging hub,
+
+```bash
+https://r-staging.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2Fpolisci-3&branch=main&urlpath=shiny%2Fpolisci-3%2FModule_8_Regression%2F&targetPath=ShinyApps/polisci-3
+```
+
 Users can also run Shiny from the JupyterLab launcher. This will display a shiny file browser.
 
 ```{figure} ../images/shiny-launcher.png
