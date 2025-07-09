@@ -1,7 +1,5 @@
 # Shared Conda Environment
 
-Staring Fall 2025, we are offering the functionality to create a shared conda environment for instructors in select hubs. Instructors will be able to create a new kernel, add the packages they want and the corresponding changes will be reflected in the student kernel. Please reach out to the DataHub team if you are interested in piloting the shared conda environment in your respective hub.
-
 We are excited to announce that, beginning in Fall 2025, we will introduce the ability to create a shared Conda environment for instructors in selected hubs. This feature will allow instructors to create a custom kernel, install the desired packages, and have those changes automatically reflected in the student kernel. This streamlined process provides autonomy to instructors in making quick changes to the instructional environment.
 
 If you are interested in piloting the shared Conda environment in your hub, we encourage you to contact the DataHub team via [GitHub](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=featurerequest.md] for more information and to express your interest.
