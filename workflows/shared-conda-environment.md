@@ -2,7 +2,7 @@
 
 We are excited to announce that, beginning in Fall 2025, we will introduce the ability to create a shared Conda environment for instructors in selected hubs. This feature will allow instructors to create a custom kernel, install the desired packages, and have those changes automatically reflected in the student kernel. This streamlined process provides autonomy to instructors in making quick changes to the instructional environment.
 
-If you are interested in piloting the shared Conda environment in your hub, we encourage you to contact the DataHub team via [GitHub](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=featurerequest.md] for more information and to express your interest.
+If you are interested in piloting the shared Conda environment in your hub, we encourage you to contact the DataHub team via [GitHub](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=featurerequest.md) for more information and to express your interest.
 
 
 ## Steps for Creating and Registering a Shared Conda Environment in Jupyter
@@ -19,13 +19,13 @@ If you are interested in piloting the shared Conda environment in your hub, we e
 
 - Open a terminal from Jupyterlab, run 
 
-```{bash}
+```bash
 conda init
 ```
 
 If you see the “No action taken” error, run the following
 
-```{bash}
+```bash
 source ~/.bashrc
 ```
 
@@ -35,26 +35,26 @@ source ~/.bashrc
 You can check if notebook exists by running conda env list
 ```
 
-```{bash}
+```bash
 conda list --explicit --prefix /srv/conda/envs/notebook > base-env.txt
 conda create --prefix /srv/conda/envs/shared_conda --file base-env.txt
 ```
 
 Create a conda environment from the ‘base’ conda environment
 
-```{bash}
+```bash
 conda list --explicit --prefix /srv/conda > base-env.txt
 conda create --prefix /srv/conda/envs/shared_conda --file base-env.txt
 ```
 
 - Activate the new environment
-```{bash}
+```bash
 conda activate /srv/conda/envs/shared_conda
 ```
 
 - Install extra packages you need
 
-```{bash}
+```bash
 conda install numpy pandas -y
 ```
 
@@ -62,13 +62,13 @@ You may install any additional packages needed for the course.
 
 - Install ipykernel if not already exists  to enable Jupyter integration
 
-```{bash}
+```bash
 conda install ipykernel -y
 ```
 
 - Register the environment as a Jupyter kernel. This step allows the environment to show up in the Jupyter Notebook interface:
 
-```{bash}
+```bash
 python -m ipykernel install \
 --name shared_conda \
 --display-name "Python (<bcourse_id or whatever you want>)" \
@@ -81,7 +81,7 @@ python -m ipykernel install \
 
 - Validate that the kernel was successfully registered
 
-```{bash}
+```bash
 jupyter kernelspec list
 ```
 
@@ -89,7 +89,7 @@ This will display all available Jupyter kernels.
 
 - Deactivate the environment. Once setup is complete
 
-```{bash}
+```bash
 conda deactivate
 ```
 
@@ -97,6 +97,6 @@ conda deactivate
 
 In case you want to remove the conda environment, run the following
 
-```{bash}
+```bash
 conda env remove --prefix /srv/conda/envs/shared_conda
 ```
