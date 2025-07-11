@@ -14,7 +14,7 @@ base environment, keeping your course setup stable and isolated.
 :::{warning}
 Creating or modifying environments in `/srv/conda/envs/` may require elevated
 permissions or specific hub configuration. If you encounter permission errors,
-contact your hub administrator.
+contact the DataHub team.
 :::
 
 If you are interested in piloting this feature in your hub, we encourage you to
