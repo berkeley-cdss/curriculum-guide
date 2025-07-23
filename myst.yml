@@ -70,7 +70,6 @@ project:
         children:
         - file: workflows/pushing-to-github.md
         - file: workflows/securely-push-github.md
-        - file: workflows/nbgitpuller-link.md
       - title: Software Environment
         children:
         - file: workflows/develop-docker-images.md
@@ -84,7 +83,7 @@ project:
       - file: workflows/calculate-compute-cost.ipynb
       - file: workflows/shared-conda-environment.md
       # FIXME: r-datahub has very little to do with using R on DataHub
-      - file: workflows/r-datahub.md
+      - file: workflows/r-datahub.ipynb
     - title: Support
       children:
       - file: support/communication.md
