@@ -82,8 +82,6 @@ project:
       - file: workflows/calendar-scaler.md
       - file: workflows/calculate-compute-cost.ipynb
       - file: workflows/shared-conda-environment.md
-      # FIXME: r-datahub has very little to do with using R on DataHub
-      - file: workflows/r-datahub.ipynb
     - title: Support
       children:
       - file: support/communication.md
