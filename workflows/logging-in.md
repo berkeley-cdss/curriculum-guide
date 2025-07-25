@@ -17,7 +17,7 @@ they have 13 months of access.
 In Summer 2025, we piloted restricting access for certain course-specific hubs. In order to
 access a restricted hub, one must be on the bCourses roster for the current or previous semester.
 
-This pilot will expand in Fall 2025 to include Data 8, Data 100, Data 101, Data 102, Stat 20,
+This pilot will expand in Fall 2025 to include Data 8, Data 100, Data 101, Data 102, Data 140, Stat 20,
 and Stat 159's hubs. Gating access to course specific hubs will ensure that only students who
 are enrolled in a course have access to the course specific resources on each hub and reduce 
 costs. There is no plan to restrict access to the [general datahub](https://datahub.berkeley.edu/);
