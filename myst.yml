@@ -91,6 +91,7 @@ project:
       - file: support/workshop-research.md
       - file: support/new-hub.md
       - file: support/learn-more.md
+      - file: support/pilot-hubs.md
       - title: Troubleshooting
         children:
         - file: support/troubleshooting/jupyter.md
