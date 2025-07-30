@@ -59,7 +59,7 @@ updates would require that students restart running kernels.
 1. Create a new conda environment from the default conda environment. The prefix path can be named after the purpose of the environment, such as the class or an assignment or project.
 
    ```bash
-   conda create --prefix /srv/conda/envs/class-123 --file default-env.txt
+   conda create --prefix /srv/conda/envs/shared_conda --file default-env.txt
    ```
 
    :::{tip}
@@ -69,7 +69,7 @@ updates would require that students restart running kernels.
 1. Activate the new environment to start working in it.
 
    ```bash
-   conda activate /srv/conda/envs/class-123
+   conda activate /srv/conda/envs/shared_conda
    ```
 
 1. Install any additional packages you need for the course.
@@ -89,9 +89,9 @@ updates would require that students restart running kernels.
 
    ```bash
    python -m ipykernel install \
-       --name class-123 \
+       --name shared_conda \
        --display-name "Python (<bcourse_id or whatever you want>)" \
-       --prefix /srv/conda/envs/class-123
+       --prefix /srv/conda/envs/shared_conda
    ```
 
    ```{note}
@@ -121,7 +121,7 @@ If your new kernel does not appear in the Jupyter interface, try restarting your
 To remove the conda environment, run:
 
 ```bash
-conda env remove --prefix /srv/conda/envs/class-123
+conda env remove --prefix /srv/conda/envs/shared_conda
 ```
 
 This frees up disk space on the shared file server.
