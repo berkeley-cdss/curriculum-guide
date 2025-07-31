@@ -9,36 +9,31 @@ The information in the guide is primarily intended for:
 
 ## How should I use this guide?
 
-The information is divided up into six sections:
+The information is divided up into seven sections:
 
-Getting Started With the DataHub tools
+DataHub Technologies
 : Guide to familiarize you with the DataHub platform and its essential tools.
 
-Workflow Basics
+DataHub Workflows
 : This section covers information around creating, distributing, and grading assignments.
 
-DataHub Frequently Asked Questions (FAQ)
-: Comprehensive FAQ section that addresses common questions and issues encountered by DataHub users.
+Support
+: Information on who to reach out to, feature pilots, and troubleshooting common questions and issues encountered by DataHub users.
 
 Resources for Students
 : Curated resources tailored for students enrolled in DataScience courses.
 
-Getting Started With the Modules and Connectors
-: An overview of the different Data Science Education course types.
+Modules and Connectors
+: An overview of the different course types using the DataHub.
 
 Creating a Connector
 : A guide to the pre-course set-up for a Connector course.
 
-Making a Module
+Creating a Module
 : A guide to the pre-course set-up for a Module.
 
-Workshop Resources
-: This section contains resources for facilitating outreach workshops.
 
-Reference
-: Useful people, terms, and contact information to know.
-
-The first time you read through the material, you might go through the topics in order. After the first read, you could refer back to specific sections when seeking answers to questions.
+The first time you read through the material, you might go through the topics in order. After the first read, you could refer back to specific sections when seeking answers to questions. Try using the search bar to look for answers!
 
 <!--
 
