@@ -12,6 +12,8 @@ Here are the people in involved with DataHub Infrastructure and Modules team
 | [Ryan Lovett](mailto:rylo@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Greg Meritt](mailto:gmeritt@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Eric Van Dusen](mailto:ericvd@berkeley.edu) | Tech and Outreach Lead at DSUS |
+| [Silas Santini](mailto:silascs@berkeley.edu) | Course Software & Infrastructure Engineer at DSUS |
+
 
 Previous Contributors:
 Gunjan Baid, Yuvi Panda, Chris Pyles, Anthony Suen, Keeley Takimoto
