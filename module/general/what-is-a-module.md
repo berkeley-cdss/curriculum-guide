@@ -1,18 +1,17 @@
 # What is a Data Science Module?
 
-A [Data Scient Module](https://ds-modules.github.io/DS-Modules/) is a short exploration of data science designed to fit into an existing course. Modules give non-data-science students the opportunity to explore data-driven methods in familiar domains.
+A [Data Science Module](https://ds-modules.github.io/DS-Modules/) is a short exploration of data science designed to fit into an existing course. Modules give non-data-science students the opportunity to explore data-driven methods in familiar domains.
 
 Each module is designed by a team of CDSS curriculum developers, working closely with the course instructor, and may be taught by either the CDSS team or the instructors themselves.
 
-<!-- add modules textbook link instead below? -->
 
 ![](../../assets/modules.jpg)
 
-### Prerequisites
+## Prerequisites
 
 Data science modules can be used in all types of subjects and skill levels- no extra prerequisites required! Each module is designed to meet students where they are. Any necessary coding skills or statistical concepts are highly targeted towards the goals of the course and taught during the module itself.
 
-### Module structure
+## Module structure
 
 Because modules are designed to integrate into current course material, every module looks different. A module often is presented as an interactive lecture or lab. Led by either course instructors or a modules team developer, students can write and execute code, make visualizations, and process data in real time. Modules may also include take-home coding, computation, or critical thinking assignments. A module can take up a single class or discussion period, or they may be spread out over a few weeks.
 

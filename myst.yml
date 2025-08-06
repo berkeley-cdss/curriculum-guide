@@ -124,7 +124,7 @@ project:
       children:
       - file: module/instructor/preplanning.md
       - file: module/instructor/develop.md
-      - file: module/instructor/deploy-help.md
+      # - file: module/instructor/deploy-help.md
 
 site:
   template: book-theme

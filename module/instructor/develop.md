@@ -16,7 +16,7 @@ By the end of the meeting, you’ll have a tentative contract detailing the mate
 
 After the first meeting, the module team will begin regular meetings to start work on the notebooks.
 
-Developers store materials in a public repository on Github created specifically for your course. Github allows developers and course staff to view drafts of notebooks, upload new files, and collaboratively work on materials. For more about Github and how to use it, see [Uploading Files to Git](../../workflow/pushing-to-github).
+Developers store materials in a public repository on Github created specifically for your course. Github allows developers and course staff to view drafts of notebooks, upload new files, and collaboratively work on materials.
 
 You can also follow along with development through periodic emails from the team lead or by attending the team meetings.
 
