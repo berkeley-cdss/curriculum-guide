@@ -44,24 +44,25 @@ updates would require that students restart running kernels.
    source ~/.bashrc
    ```
 
-1. Export the package list from the default conda environment which will either be the base environment, or one named `notebook`. Check if `notebook` exists by running `conda env list`.
-
-   If the default conda environment is named `notebook`:
-   ```bash
-   conda list --explicit --prefix /srv/conda/envs/notebook > default-env.txt
-   ```
-
-   If the default conda environment is the base environment:
-   ```bash
-   conda list --explicit --prefix /srv/conda > default-env.txt
-   ```
-
-1. Create a new conda environment from the default conda environment. The prefix path can be named after the purpose of the environment, such as the class or an assignment or project.
+1. Create a conda environment from scratch
 
    ```bash
-   conda create --prefix /srv/conda/envs/shared_conda --file default-env.txt
+   conda create --prefix /srv/conda/envs/shared_conda python=3.11 -y
    ```
 
+   You can create a conda environment from the ‘notebook’ conda environment if ‘notebook’ exists. You can check if notebook exists by running conda env list.
+
+   ```bash
+   conda list --explicit --prefix /srv/conda/envs/notebook > base-env.txt
+   conda create --prefix /srv/conda/envs/shared_conda --file base-env.txt
+   ```
+
+   You can also create a conda environment from the `base` conda environment:
+
+   ```bash
+   conda list --explicit --prefix /srv/conda > base-env.txt
+   conda create --prefix /srv/conda/envs/shared_conda --file base-env.txt
+   ```
    :::{tip}
    Conda dependency resolution can be memory-intensive, especially when installing multiple or complex packages. We recommend temporarily increasing memory resources for instructor or TA pods when setting up shared environments.
    :::
