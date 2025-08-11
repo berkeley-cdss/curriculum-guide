@@ -47,21 +47,21 @@ updates would require that students restart running kernels.
 1. Create a conda environment from scratch
 
    ```bash
-   conda create --prefix /srv/conda/envs/shared_conda python=3.11 -y
+   conda create --prefix /srv/conda/envs/shared python=3.11 -y
    ```
 
    You can create a conda environment from the ‘notebook’ conda environment if ‘notebook’ exists. You can check if notebook exists by running conda env list.
 
    ```bash
    conda list --explicit --prefix /srv/conda/envs/notebook > base-env.txt
-   conda create --prefix /srv/conda/envs/shared_conda --file base-env.txt
+   conda create --prefix /srv/conda/envs/shared --file base-env.txt
    ```
 
    You can also create a conda environment from the `base` conda environment:
 
    ```bash
    conda list --explicit --prefix /srv/conda > base-env.txt
-   conda create --prefix /srv/conda/envs/shared_conda --file base-env.txt
+   conda create --prefix /srv/conda/envs/shared --file base-env.txt
    ```
    :::{tip}
    Conda dependency resolution can be memory-intensive, especially when installing multiple or complex packages. We recommend temporarily increasing memory resources for instructor or TA pods when setting up shared environments.
@@ -70,7 +70,7 @@ updates would require that students restart running kernels.
 1. Activate the new environment to start working in it.
 
    ```bash
-   conda activate /srv/conda/envs/shared_conda
+   conda activate /srv/conda/envs/shared
    ```
 
 1. Install any additional packages you need for the course.
@@ -90,9 +90,9 @@ updates would require that students restart running kernels.
 
    ```bash
    python -m ipykernel install \
-       --name shared_conda \
+       --name shared \
        --display-name "Python (<bcourse_id or whatever you want>)" \
-       --prefix /srv/conda/envs/shared_conda
+       --prefix /srv/conda/envs/shared
    ```
 
    ```{note}
@@ -122,7 +122,7 @@ If your new kernel does not appear in the Jupyter interface, try restarting your
 To remove the conda environment, run:
 
 ```bash
-conda env remove --prefix /srv/conda/envs/shared_conda
+conda env remove --prefix /srv/conda/envs/shared
 ```
 
 This frees up disk space on the shared file server.
