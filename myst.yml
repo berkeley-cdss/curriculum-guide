@@ -70,6 +70,7 @@ project:
         children:
         - file: workflows/pushing-to-github.md
         - file: workflows/securely-push-github.md
+        - file: workflows/pull-from-private-repos.md
       - title: Software Environment
         children:
         - file: workflows/develop-docker-images.md
