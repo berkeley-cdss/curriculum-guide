@@ -70,7 +70,6 @@ project:
         children:
         - file: workflows/pushing-to-github.md
         - file: workflows/securely-push-github.md
-        - file: workflows/nbgitpuller-link.md
         - file: workflows/pull-from-private-repos.md
       - title: Software Environment
         children:
