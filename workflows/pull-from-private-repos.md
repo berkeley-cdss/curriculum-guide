@@ -4,7 +4,7 @@ This guide explains how to use nbgitpuller to pull notebooks and files from priv
 
 ## Overview
 
-DataHub supports pulling rom private GitHub repositories through GitHub Apps with specific configurations. This allows instructors to:
+DataHub supports pulling from private GitHub repositories through GitHub Apps with specific configurations. This allows instructors to:
 
 - Distribute course materials from private repositories securely
 - Share proprietary datasets with enrolled students
@@ -87,8 +87,3 @@ Here's a typical workflow for using private repositories:
 5. **Test Access**: Verify the links work by testing them yourself
 6. **Distribute**: Share the links with students through your LMS or course website
 7. **Monitor Usage**: Check for any access issues reported by students
-
-## Related Documentation
-
-- [Creating nbgitpuller Links](nbgitpuller-link.md) - General nbgitpuller usage
-- [Distributing Files](distributing-files.md) - Alternative methods for file distribution
