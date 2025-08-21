@@ -49,6 +49,7 @@ project:
       - file: technology/real-time-collaboration.md
       - file: technology/syncthing.md
       - file: technology/jupyter-ai.md
+      - file: technology/marimo.md
     - title: DataHub Workflows
       children:
       - title: Access and Permissions
@@ -82,8 +83,7 @@ project:
       - file: workflows/external-technology.md
       - file: workflows/calendar-scaler.md
       - file: workflows/calculate-compute-cost.ipynb
-      # FIXME: r-datahub has very little to do with using R on DataHub
-      - file: workflows/r-datahub.md
+      - file: workflows/shared-conda-environment.md
     - title: Support
       children:
       - file: support/communication.md
@@ -93,6 +93,7 @@ project:
       - file: support/workshop-research.md
       - file: support/new-hub.md
       - file: support/learn-more.md
+      - file: support/pilot-hubs.md
       - title: Troubleshooting
         children:
         - file: support/troubleshooting/jupyter.md
@@ -125,7 +126,7 @@ project:
       children:
       - file: module/instructor/preplanning.md
       - file: module/instructor/develop.md
-      - file: module/instructor/deploy-help.md
+      # - file: module/instructor/deploy-help.md
 
 site:
   template: book-theme

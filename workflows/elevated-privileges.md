@@ -4,14 +4,14 @@ title: Elevated Privileges
 
 ## What are elevated privileges?
 
-Elevated privilege enable course staff to troubleshoot students notebook interface in the hub. If you have such privileges, you can:
+Elevated privilege enable course staff to troubleshoot students notebook interface in the hub. If you have such privileges, you have access the admin dashboard where you can:
 
 1. Start and stop students' servers
-1. Access students' servers to debug issues
+1. Access students' servers to view files and debug issues
 
 ### bCourses
 
-This feature is facilitated by users' bcourses affiliations. It makes it easy
+This feature is facilitated by users' bCourses affiliations. It makes it easy
 for us to ensure that the right stakeholders have the elevated privileges for a
 particular course. If you do not have a bCourses site for your course, or it is
 unpublished, you will need to publish it. If you would not otherwise create a

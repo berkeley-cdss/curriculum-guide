@@ -6,7 +6,7 @@ title: Jupyter Notebooks and JupyterHub
 
 [Jupyter](https://jupyter.org) notebooks are a tool used for in-browser computing that allow code, text, and visualizations to be included on the same page. Students are able to [analyze, document, and visualize their code](https://cdss.berkeley.edu/news/course-future-and-technology-behind-it), all in a single computational document.
 
-Notebooks can support most programming languages. DataHub primarily supports Python, R and, Julia. However, we also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, [contact DataHub staff](/support/contact-us).
+Notebooks can support most programming languages. DataHub primarily supports Python, R and, Julia. However, we also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, [contact DataHub staff](/support/communication).
 
 ## JupyterHub
 
@@ -20,7 +20,7 @@ Working on JupyterHub provides a number of benefits, especially in an introducto
 
 * Students never have to do any setup or installation. JupyterHub removes the burden of setting up and maintaining a development environment.
 * All students and instructors use the same computing environment.
-* Work stored in the cloud and can be accessed from any computer. 
+* Work is stored in the cloud and can be accessed from any computer. 
 * All students have access to the same compute power, regardless of the machine they are using. For example, students without personal computers can use library computers without being at a disadvantage in the course. 
 
 ### Differences from local installation
