@@ -56,26 +56,6 @@ For DataHub administrators, the process involves:
 - Check that you're using the correct DataHub URL for your instance
 - Ensure the repository URL is correct and accessible
 
-**Repository not found**
-- Confirm the repository is private and exists
-- Verify you have the correct repository URL
-- Check that the GitHub App is installed in the correct organization
-
-## Security Considerations
-
-When working with private repositories:
-
-### Access Control
-- **Limited Scope**: GitHub Apps only have access to repositories explicitly granted
-- **Read-Only**: Apps typically have read-only access to repository contents
-- **User Authentication**: Students must be logged into DataHub to access private content
-
-### Best Practices
-- **Minimize Exposure**: Only grant access to repositories that absolutely need it
-- **Regular Audits**: Periodically review which repositories have been granted access
-- **Remove Access**: Request removal of access when courses end or materials are no longer needed
-- **Sensitive Data**: Avoid storing highly sensitive data even in private repositories
-
 ## Example Workflow
 
 Here's a typical workflow for using private repositories:
@@ -85,5 +65,3 @@ Here's a typical workflow for using private repositories:
 3. **Wait for Confirmation**: Administrator confirms the configuration is complete
 4. **Create Links**: Generate nbgitpuller links using your preferred method
 5. **Test Access**: Verify the links work by testing them yourself
-6. **Distribute**: Share the links with students through your LMS or course website
-7. **Monitor Usage**: Check for any access issues reported by students
