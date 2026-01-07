@@ -2,48 +2,43 @@
 title: Creating Accessible Notebooks
 ---
 
-Improving the accessibility of the notebook experience has consistently been a key priority for the DataHub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA standards](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) mandated by the University.
+Improving the accessibility of the notebook interface has been a key priority for the DataHub team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA standards](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) mandated by the University.
 
-Enhancing the accessibility of the notebook experience involves addressing multiple dimensions:
+Enhancing the accessibility of the notebook experience involves addressing the following aspects:
 
-- Ensuring the accessibility of the interface, as exemplified by Lab 4 and Notebook 7.
--  Enhancing the accessibility of the content within notebooks.
+- Improving the accessibility of the lab and notebook interface.
+- Improving the accessibility of the content within notebooks.
 
-Notebooks might be inaccessible due to issues with alt text, image captions, color contrast, and other reasons. One can avoid such issues by following recommended best practices.
+Content within notebooks might be inaccessible due to varied issues such as alt text, image captions, color contrast, and other reasons. One can avoid such issues by following the best practices.
 
-## jupyterlab-a11y-checker
-
-The [JupyterLab a11y-checker extension](https://pypi.org/project/jupyterlab-a11y-checker/) performs multiple accessibility checks on Jupyter notebook/Lab cells containing images and headings. It does the following:
-
-1. Verifies the presence of alt-text for images, ensuring that visually impaired users can understand their content.
-2. Calculates the colour contrast ratio to ensure readability for low-vision users and c) Evaluates the heading structure to align with WCAG standards, ensuring that headers (h1, h2, etc.) are appropriately structured for optimal accessibility.
 
 ## Alternative Text
 
-Adding alternative text ("alt text") to images is an important accessibility practice, especially when creating content for the web. Alt text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as
-matplotlib and seaborn by default doesn't support embedding alt text to generated charts by default. 
+Adding alternative text ("alt text") to images is an important accessibility practice, especially when creating content for the web. Alt text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as matplotlib and seaborn by default doesn't support embedding alt text to generated charts.
 
-You can add alt text to an image by using the below syntax where the text withing the square brackets denotes the alt text for an image.
+You can add alt text to an image in a markdown file by using the below syntax where the text withing the square brackets denotes the alt text for an image.
 
 `![A beautiful landscape](landscape.jpg)`
 
+## Clear Headings
+
+Screen readers will be using headers to navigate the notebook. Ensure that the first cell in a notebook has the `H1` tag to identify that it is the title. It has been observed that lack of clear header tags affects the screen reader navigability.
+
 ## Represent data across multiple mediums
 
-It is important that users who use screen readers have additional pathways to make sense of the data visualized in a chart or an image. Some of those pathways include a) Descriptive summary of data represented in the chart and b) HTML formatted table in the form of code or markdown cells. 
+It is important that users who use screen readers have additional pathways to make sense of the data visualized in a chart or an image. Some of those pathways include,
+a) Descriptive summary of data represented in the chart and
+b) HTML formatted table in the form of code or markdown cells.
 
-Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension. Ideally, having less than or equal to 5/6 rows in a table is a good rule of thumb to keep in mind.
+Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension.
 
 ## Avoid creating large notebooks
 
 It has been observed that large notebooks causes screen readers like NVDA and JAWS to crash. Keeping notebook size lesser than 10 MB (realistically) or even better around 1 MB (ideally) will make it easy for screen readers to navigate the ipynb files. 
 
-## Clear Headings
-
-Screen readers will be using headers to navigate the notebook. Ensure that the first cell in a notebook has the `H1` tag to identify that it is the title. It has been observed that lack of clear header tags including `H1` at the start affects the screen reader navigability.
-
 ## Export to HTML
 
-The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Much effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for web interface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.
+The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Much effort has been made to improve the Lab 4 and Notebook 7 interfaces to overcome some of the accessibility barriers. However, they still are not 100% accessible at the moment. To improve the readability of the notebooks, it is recommended that .ipynb files be converted to .html files, which are largely designed for a web interface and have a more accessible experience. PDFs are generally inaccessible in comparison to HTML format from a readability standpoint.
 
 [Nbconvert](https://github.com/jupyter/nbconvert) is a  tool that converts notebooks to various formats including html which improves readability. The command for converting notebooks from .ipynb to html is
 
@@ -52,6 +47,20 @@ jupyter nbconvert --to html mynotebook.ipynb`
 ```
 
 One can also customize the themes, font types, sizes etc. as part of the notebook inorder to improve the accessibility. 
+
+## Jupyterlab-a11y-checker
+
+The [JupyterLab a11y-checker extension](https://pypi.org/project/jupyterlab-a11y-checker/) is an acessibility engine for Jupyter Notebooks, assisting authors detect and fix accessibility issues in Jupyter Notebooks, aligning with WCAG 2.1 AA guidelines. It combines the strengths of axe-core, a widely used accessibility engine, with custom notebook-specific detection algorithms that address a11y issues in JupyterLab. Users can use this tool in two ways:
+
+- As a JupyterLab extension. It not only provides accessibility scan results in real-time but also provides actionable suggestions to fix them.
+- As a CLI tool. It can be ran independently of JupyterLab, for instance in GitHub Actions, to maintain accessible notebooks.
+
+The tool does the following:
+1. Verifies the presence of alt-text for images.
+2. Calculates the colour contrast ratio and reports the images with a poor color contrast ratio.
+3. Evaluates the heading structure of the markdown content and reports cells that don't align with WCAG standards.
+4. Evaluates the presence of table captions, headers, and scope and reports tables where they aren't present.
+5. Evaluates whether describable links are present in a notebook and reports cells where they aren't present.
 
 ## Accessible Themes
 
@@ -82,7 +91,7 @@ Once installed, you can enable this theme by the following steps:
 - Save the notebook and restart the kernel by selecting Kernel > Restart Kernel
 - Select `Github Light theme` by selecting Settings > Theme > Github Light and/or `Pitaya Smoothie theme` by selecting Settings > Theme > Pitaya Smoothie and/or `Github Dark theme` by selecting Settings > Theme > Github Dark
 
-### jupyterthemes
+### Jupyterthemes
 
 [jupyterthemes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. 
 
