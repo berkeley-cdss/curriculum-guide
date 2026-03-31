@@ -1,16 +1,23 @@
 # Getting Student Help
 
+Student employees can help with your course. 
+
+Students can have experience working with Python, Jupyter notebooks, and basic data science libraries. They can help with brainstorming ideas and can translate those ideas into Python Code.
+
+You can also hire a reader for your course to help with grading. 
+
+Please reach out to [Eric Van Dusen](mailto:ericvd@berkeley.edu) to discuss your needs.
+
+<!-- 
+
+
 There are three main roles through which students can assist with your courses. You may choose to work with students in all, none, or some of the roles. A brief description of each of the student roles is below.
+
+If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid or post on [Piazza](https://http://piazza.com/berkeley/other/cs97).
 
 ### Student Developers
 
 For new connectors, modules, or DECs, CDSS can match you with student developers who can help create materials. These students have experience working with Python, Jupyter notebooks, and basic data science libaries. They can help with brainstorming ideas and translating them into Python code. In the past, student developers have worked with instructors over the summer or in the early weeks of the semester. The time commitments for this role will vary based on student availability and instructor need.
-
-<!-- 
-
-If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid or post on [Piazza](https://http://piazza.com/berkeley/other/cs97).
-
--->
 
 ### Connector Assistants
 
@@ -30,3 +37,4 @@ The **default tasks** of the CA will be to attend class and hold 1 office hour p
 
 Grading _**cannot be**_ a responsibility of student developers or connector associates. If you would like a paid student grader/reader, please discuss this with [Eric Van Dusen](mailto:ericvd@berkeley.edu).
 
+-->

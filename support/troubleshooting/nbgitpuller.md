@@ -28,9 +28,22 @@ Solution: re-generate the nbgitpuller link. Make sure that you've filled in the 
 * The Git repository url should go to the base repo that contains the materials you want. For example, if you want to link to the "lab01.ipynb" in the fall19 repository of the data-8 organization, the Git URL should be "https://github.com/data-8/fall19", not "https://github.com/data-8/fall19/blob/master/lab01"
 * The File to Open needs to include the full path of the file from the base repository. For example, if the "lab01" file is in a folder called "labs", the File to Open needs to be "labs/lab01"
 
+```{tip}
+To help generate nbgitpuller links correctly, you can use the [DataHub Link Generator Chrome extension](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en), which is a UC Berkeley-specific version of the nbgitpuller link generator but can be used with other hubs as well. You can also use the [original nbgitpuller link generator website](https://nbgitpuller.readthedocs.io/en/latest/link.html) to create links manually.
+```
+
 ### Modified Content
 
-If you make changes to an assignment on GitHub after students have started working on it, students that click the nbgitpuller link again may see a red loading bar and a message about a *merge conflict*. This occurs if the instructor and the student both change the same parts of the notebook: nbgitpuller doesn't know how to integrate the instructor's changes without overwriting student work, so it refuses to proceed. You can read [more about nbgitpuller's automatic merging behavior](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html).
+If instructors make changes to an assignment on GitHub after students have already pulled the original version, students who click the nbgitpuller link again may encounter one of two issues: they may see a red loading bar with a *merge conflict* message, or they may not see the new updates at all. 
+
+A merge conflict occurs when both the instructor and the student have changed the same parts of the notebook: nbgitpuller doesn't know how to integrate the instructor's changes without overwriting student work, so it refuses to proceed. Alternatively, if you already have the old version, simply clicking the nbgitpuller link again may not update the files on your account. You can read [more about nbgitpuller's automatic merging behavior](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html).
+
+```{figure} ../../images/mergeconflict.png
+:align: center
+:name: DataHub Admin
+
+Example of a merge conflict error message!
+```
 
 ### Solutions
 
@@ -38,23 +51,34 @@ If you make changes to an assignment on GitHub after students have started worki
 
 The easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. "SOC-5-old"), nbgitpuller will clone a fresh copy of the problematic files to the student's Jupyterhub. They can then copy over any work from the old version of the file.
 
-When you face an error like below, do the following steps
-```{figure} ../../images/mergeconflict.png
-:align: center
-:name: DataHub Admin
+**Steps to rename and get an updated assignment:**
 
-Here is how the admin dashboard looks like!
-```
+1. **Rename your existing assignment file or folder.**  
+   The method depends on which interface you're using:
+   
+   **In JupyterLab:**
+   - Right-click on the file or folder in the file browser (left sidebar)
+   - Select "Rename" from the context menu
+   - Type the new name (for example, rename "lab01.ipynb" to "lab01-old.ipynb" or "assignment-backup")
 
-- Rename the existing folder where the merge conflict error arose
-```{figure} ../../images/tshoot.PNG
-:align: center
-:name: Folder Rename!
+   **In Jupyter Notebook (Classic):**
+   - Navigate to the file browser (tree view) by going to `<HUB_URL>/user/<YOUR_USERNAME>/tree`
+   - Right-click on the file or folder you want to rename
+   - Select "Rename" from the context menu
+   - Type the new name
 
-Here is the steps required to rename the folder!
-```
-- Click on the nbgitpuller link again
-- Use the newly cloned repository created after nbgitpuller link was clicked
+   ```{figure} ../../images/tshoot.PNG
+   :align: center
+   :name: Folder Rename!
+   
+   Steps to rename a folder in the file browser
+   ```
+
+2. **Click on the nbgitpuller link again.**  
+   Once the old assignment is renamed, clicking the nbgitpuller link will pull down a fresh copy of the updated assignment into your JupyterHub account.
+
+3. **Transfer your previous work (if needed).**  
+   Open both the old and new files side-by-side to copy over any work you want to keep from the previous version.
 
 #### git stash
 
@@ -81,4 +105,6 @@ Output from git stash command
 ```
 - Access the nbgitpuller link again. You will be able to load the notebooks directly.
 
+```{tip}
 The best advice, however, is to avoid making changes to assignments once they've been released to students if at all possible.
+```

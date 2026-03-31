@@ -5,24 +5,23 @@ project:
   title: UC Berkeley Data Science Curriculum Guide
   # description:
   # keywords: []
-  # Uncommenting authors causes it to appear on every page.
-  #authors:
-  #- name: Balaji Alwar
-  #  email: balajialwar@berkeley.edu
-  #  affiliations:
-  #    - id: ucb
-  #      institution: University of California at Berkeley
-  #      department: Research, Teaching, and Learning
-  #- name: Ryan Lovett
-  #  email: rylo@berkeley.edu
-  #  affiliations:
-  #    - id: ucb
-  #      department: Statistics
-  #- name: Eric Van Dusen
-  #  email: ericvd@berkeley.edu
-  #  affiliations:
-  #    - id: ucb
-  #      department: DSUS
+  authors:
+  - name: Balaji Alwar
+    email: balajialwar@berkeley.edu
+    affiliations:
+      - id: ucb
+        institution: University of California at Berkeley
+        department: Research, Teaching, and Learning
+  - name: Ryan Lovett
+    email: rylo@berkeley.edu
+    affiliations:
+      - id: ucb
+        department: Statistics
+  - name: Eric Van Dusen
+    email: ericvd@berkeley.edu
+    affiliations:
+      - id: ucb
+        department: DSUS
   github: https://github.com/berkeley-cdss/curriculum-guide
   license:
     content: CC-BY-4.0
@@ -70,6 +69,7 @@ project:
         children:
         - file: workflows/pushing-to-github.md
         - file: workflows/securely-push-github.md
+        - file: workflows/pull-from-private-repos.md
       - title: Software Environment
         children:
         - file: workflows/develop-docker-images.md
@@ -124,7 +124,7 @@ project:
       children:
       - file: module/instructor/preplanning.md
       - file: module/instructor/develop.md
-      - file: module/instructor/deploy-help.md
+      # - file: module/instructor/deploy-help.md
 
 site:
   template: book-theme
@@ -136,3 +136,4 @@ site:
     folders: true
     logo: assets/logo.png
     analytics_google: G-470CXFNJ3W # Measurement ID for GA account
+    hide_authors: true

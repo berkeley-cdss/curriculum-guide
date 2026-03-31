@@ -6,7 +6,7 @@ title: Learn More
 
 - Anyone interested to know more about Data initiatives at Berkeley, can take a look at Computing, Data Science and Society's (CDSS) [educational partners](https://cdss.berkeley.edu/dsus/data-science-resources/educationalpartners).
 
-- [Otter Grader]((https://otter-grader.readthedocs.io/en/latest) is a light-weight, modular open-source autograder developed by the Data Science Education Program at UC Berkeley.
+- [Otter Grader](https://otter-grader.readthedocs.io/en/latest) is a light-weight, modular open-source autograder developed by the Data Science Education Program at UC Berkeley.
 
 - If you are interested to learn more about the conversations by the Jupyter Hub community, then check [Jupyter's discourse site](https://discourse.jupyter.org/).
 

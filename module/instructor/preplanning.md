@@ -1,8 +1,8 @@
 # Pre-Planning
 
-Most modules begin when an instructor gets interested in adding a data science component to their course. At this early stage, it's common to be unsure what the module will look like or to have questions about how much can reasonable accomplished during it. The next three sections will go over how a module gets made and provide tips for creating your own.
+Most modules begin when an instructor is interested in adding a data science component to their course. At this early stage, it's common to be unsure what the module will look like or to have questions about how much can reasonable accomplished during it. The following sections will go over how a module gets made and provide tips for creating your own.
 
-### Important Considerations
+## Important Considerations
 
 When thinking about adding a module to your course, there are four important questions to consider.
 
@@ -13,7 +13,7 @@ When thinking about adding a module to your course, there are four important que
 
 The clearer your answers to these questions, the faster your module can get up and running. If you have questions or would like support with the pre-planning stage, feel free to contact CDSS modules staff.
 
-### Ideas For Modules
+## Ideas For Modules
 
 * Replicate a study from a research paper currently used in the course
 * Have students collect quantitative data related to your subject that can be put in a table and analyzed as a class
