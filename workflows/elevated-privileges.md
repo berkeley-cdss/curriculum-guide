@@ -33,7 +33,7 @@ Admin Dashboard
 
 ## Obtaining Elevated Privileges
 
-Only course staff should have elevated privileges. If you need such access, you can [create a github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml). By default, those who are assigned the `teacher` or `ta` role in bCourses will be given privileges.
+Only course staff should have elevated privileges. If you need such access, you can [create a github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=add_admin_config_request.yml). By default, those who are assigned the `teacher` or `ta` role in bCourses will be given privileges.
 
 ```{note}
 When making the request, do not submit a list of usernames for the staff who require elevated privileges. Instead, please provide the bcourses ID for the course.

@@ -1,6 +1,6 @@
 # Storing Datasets
 
-A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to temporarily increase this limit on RAM, please raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X).
+A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to temporarily increase this limit on RAM, please raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=add_memory_config_request.yml).
 
 ### Small Datasets \(a few MBs\)
 
@@ -36,7 +36,7 @@ By default, students cannot write to shared directories. While configuration can
 This setup streamlines the workflow: you upload datasets to the "shared-readwrite" directory, and students can immediately access them in the "shared" directory and read it.
 ```
 
-Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) if you want shared directories enabled for your course. You need to provide the bcourses id for your course and the DataHub URL so that the shared directories appear on the hub you use with appropriate permissions for the folks enrolled in your course roster in bcourses.
+Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=add_shared_directories_request.yml) if you want shared directories enabled for your course. You need to provide the bcourses id for your course and the DataHub URL so that the shared directories appear on the hub you use with appropriate permissions for the folks enrolled in your course roster in bcourses.
 
 ```{note}
 Students enrolled in your previous offering lose access to the shared directories at the end of the semester

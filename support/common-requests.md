@@ -6,13 +6,13 @@ title: Common Requests
 
 We have categorized common user requests into [templates](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose). Some of them are described below.
 
-[Request Package Addition or Change](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y)
+[Request Package Addition or Change](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=package_request.yml)
 : You want to install new software packages into the user environment.
 
-[Request for RAM/CPU](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X)
+[Request for RAM](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=add_memory_config_request.yml)
 : You want to increase/decrease RAM for a specific hub.
 
-[Request Elevated Privileges](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml)
+[Request Elevated Privileges](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=add_admin_config_request.yml)
 : You want members of your teaching team to have elevated privileges. This is useful for when course staff need to troubleshoot student servers.
 
 [Retrieve User Data](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=data_archival_request.yml)

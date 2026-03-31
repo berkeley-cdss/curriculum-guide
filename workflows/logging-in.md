@@ -31,7 +31,7 @@ account](https://calnetweb.berkeley.edu/calnet-departments/calnet-sponsored-gues
 
 ## bCourses and Groups
 
-bCourses knows which courses that students and course staff are affiliated with, as well as which [ad hoc groups](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) that people have been assigned to by course staff. This information is communicated to the hubs when people login, which can be useful for [elevating the privileges](admin#obtaining-elevated-privileges) of some users or granting additional computing resources to others.
+bCourses knows which courses that students and course staff are affiliated with, as well as which [ad hoc groups](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) that people have been assigned to by course staff. This information is communicated to the hubs when people login, which can be useful for [elevating the privileges](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=add_admin_config_request.yml) of some users or granting additional computing resources to others.
 
 If you are an instructor for a course with a restricted access hub, you can add someone who is not enrolled in the course as an [observer](https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-is-the-Observer-role/ta-p/4) in bCourses to grant them access to the hub. 
 

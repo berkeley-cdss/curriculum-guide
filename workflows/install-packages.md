@@ -47,7 +47,7 @@ library("ggplot2")
 This is the recommended method for frequently used packages.
 :::
 
-You can [request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) that additional packages be installed in any of the environments in the user docker images. When the software is installed this way, it will persist across server restarts. The packages will remain in the user images for at least the length of the academic term. We periodically review the list of installed packages in between semesters.
+You can [request](https://github.com/berkeley-dsep-infra/datahub/issues/new?template=package_request.yml) that additional packages be installed in any of the environments in the user docker images. When the software is installed this way, it will persist across server restarts. The packages will remain in the user images for at least the length of the academic term. We periodically review the list of installed packages in between semesters.
 
 #### On Reproducibility
 
